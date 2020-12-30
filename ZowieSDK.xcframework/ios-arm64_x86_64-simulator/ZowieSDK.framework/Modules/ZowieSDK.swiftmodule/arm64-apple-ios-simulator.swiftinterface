@@ -1,0 +1,152 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZowieSDK
+import AVKit
+import Foundation
+import MobileCoreServices
+import Swift
+import UIKit
+@_exported import ZowieSDK
+import os.log
+import os
+public enum ZowieError : Swift.Error {
+  case unknown
+  public static func == (a: ZowieSDK.ZowieError, b: ZowieSDK.ZowieError) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+@objc @_hasMissingDesignatedInitializers final public class ZowieChatViewController : UIKit.UIViewController {
+  public init(colors: ZowieSDK.ZowieColors = .default, strings: ZowieSDK.ZowieStrings = .default)
+  @objc override final public func loadView()
+  @objc deinit
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+}
+extension ZowieChatViewController : UIKit.UITextFieldDelegate {
+  @objc final public func textField(_ textField: UIKit.UITextField, shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
+  @objc final public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+}
+extension ZowieChatViewController : UIKit.UIImagePickerControllerDelegate, UIKit.UINavigationControllerDelegate {
+  @objc final public func imagePickerController(_ picker: UIKit.UIImagePickerController, didFinishPickingMediaWithInfo info: [UIKit.UIImagePickerController.InfoKey : Any])
+}
+extension ZowieChatViewController : UIKit.UIDocumentPickerDelegate {
+  @objc final public func documentPicker(_ controller: UIKit.UIDocumentPickerViewController, didPickDocumentsAt urls: [Foundation.URL])
+}
+extension ZowieChatViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @objc final public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @objc final public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @objc final public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @objc final public func tableView(_ tableView: UIKit.UITableView, willDisplay cell: UIKit.UITableViewCell, forRowAt indexPath: Foundation.IndexPath)
+  @objc final public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @objc final public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @objc final public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @objc final public func scrollViewWillBeginDragging(_ scrollView: UIKit.UIScrollView)
+  @objc final public func scrollViewDidEndScrollingAnimation(_ scrollView: UIKit.UIScrollView)
+}
+public struct ZowieConfiguration {
+  public let userId: Swift.String
+  public let conversationId: Swift.String
+  public let instanceId: Swift.String
+  public let referralId: Swift.String?
+  public let authType: ZowieSDK.ZowieConfiguration.AuthType
+  public init(userId: Swift.String, conversationId: Swift.String, instanceId: Swift.String, referralId: Swift.String? = nil, authType: ZowieSDK.ZowieConfiguration.AuthType = .raw)
+}
+extension ZowieConfiguration {
+  public enum AuthType {
+    case raw
+    case token(Swift.String)
+  }
+}
+public struct ZowieColors {
+  public let background: UIKit.UIColor
+  public let text: UIKit.UIColor
+  public let textSecondary: UIKit.UIColor
+  public let textPlaceholder: UIKit.UIColor
+  public let textButtonTint: UIKit.UIColor
+  public let sendTextButtonTint: ZowieSDK.ZowieColor
+  public let separator: UIKit.UIColor
+  public let incomingMessageBackground: ZowieSDK.ZowieColor
+  public let incomingMessageTint: UIKit.UIColor
+  public let sentMessageBackground: ZowieSDK.ZowieColor
+  public let sentMessageTint: UIKit.UIColor
+  public let incomingLinks: UIKit.UIColor
+  public let sentLinks: UIKit.UIColor
+  public let deliveredLabelTint: UIKit.UIColor
+  public let errorLabelTint: UIKit.UIColor
+  public let activityIndicatorTint: UIKit.UIColor
+  public let quickButtonBackground: UIKit.UIColor
+  public let quickButtonTint: UIKit.UIColor
+  public let quickButtonSelectedBorder: UIKit.UIColor
+  public let actionButtonBackground: UIKit.UIColor
+  public let actionButtonSelectedBackground: UIKit.UIColor
+  public let actionButtonTint: UIKit.UIColor
+  public let actionButtonShadow: UIKit.UIColor
+  public let fileIconTint: ZowieSDK.ZowieColor
+  public let fileSuccessIconTint: UIKit.UIColor
+  public let videoPlaceholder: UIKit.UIColor
+  public let videoButtonBackground: UIKit.UIColor
+  public let videoButtonIconTint: UIKit.UIColor
+  public let logoSelectedBackground: UIKit.UIColor
+  public let logoSelectedBorder: UIKit.UIColor
+  public let notificationFailureTint: UIKit.UIColor
+  public let notificationSuccessTint: UIKit.UIColor
+  public let notificationFailureBackground: UIKit.UIColor
+  public let notificationSuccessBackground: UIKit.UIColor
+  public init(background: UIKit.UIColor = ZowieColors.default.background, text: UIKit.UIColor = ZowieColors.default.text, textSecondary: UIKit.UIColor = ZowieColors.default.textSecondary, textPlaceholder: UIKit.UIColor = ZowieColors.default.textPlaceholder, textButtonTint: UIKit.UIColor = ZowieColors.default.textButtonTint, sendTextButtonTint: ZowieSDK.ZowieColor = ZowieColors.default.sendTextButtonTint, separator: UIKit.UIColor = ZowieColors.default.separator, incomingMessageBackground: ZowieSDK.ZowieColor = ZowieColors.default.incomingMessageBackground, incomingMessageTint: UIKit.UIColor = ZowieColors.default.incomingMessageTint, sentMessageBackground: ZowieSDK.ZowieColor = ZowieColors.default.sentMessageBackground, sentMessageTint: UIKit.UIColor = ZowieColors.default.sentMessageTint, incomingLinks: UIKit.UIColor = ZowieColors.default.incomingLinks, sentLinks: UIKit.UIColor = ZowieColors.default.sentLinks, deliveredLabelTint: UIKit.UIColor = ZowieColors.default.deliveredLabelTint, errorLabelTint: UIKit.UIColor = ZowieColors.default.errorLabelTint, activityIndicatorTint: UIKit.UIColor = ZowieColors.default.activityIndicatorTint, quickButtonBackground: UIKit.UIColor = ZowieColors.default.quickButtonBackground, quickButtonTint: UIKit.UIColor = ZowieColors.default.quickButtonTint, quickButtonSelectedBorder: UIKit.UIColor = ZowieColors.default.quickButtonSelectedBorder, actionButtonBackground: UIKit.UIColor = ZowieColors.default.actionButtonBackground, actionButtonSelectedBackground: UIKit.UIColor = ZowieColors.default.actionButtonSelectedBackground, actionButtonTint: UIKit.UIColor = ZowieColors.default.actionButtonTint, actionButtonShadow: UIKit.UIColor = ZowieColors.default.actionButtonShadow, fileIconTint: ZowieSDK.ZowieColor = ZowieColors.default.fileIconTint, fileSuccessIconTint: UIKit.UIColor = ZowieColors.default.fileSuccessIconTint, videoPlaceholder: UIKit.UIColor = ZowieColors.default.videoPlaceholder, videoButtonBackground: UIKit.UIColor = ZowieColors.default.videoButtonBackground, videoButtonIconTint: UIKit.UIColor = ZowieColors.default.videoButtonIconTint, logoSelectedBackground: UIKit.UIColor = ZowieColors.default.logoSelectedBackground, logoSelectedBorder: UIKit.UIColor = ZowieColors.default.logoSelectedBorder, notificationFailureTint: UIKit.UIColor = ZowieColors.default.notificationFailureTint, notificationSuccessTint: UIKit.UIColor = ZowieColors.default.notificationSuccessTint, notificationFailureBackground: UIKit.UIColor = ZowieColors.default.notificationFailureBackground, notificationSuccessBackground: UIKit.UIColor = ZowieColors.default.notificationSuccessBackground)
+}
+public struct ZowieStrings {
+  public let messagePlaceholder: Swift.String
+  public let sendFailureErrorMessage: Swift.String
+  public let tryAgain: Swift.String
+  public let delivered: Swift.String
+  public let attachment: Swift.String
+  public let disconnectMessage: Swift.String
+  public let reconnectMessage: Swift.String
+  public let historyErrorMessage: Swift.String
+  public init(messagePlaceholder: Swift.String = ZowieStrings.default.messagePlaceholder, sendFailureErrorMessage: Swift.String = ZowieStrings.default.sendFailureErrorMessage, tryAgain: Swift.String = ZowieStrings.default.tryAgain, delivered: Swift.String = ZowieStrings.default.delivered, attachment: Swift.String = ZowieStrings.default.attachment, disconnectMessage: Swift.String = ZowieStrings.default.disconnectMessage, reconnectMessage: Swift.String = ZowieStrings.default.reconnectMessage, historyErrorMessage: Swift.String = ZowieStrings.default.historyErrorMessage)
+}
+public struct ZowieMetadata {
+  public let firstName: Swift.String?
+  public let lastName: Swift.String?
+  public let name: Swift.String?
+  public let locale: Swift.String?
+  public let timeZone: Swift.String?
+  public let phoneNumber: Swift.String?
+  public let email: Swift.String?
+  public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, name: Swift.String? = nil, locale: Swift.String? = nil, timeZone: Swift.String? = nil, phoneNumber: Swift.String? = nil, email: Swift.String? = nil)
+}
+extension ZowieColors {
+  public static var `default`: ZowieSDK.ZowieColors {
+    get
+  }
+}
+extension ZowieStrings {
+  public static var `default`: ZowieSDK.ZowieStrings {
+    get
+  }
+}
+public enum ZowieColor {
+  case solid(UIKit.UIColor)
+  case gradient(start: UIKit.UIColor, end: UIKit.UIColor)
+}
+@_hasMissingDesignatedInitializers final public class Zowie {
+  final public var configuration: ZowieSDK.ZowieConfiguration {
+    get
+  }
+  public static var shared: ZowieSDK.Zowie
+  @objc deinit
+}
+extension Zowie {
+  final public func set(configuration: ZowieSDK.ZowieConfiguration)
+  final public func set(colors: ZowieSDK.ZowieColors)
+  final public func set(strings: ZowieSDK.ZowieStrings)
+  final public func set(metadata: ZowieSDK.ZowieMetadata, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
+  final public func set(contextId: Swift.String, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
+  final public func set(fcmToken: Swift.String, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
+  final public func disableNotifications(completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
+  final public func setStatus(isActive: Swift.Bool, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
+}
+extension ZowieSDK.ZowieError : Swift.Equatable {}
+extension ZowieSDK.ZowieError : Swift.Hashable {}
