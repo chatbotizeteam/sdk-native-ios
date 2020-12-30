@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = "5.3"
   spec.cocoapods_version = '>= 1.9.3'
 
-  spec.source       = { :git => "file:///Users/szymonwojcik/Desktop/dev/ZowiePod", :branch => "master" }
+  spec.source       = { :git => "https://github.com/chatbotizeteam/sdk-native-ios.git", :tag => spec.version }
   spec.vendored_frameworks = 'ZowieSDK.xcframework'
 
   spec.framework  = "UIKit"
