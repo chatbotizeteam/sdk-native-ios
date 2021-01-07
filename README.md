@@ -62,7 +62,7 @@ If your integration requires token authentication you can replace `.raw` with `.
 
 You can access Chat UI from `ZowieChatViewController`. It can be used just like a regular view controller, so it's up to you how you want to put it in your stack. For example, you can show it from a different view controller:
 ```swift
-let chatViewController = ZowieViewController()
+let chatViewController = ZowieChatViewController()()
 navigationController?.pushViewController(chatViewController, animated: true)
   ```
 
