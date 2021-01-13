@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		95p/rDOYYsPKAVUiW6JCPNg9i7w=
+		8jCfriz28I0NHgPOngQebyvVrZc=
 		</data>
 		<key>Headers/ZowieSDK-Swift.h</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YM9hLSiR2YvqpDk77MC2v+Yg3Es=
+		TFc8RVuMqNX87vucG8Z+iQjew3c=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		YM9hLSiR2YvqpDk77MC2v+Yg3Es=
+		TFc8RVuMqNX87vucG8Z+iQjew3c=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4G7/L0iJxz0vjokXbMlA5/hwW1E=
+		kAS7Q4y6aTWdGT7pEA5fEU7Lf4Y=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		4G7/L0iJxz0vjokXbMlA5/hwW1E=
+		kAS7Q4y6aTWdGT7pEA5fEU7Lf4Y=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YcqbYt3TZccp8q3nTHYeqzu/XtnCMCpB9zSbflmo6C4=
+			KGO68npavKJBhtLh4BmoQ9+Nihd+M7Bt8tyUQiEd6i4=
 			</data>
 		</dict>
 		<key>Headers/ZowieSDK-Swift.h</key>
@@ -151,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BKqXPpxL/GP95+JrcOvoG//cO/7HEYTuzocYorBAjEo=
+			RsihFMjfSyS8obpajAu+MH3AtcAU8OUGi9X/FKKXb7M=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64.swiftdoc</key>
@@ -172,7 +172,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BKqXPpxL/GP95+JrcOvoG//cO/7HEYTuzocYorBAjEo=
+			RsihFMjfSyS8obpajAu+MH3AtcAU8OUGi9X/FKKXb7M=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -193,7 +193,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MK15XO9G/qf+X/Bns5Nb+bIXbJOqlsaqJYlGS7YnwXA=
+			s0F3H91DIdSHr3gCZDBLD5KZSFdr3vIZetdK0Y8Bkwk=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -214,7 +214,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MK15XO9G/qf+X/Bns5Nb+bIXbJOqlsaqJYlGS7YnwXA=
+			s0F3H91DIdSHr3gCZDBLD5KZSFdr3vIZetdK0Y8Bkwk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
