@@ -39,28 +39,25 @@ To be able to use Zowie SDK first of all you have to provide the configuration:
 
 ```swift
 let configuration = ZowieConfiguration(
-    userId: "USERID",
-    conversationId: "CONVERSATIONID",
     instanceId: "INSTANCEID",
-    referralId: nil,
-    authType: .raw
+    authType: .anonymous
 )
 
 Zowie.shared.set(configuration: configuration)
 ```
 
-Both `referralId` and `authType` are optional. ****Remember you won't be able to use ANY of SDK functionalities without a proper configuration  setup, so be sure that you provide it.****
+****Remember, you won't be able to use ANY of SDK functionalities without a proper configuration  setup, so be sure you provide it.****
 
   
 
-If your integration requires token authentication you can replace `.raw` with `.token`.
+You can clear anonymous session with `Zowie.shared.clearAnonymousSession(forInstanceId: "INSTANCEID)`. If your integration requires token authentication you can replace `.anonymous` with `.token`.
 
 
 ### Chat UI
 
   
 
-You can access Chat UI from `ZowieChatViewController`. It can be used just like a regular view controller, so it's up to you how you want to put it in your stack. For example, you can show it from a different view controller:
+You can access Chat UI from `ZowieChatViewController`. Use it just like a regular view controller, so it's up to you how you want to put it in your stack. For example, you can show it from a different view controller:
 ```swift
 let chatViewController = ZowieChatViewController()
 navigationController?.pushViewController(chatViewController, animated: true)
@@ -92,7 +89,7 @@ Zowie.shared.set(fcmToken: "token") { result in
     // Completion handler is optional
 }
 ```
-This will allow us to send push notifications to user device. Remember that you have set up all required notification related permissions.
+This will allow us to send push notifications to the user's device. Remember that you have set up all required notification-related permissions.
 
 If you want to disable notifications, use:
 ```swift
@@ -129,6 +126,7 @@ let strings = ZowieStrings(
     sendFailureErrorMessage: "string",
     tryAgain: "string",
     delivered: "string",
+    read: "string",
     attachment: "string",
     disconnectMessage: "string",
     reconnectMessage: "string",

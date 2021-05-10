@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		kK9uYpAP3V2UDYCiL5CclSZWybA=
+		yVz3++U1GmJ/hRAjcC6vQh3O33E=
 		</data>
 		<key>Headers/ZowieSDK-Swift.h</key>
 		<data>
-		ncKvjTIBAnOvMxfTsBcg0hAd2gc=
+		2KJRjY2616zYPkEDLlTXFbv1+mQ=
 		</data>
 		<key>Headers/ZowieSDK.h</key>
 		<data>
@@ -34,51 +34,51 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		z46Se3QlDggPSlp+23yWohvxAbs=
+		5gcRedpHzG4KKCFWR6RYCSoLpyg=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		iBAn+RQM9DK5Y2Rl5jf60vEaKkM=
+		fc4uud6mc2+A2eOwsy2vg6UQ7Yg=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GDhQuJt2F84Gxe6VnHeNOcPvLxk=
+		JDMYz0p+m34G1JirLBxujBbL2LU=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		z46Se3QlDggPSlp+23yWohvxAbs=
+		5gcRedpHzG4KKCFWR6RYCSoLpyg=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		iBAn+RQM9DK5Y2Rl5jf60vEaKkM=
+		fc4uud6mc2+A2eOwsy2vg6UQ7Yg=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		GDhQuJt2F84Gxe6VnHeNOcPvLxk=
+		JDMYz0p+m34G1JirLBxujBbL2LU=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		chB/Jngh3qBeyHVQW4WZhjzy6nU=
+		Ope3sPXCrEncNclK5uFeNH+2V/A=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		TMsUaUofPbJ55nP2Y0+BPA92fqE=
+		wPz6Nns50hYoIAnTSDBSgkP0deE=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IxIeHyyoa7Iwz+MH8Y//Gd3sMnk=
+		EA9cAcv1Mc7D/DbzffyCaPXxJkU=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		chB/Jngh3qBeyHVQW4WZhjzy6nU=
+		Ope3sPXCrEncNclK5uFeNH+2V/A=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		TMsUaUofPbJ55nP2Y0+BPA92fqE=
+		wPz6Nns50hYoIAnTSDBSgkP0deE=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		IxIeHyyoa7Iwz+MH8Y//Gd3sMnk=
+		EA9cAcv1Mc7D/DbzffyCaPXxJkU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,14 +95,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yx3GknoYLXc/9qOUG/jtEtLnEFDcAsIXWCXJ+cUGGBc=
+			wH324iTxA/+ifY0C1d0Pt4oXqrl21l9BvInRL46epEo=
 			</data>
 		</dict>
 		<key>Headers/ZowieSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rm8ZwabFLsXkQX4lv2V0pYpeSrR4WYnpAMT49VINJn4=
+			daYgncF/rSA+5Ts+CU73wywgwKWOCmp4sHw5k/lplPU=
 			</data>
 		</dict>
 		<key>Headers/ZowieSDK.h</key>
@@ -137,84 +137,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3XYCLJA8LUOP0d0H9P4laWsuOxSvGgmaJtrubQZZlRo=
+			lZlgC01XIvuA1kZi8WEb4gPs2jT4nhHJUxMtPL2BMAg=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fq5z+XZLJbayGeal4axOiRjcJeZybyr/tG8XqvtQW6M=
+			YlNwUny91/PjMkkKbUikUqCQYI97NlDQW1ZUIlCYNTk=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C5SbwyHQhWPdsfdFnDrZ5JJOAo3iEha8ZF5u3XYWVyI=
+			6QjDatWQzlSCnv4/o0nrJ6WYBncDsQmA02LNdh7krxc=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3XYCLJA8LUOP0d0H9P4laWsuOxSvGgmaJtrubQZZlRo=
+			lZlgC01XIvuA1kZi8WEb4gPs2jT4nhHJUxMtPL2BMAg=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fq5z+XZLJbayGeal4axOiRjcJeZybyr/tG8XqvtQW6M=
+			YlNwUny91/PjMkkKbUikUqCQYI97NlDQW1ZUIlCYNTk=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C5SbwyHQhWPdsfdFnDrZ5JJOAo3iEha8ZF5u3XYWVyI=
+			6QjDatWQzlSCnv4/o0nrJ6WYBncDsQmA02LNdh7krxc=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			16Knom4+Jusy/pL0Whlwi85IP7eTrqOhdoUHtmAwE88=
+			LH9/g8/5udvFw0ah86AYlP8b+d7aW5okMCNyp1Sg5Ew=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B6j6TpC+dx3g2fIjYGaNjPa9+yUsylLHnNyOwJvQgH4=
+			Sesl2mPTChlfroZcK/t6gQ66SiO/7jxgGgY6E+2ZbSk=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			agFSnHWt0LWZvEy7je91vzH0Vykclb++qVfyi4ZE3z0=
+			UzH5vDM0/ANxtlfDaiN5uJb/bv1nv69ee/oHo+OXKY0=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			16Knom4+Jusy/pL0Whlwi85IP7eTrqOhdoUHtmAwE88=
+			LH9/g8/5udvFw0ah86AYlP8b+d7aW5okMCNyp1Sg5Ew=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			B6j6TpC+dx3g2fIjYGaNjPa9+yUsylLHnNyOwJvQgH4=
+			Sesl2mPTChlfroZcK/t6gQ66SiO/7jxgGgY6E+2ZbSk=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			agFSnHWt0LWZvEy7je91vzH0Vykclb++qVfyi4ZE3z0=
+			UzH5vDM0/ANxtlfDaiN5uJb/bv1nv69ee/oHo+OXKY0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
