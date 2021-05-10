@@ -63,6 +63,16 @@ let chatViewController = ZowieChatViewController()
 navigationController?.pushViewController(chatViewController, animated: true)
   ```
 
+### Chat initialization error
+
+If you want to handle the chat initialization error, use:
+
+```swift
+Zowie.shared.onChatInitializationError = { error in
+    // Do someting
+}
+```
+
 ### Setting user metadata
 
   
@@ -140,5 +150,4 @@ Zowie.shared.set(strings: strings)
 
 ### Colors
 Feel free to set up color branding however you like with help of  `Zowie.shared.set(colors: colors)`
-
 
