@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ZowieSDK"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "Zowie chat SDK."
 
   spec.homepage     = "https://docs.getzowie.com"
@@ -20,16 +20,19 @@ Pod::Spec.new do |spec|
   spec.author       = "Zowie"
   spec.platform     = :ios, "11.0"
   spec.swift_version = "5.3"
-  spec.cocoapods_version = '>= 1.9.3'
+  spec.cocoapods_version = '>= 1.10.0'
 
   spec.source       = { :git => "https://github.com/chatbotizeteam/sdk-native-ios.git", :tag => spec.version }
   spec.vendored_frameworks = 'ZowieSDK.xcframework'
 
   spec.framework  = "UIKit"
 
-  spec.dependency "Apollo", "~> 0.36.0"
-  spec.dependency "Apollo/WebSocket", "~> 0.36.0"
-  spec.dependency "Kingfisher", "~> 5.15.7"
-  spec.dependency "lottie-ios", "~> 3.1.9"
+  spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
+
+  spec.dependency "Apollo", "~> 0.39.0"
+  spec.dependency "Apollo/WebSocket", "~> 0.39.0"
+  spec.dependency "Kingfisher", "~> 6.3.0"
+  spec.dependency "lottie-ios", "~> 3.2.3"
+
 end
 
