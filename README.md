@@ -26,6 +26,12 @@ post_install do |installer|
 end
 ```
 
+Due to Kingfisher bug on Xcode 13 (https://github.com/onevcat/Kingfisher/issues/1802) forcing 'version6-xcode13' branch would be needed:
+
+```
+pod "Kingfisher", :git => 'https://github.com/onevcat/Kingfisher.git', :branch => 'version6-xcode13'
+```
+
 ## Usage
 
 ### Initialization
