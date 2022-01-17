@@ -1,6 +1,6 @@
 # Zowie iOS SDK
 
-[![Swift 5.3 Supported](https://img.shields.io/badge/Swift-5.3-green.svg)](https://github.com/apple/swift) [![Swift 5.3 Supported](https://img.shields.io/badge/iOS-11+-orange.svg)](https://apple.com)
+[![Swift 5.3 Supported](https://img.shields.io/badge/Swift-5.3-green.svg)](https://github.com/apple/swift) [![Swift 5.3 Supported](https://img.shields.io/badge/iOS-12+-orange.svg)](https://apple.com)
 
 ## Installation
 
@@ -24,12 +24,6 @@ post_install do |installer|
     end
   end
 end
-```
-
-Due to Kingfisher bug on Xcode 13 (https://github.com/onevcat/Kingfisher/issues/1802) forcing 'version6-xcode13' branch would be needed:
-
-```
-pod "Kingfisher", :git => 'https://github.com/onevcat/Kingfisher.git', :branch => 'version6-xcode13'
 ```
 
 ## Usage
