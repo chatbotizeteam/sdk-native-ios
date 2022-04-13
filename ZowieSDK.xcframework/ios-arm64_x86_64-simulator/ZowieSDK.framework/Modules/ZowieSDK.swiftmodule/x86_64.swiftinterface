@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZowieSDK
 import AVKit
 import Foundation
@@ -22,6 +22,8 @@ public enum ZowieError : Swift.Error {
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) final public class ZowieChatViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public init(colors: ZowieSDK.ZowieColors = .default, strings: ZowieSDK.ZowieStrings = .default)
   @_Concurrency.MainActor(unsafe) @objc override final public func loadView()
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidDisappear(_ animated: Swift.Bool)
   @objc deinit
 }
 extension ZowieSDK.ZowieChatViewController : UIKit.UITextFieldDelegate {
@@ -130,7 +132,8 @@ public struct ZowieMetadata {
   public let timeZone: Swift.String?
   public let phoneNumber: Swift.String?
   public let email: Swift.String?
-  public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, name: Swift.String? = nil, locale: Swift.String? = nil, timeZone: Swift.String? = nil, phoneNumber: Swift.String? = nil, email: Swift.String? = nil)
+  public let extraParams: [Swift.String : Swift.String]?
+  public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, name: Swift.String? = nil, locale: Swift.String? = nil, timeZone: Swift.String? = nil, phoneNumber: Swift.String? = nil, email: Swift.String? = nil, extraParams: [Swift.String : Swift.String]? = nil)
 }
 extension ZowieSDK.ZowieColors {
   public static var `default`: ZowieSDK.ZowieColors {
@@ -162,6 +165,7 @@ extension ZowieSDK.Zowie {
   final public func set(contextId: Swift.String, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
   final public func set(fcmToken: Swift.String, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
   final public func disableNotifications(completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
+  @available(*, deprecated, message: "Setting user status from outside of ZowieSdk is no longer needed an should be removed from client apps. Current version of ZowieSdk checks, and sets user status internally.")
   final public func setStatus(isActive: Swift.Bool, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
   final public func clearAnonymousSession(forInstanceId instanceId: Swift.String)
 }

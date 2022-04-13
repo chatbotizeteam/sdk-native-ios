@@ -76,7 +76,8 @@ let metadata = ZowieMetadata(
     locale: "locale",
     timeZone: "timeZone",
     phoneNumber: "123456789",
-    email: "email@email.com"
+    email: "email@email.com",
+    extraParams: ["custom": "value"]
 )
 Zowie.shared.set(metadata: metadata)
 ```
@@ -97,16 +98,6 @@ If you want to disable notifications, use:
 
 ```swift
 Zowie.shared.disableNotifications() { result in
-    // Completion handler is optional
-}
-```
-
-### User status
-
-To set user's status, use:
-
-```swift
-Zowie.shared.setStatus(isActive: true) { result in
     // Completion handler is optional
 }
 ```
