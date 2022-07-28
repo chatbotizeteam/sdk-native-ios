@@ -12,7 +12,7 @@
 4. Use `import ZowieSDK`
 
 ### WARNING
-This is a temporary solution for SPM support. We are aware of the `is implemented in both` issue and we trying to fix it.
+This is a temporary solution for SPM support. We are aware of the `is implemented in both` issue and we're trying to fix it.
 
 ## Usage
 
