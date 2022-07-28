@@ -4,27 +4,15 @@
 
 ## Installation
 
-### Cocoapods
+### Swift Package Manager
 
-Add `pod ZowieSDK` to your Podfile
+1. Follow the [Apple guide](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app) to add the package dependency to your app.
+2. Search for the `https://github.com/chatbotizeteam/sdk-native-ios.git` package.
+3. Use the `spm` branch requirement.
+4. Use `import ZowieSDK`
 
-```
-pod ZowieSDK
-```
-
-To support dependencies that Zowie uses, add the following code at the end of your `Podfile`
-
-```
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    if ["Apollo", "Apollo/WebSocket", "Kingfisher", "lottie-ios"].include? target.name
-      target.build_configurations.each do |config|
-        config.build_settings['BUILD_LIBRARY_FOR_DISTRIBUTION'] = 'YES'
-      end
-    end
-  end
-end
-```
+### WARNING
+This is temporary solution for the SPM support. We are aware of the `is implemented in both` issue and we trying to fix it.
 
 ## Usage
 
@@ -60,7 +48,7 @@ If you want to handle the chat initialization error, use:
 
 ```swift
 Zowie.shared.onChatInitializationError = { error in
-    // Do someting
+    // Do something
 }
 ```
 
