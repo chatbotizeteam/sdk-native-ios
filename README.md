@@ -114,6 +114,13 @@ Zowie.shared.set(contextId: "contextId") { result in
 
 ## Customization
 
+### Layout
+
+```swift
+let config = ZowieLayoutConfiguration(showConsultantAvatar: false, consultantNameMode: .firstName)
+Zowie.shared.set(layoutConfiguration: config)
+```
+
 ### Localization
 
 The only supported language in this SDK is `english`. If you need more localization please provide it as below:

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZowieSDK
 import AVKit
 import Foundation
@@ -62,6 +62,21 @@ extension ZowieSDK.ZowieConfiguration {
     case token(token: Swift.String, userId: Swift.String, conversationId: Swift.String)
   }
 }
+public struct ZowieLayoutConfiguration {
+  public init(showConsultantAvatar: Swift.Bool? = nil, consultantNameMode: ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode? = nil)
+}
+extension ZowieSDK.ZowieLayoutConfiguration {
+  public enum ConsultantNameMode {
+    case hidden
+    case firstName
+    case fullName
+    public static func == (a: ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode, b: ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
 public struct ZowieColors {
   public let background: UIKit.UIColor
   public let text: UIKit.UIColor
@@ -110,7 +125,9 @@ public struct ZowieColors {
   public let announcementText: UIKit.UIColor
   public let announcementIconTint: UIKit.UIColor
   public let typingAnimationTint: UIKit.UIColor
-  public init(background: UIKit.UIColor? = nil, text: UIKit.UIColor? = nil, textSecondary: UIKit.UIColor? = nil, textPlaceholder: UIKit.UIColor? = nil, textButtonTint: UIKit.UIColor? = nil, sendTextButtonTint: ZowieSDK.ZowieColor? = nil, separator: UIKit.UIColor? = nil, incomingMessageBackground: ZowieSDK.ZowieColor? = nil, incomingMessageTint: UIKit.UIColor? = nil, sentMessageBackground: ZowieSDK.ZowieColor? = nil, sentMessageTint: UIKit.UIColor? = nil, incomingLinks: UIKit.UIColor? = nil, sentLinks: UIKit.UIColor? = nil, deliveredLabelTint: UIKit.UIColor? = nil, readLabelTint: UIKit.UIColor? = nil, errorLabelTint: UIKit.UIColor? = nil, activityIndicatorTint: UIKit.UIColor? = nil, sentMessageActivityIndicator: UIKit.UIColor? = nil, incomingMessageActivityIndicator: UIKit.UIColor? = nil, videoActivityIndicator: UIKit.UIColor? = nil, quickButtonBackground: UIKit.UIColor? = nil, quickButtonSelectedBackground: UIKit.UIColor? = nil, quickButtonTint: UIKit.UIColor? = nil, quickButtonBorder: UIKit.UIColor? = nil, quickButtonSelectedBorder: UIKit.UIColor? = nil, actionButtonBackground: UIKit.UIColor? = nil, actionButtonSelectedBackground: UIKit.UIColor? = nil, actionButtonTint: UIKit.UIColor? = nil, actionButtonShadow: UIKit.UIColor? = nil, fileIconTint: ZowieSDK.ZowieColor? = nil, downloadFileIcon: UIKit.UIColor? = nil, fileSuccessIconTint: UIKit.UIColor? = nil, videoPlaceholder: UIKit.UIColor? = nil, videoButtonBackground: UIKit.UIColor? = nil, videoButtonIconTint: UIKit.UIColor? = nil, logoSelectedBackground: UIKit.UIColor? = nil, logoSelectedBorder: UIKit.UIColor? = nil, notificationFailureTint: UIKit.UIColor? = nil, notificationSuccessTint: UIKit.UIColor? = nil, notificationFailureBackground: UIKit.UIColor? = nil, notificationSuccessBackground: UIKit.UIColor? = nil, typingAnimationTint: UIKit.UIColor? = nil, messageAuthorNameLabelTint: UIKit.UIColor? = nil, announcementBackground: UIKit.UIColor? = nil, announcementBorder: UIKit.UIColor? = nil, announcementText: UIKit.UIColor? = nil, announcementIconTint: UIKit.UIColor? = nil)
+  public let messageDateTimeTint: UIKit.UIColor
+  public let sectionDateTimeTint: UIKit.UIColor
+  public init(background: UIKit.UIColor? = nil, text: UIKit.UIColor? = nil, textSecondary: UIKit.UIColor? = nil, textPlaceholder: UIKit.UIColor? = nil, textButtonTint: UIKit.UIColor? = nil, sendTextButtonTint: ZowieSDK.ZowieColor? = nil, separator: UIKit.UIColor? = nil, incomingMessageBackground: ZowieSDK.ZowieColor? = nil, incomingMessageTint: UIKit.UIColor? = nil, sentMessageBackground: ZowieSDK.ZowieColor? = nil, sentMessageTint: UIKit.UIColor? = nil, incomingLinks: UIKit.UIColor? = nil, sentLinks: UIKit.UIColor? = nil, deliveredLabelTint: UIKit.UIColor? = nil, readLabelTint: UIKit.UIColor? = nil, errorLabelTint: UIKit.UIColor? = nil, activityIndicatorTint: UIKit.UIColor? = nil, sentMessageActivityIndicator: UIKit.UIColor? = nil, incomingMessageActivityIndicator: UIKit.UIColor? = nil, videoActivityIndicator: UIKit.UIColor? = nil, quickButtonBackground: UIKit.UIColor? = nil, quickButtonSelectedBackground: UIKit.UIColor? = nil, quickButtonTint: UIKit.UIColor? = nil, quickButtonBorder: UIKit.UIColor? = nil, quickButtonSelectedBorder: UIKit.UIColor? = nil, actionButtonBackground: UIKit.UIColor? = nil, actionButtonSelectedBackground: UIKit.UIColor? = nil, actionButtonTint: UIKit.UIColor? = nil, actionButtonShadow: UIKit.UIColor? = nil, fileIconTint: ZowieSDK.ZowieColor? = nil, downloadFileIcon: UIKit.UIColor? = nil, fileSuccessIconTint: UIKit.UIColor? = nil, videoPlaceholder: UIKit.UIColor? = nil, videoButtonBackground: UIKit.UIColor? = nil, videoButtonIconTint: UIKit.UIColor? = nil, logoSelectedBackground: UIKit.UIColor? = nil, logoSelectedBorder: UIKit.UIColor? = nil, notificationFailureTint: UIKit.UIColor? = nil, notificationSuccessTint: UIKit.UIColor? = nil, notificationFailureBackground: UIKit.UIColor? = nil, notificationSuccessBackground: UIKit.UIColor? = nil, typingAnimationTint: UIKit.UIColor? = nil, messageAuthorNameLabelTint: UIKit.UIColor? = nil, announcementBackground: UIKit.UIColor? = nil, announcementBorder: UIKit.UIColor? = nil, announcementText: UIKit.UIColor? = nil, announcementIconTint: UIKit.UIColor? = nil, messageDateTimeTint: UIKit.UIColor? = nil, sectionDateTimeTint: UIKit.UIColor? = nil)
 }
 public struct ZowieStrings {
   public let messagePlaceholder: Swift.String
@@ -134,6 +151,11 @@ public struct ZowieMetadata {
   public let email: Swift.String?
   public let extraParams: [Swift.String : Swift.String]?
   public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, name: Swift.String? = nil, locale: Swift.String? = nil, timeZone: Swift.String? = nil, phoneNumber: Swift.String? = nil, email: Swift.String? = nil, extraParams: [Swift.String : Swift.String]? = nil)
+}
+extension ZowieSDK.ZowieLayoutConfiguration {
+  public static var `default`: ZowieSDK.ZowieLayoutConfiguration {
+    get
+  }
 }
 extension ZowieSDK.ZowieColors {
   public static var `default`: ZowieSDK.ZowieColors {
@@ -159,6 +181,7 @@ public enum ZowieColor {
 }
 extension ZowieSDK.Zowie {
   final public func set(configuration: ZowieSDK.ZowieConfiguration)
+  final public func set(layoutConfiguration: ZowieSDK.ZowieLayoutConfiguration)
   final public func set(colors: ZowieSDK.ZowieColors)
   final public func set(strings: ZowieSDK.ZowieStrings)
   final public func set(metadata: ZowieSDK.ZowieMetadata, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
@@ -171,3 +194,5 @@ extension ZowieSDK.Zowie {
 }
 extension ZowieSDK.ZowieError : Swift.Equatable {}
 extension ZowieSDK.ZowieError : Swift.Hashable {}
+extension ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode : Swift.Equatable {}
+extension ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode : Swift.Hashable {}
