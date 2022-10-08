@@ -21,7 +21,7 @@ let package = Package(
         .package(
             name: "Apollo",
             url: "https://github.com/apollographql/apollo-ios",
-            .exact("0.49.1")
+            .exact("1.0.0")
         ),
         .package(
             name: "Lottie",
