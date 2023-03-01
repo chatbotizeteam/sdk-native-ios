@@ -16,7 +16,7 @@ let package = Package(
         .package(
             name: "Kingfisher",
             url: "https://github.com/onevcat/Kingfisher.git",
-            .exact("7.0.0")
+            .upToNextMajor(from: "7.0.0")
         ),
         .package(
             name: "Apollo",
@@ -26,7 +26,7 @@ let package = Package(
         .package(
             name: "Lottie",
             url: "https://github.com/airbnb/lottie-ios",
-            .exact("3.2.3")
+            .upToNextMajor(from: "3.2.3")
         )
     ],
     targets: [
