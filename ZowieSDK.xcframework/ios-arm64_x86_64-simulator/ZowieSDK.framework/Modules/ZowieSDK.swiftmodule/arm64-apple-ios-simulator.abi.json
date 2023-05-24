@@ -11884,14 +11884,14 @@
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 868,
+      "offset": 880,
       "length": 19,
       "value": "\"TypingOnAnimation\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1021,
+      "offset": 1039,
       "length": 5,
       "value": "false"
     },

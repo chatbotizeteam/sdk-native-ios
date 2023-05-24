@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ZowieSDK"
-  spec.version      = "0.0.13"
+  spec.version      = "0.0.14"
   spec.summary      = "Zowie chat SDK."
 
   spec.homepage     = "https://docs.getzowie.com"
@@ -32,7 +32,7 @@ Pod::Spec.new do |spec|
   spec.dependency "Apollo", "~> 0.49.1"
   spec.dependency "Apollo/WebSocket", "~> 0.49.1"
   spec.dependency "Kingfisher", "~> 7.0"
-  spec.dependency "lottie-ios", "~> 3.2.3"
+  spec.dependency "lottie-ios", "~> 4.2.0"
 
 end
 
