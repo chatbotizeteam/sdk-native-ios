@@ -10705,741 +10705,741 @@
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
       "offset": 16540,
-      "length": 201,
-      "value": "\"mutation signUp($instanceId: String!, $authorId: String!) {\n  signup(instanceId: $instanceId, authorId: $authorId) {\n    __typename\n    userId\n    password\n  }\n}\""
+      "length": 160,
+      "value": "\"mutation signUp($instanceId: String!) {\n  signup(instanceId: $instanceId) {\n    __typename\n    userId\n    password\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 16775,
+      "offset": 16734,
       "length": 8,
       "value": "\"signUp\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 17152,
+      "offset": 17013,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 18152,
+      "offset": 17972,
       "length": 21,
       "value": "[\"AuthenticatedUser\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 20472,
+      "offset": 20292,
       "length": 617,
       "value": "\"mutation metadata($conversationId: String!, $firstName: String, $lastName: String, $name: String, $imageFileId: String, $locale: String, $timeZone: String, $phoneNumber: String, $email: String, $customParams: [CustomParamInput!]) {\n  metadata(\n    conversationId: $conversationId\n    firstName: $firstName\n    lastName: $lastName\n    name: $name\n    imageFileId: $imageFileId\n    locale: $locale\n    timeZone: $timeZone\n    phoneNumber: $phoneNumber\n    email: $email\n    customParams: $customParams\n  ) {\n    __typename\n    errors\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 21127,
+      "offset": 20947,
       "length": 10,
       "value": "\"metadata\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 22432,
+      "offset": 22252,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 23784,
+      "offset": 23604,
       "length": 22,
       "value": "[\"UserMetadataResult\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 25228,
+      "offset": 25048,
       "length": 157,
       "value": "\"mutation context($conversationId: String!, $contextId: String!) {\n  context(conversationId: $conversationId, contextId: $contextId)\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 25419,
+      "offset": 25239,
       "length": 9,
       "value": "\"context\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 25827,
+      "offset": 25647,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 26787,
+      "offset": 26607,
       "length": 201,
       "value": "\"mutation sendText($conversationId: String!, $text: String!) {\n  sendText(conversationId: $conversationId, text: $text) {\n    __typename\n    ...MessageInterface\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 27022,
+      "offset": 26842,
       "length": 10,
       "value": "\"sendText\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 27517,
+      "offset": 27337,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 28476,
+      "offset": 28296,
       "length": 11,
       "value": "[\"Message\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 30142,
+      "offset": 29962,
       "length": 189,
       "value": "\"mutation updateMessagePreview($conversationId: String!, $previewText: String!) {\n  updateMessagePreview(conversationId: $conversationId, previewText: $previewText)\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 30365,
+      "offset": 30185,
       "length": 22,
       "value": "\"updateMessagePreview\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 30798,
+      "offset": 30618,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 31857,
+      "offset": 31677,
       "length": 227,
       "value": "\"mutation sendReferral($conversationId: String!, $referralId: String!) {\n  sendReferral(conversationId: $conversationId, referralId: $referralId) {\n    __typename\n    ...MessageInterface\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 32118,
+      "offset": 31938,
       "length": 14,
       "value": "\"sendReferral\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 32653,
+      "offset": 32473,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 33672,
+      "offset": 33492,
       "length": 11,
       "value": "[\"Message\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 35328,
+      "offset": 35148,
       "length": 217,
       "value": "\"mutation sendButton($conversationId: String!, $buttonId: String!) {\n  sendButton(conversationId: $conversationId, buttonId: $buttonId) {\n    __typename\n    ...MessageInterface\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 35579,
+      "offset": 35399,
       "length": 12,
       "value": "\"sendButton\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 36100,
+      "offset": 35920,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 37091,
+      "offset": 36911,
       "length": 11,
       "value": "[\"Message\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 38745,
+      "offset": 38565,
       "length": 207,
       "value": "\"mutation sendFile($conversationId: String!, $fileId: String!) {\n  sendFile(conversationId: $conversationId, fileId: $fileId) {\n    __typename\n    ...MessageInterface\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 38986,
+      "offset": 38806,
       "length": 10,
       "value": "\"sendFile\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 39493,
+      "offset": 39313,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 40456,
+      "offset": 40276,
       "length": 11,
       "value": "[\"Message\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 42132,
+      "offset": 41952,
       "length": 244,
       "value": "\"mutation enableAppleViaFcmNotifications($conversationId: String!, $deviceId: String!) {\n  enableAppleViaFcmNotifications(conversationId: $conversationId, deviceId: $deviceId) {\n    __typename\n    errors\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 42410,
+      "offset": 42230,
       "length": 32,
       "value": "\"enableAppleViaFcmNotifications\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 42835,
+      "offset": 42655,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 44061,
+      "offset": 43881,
       "length": 22,
       "value": "[\"NotificationResult\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 45446,
+      "offset": 45266,
       "length": 183,
       "value": "\"mutation disableNotifications($conversationId: String!) {\n  disableNotifications(conversationId: $conversationId) {\n    __typename\n    errors\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 45663,
+      "offset": 45483,
       "length": 22,
       "value": "\"disableNotifications\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 45980,
+      "offset": 45800,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 47045,
+      "offset": 46865,
       "length": 22,
       "value": "[\"NotificationResult\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 48416,
+      "offset": 48236,
       "length": 205,
       "value": "\"mutation active($conversationId: String!, $tabActivity: Boolean) {\n  active(conversationId: $conversationId, tabActivity: $tabActivity) {\n    __typename\n    errors\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 48655,
+      "offset": 48475,
       "length": 8,
       "value": "\"active\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 49078,
+      "offset": 48898,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 50027,
+      "offset": 49847,
       "length": 22,
       "value": "[\"NotificationResult\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 51400,
+      "offset": 51220,
       "length": 159,
       "value": "\"mutation inactive($conversationId: String!) {\n  inactive(conversationId: $conversationId) {\n    __typename\n    errors\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 51593,
+      "offset": 51413,
       "length": 10,
       "value": "\"inactive\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 51898,
+      "offset": 51718,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 52824,
+      "offset": 52644,
       "length": 22,
       "value": "[\"NotificationResult\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 54198,
+      "offset": 54018,
       "length": 144,
       "value": "\"mutation delivered($time: Long!, $conversationId: String!) {\n  delivered(time: $time, conversationId: $conversationId)\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 54376,
+      "offset": 54196,
       "length": 11,
       "value": "\"delivered\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 54750,
+      "offset": 54570,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 55710,
+      "offset": 55530,
       "length": 134,
       "value": "\"mutation read($time: Long!, $conversationId: String!) {\n  read(time: $time, conversationId: $conversationId)\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 55878,
+      "offset": 55698,
       "length": 6,
       "value": "\"read\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 56247,
+      "offset": 56067,
       "length": 12,
       "value": "[\"Mutation\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 57186,
+      "offset": 57006,
       "length": 180,
       "value": "\"subscription NewMessage($conversationId: String!) {\n  newMessage(conversationId: $conversationId) {\n    __typename\n    ...MessageInterface\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 57400,
+      "offset": 57220,
       "length": 12,
       "value": "\"NewMessage\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 57823,
+      "offset": 57643,
       "length": 16,
       "value": "[\"Subscription\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 58781,
+      "offset": 58601,
       "length": 11,
       "value": "[\"Message\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 60429,
+      "offset": 60249,
       "length": 374,
       "value": "\"query Messages($conversationId: String!, $offset: Long!, $entriesPerPage: Int!) {\n  messages(conversationId: $conversationId, offset: $offset, entriesPerPage: $entriesPerPage) {\n    __typename\n    next\n    edges {\n      __typename\n      node {\n        __typename\n        ...MessageInterface\n      }\n    }\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 60837,
+      "offset": 60657,
       "length": 10,
       "value": "\"Messages\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 61466,
+      "offset": 61286,
       "length": 9,
       "value": "[\"Query\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 62471,
+      "offset": 62291,
       "length": 14,
       "value": "[\"Pagination\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 64249,
+      "offset": 64069,
       "length": 8,
       "value": "[\"Edge\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 65620,
+      "offset": 65440,
       "length": 11,
       "value": "[\"Message\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 67624,
+      "offset": 67444,
       "length": 124,
       "value": "\"query WidgetConfig {\n  widgetConfig {\n    __typename\n    status\n    whitelabel\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 67782,
+      "offset": 67602,
       "length": 14,
       "value": "\"WidgetConfig\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 67902,
+      "offset": 67722,
       "length": 9,
       "value": "[\"Query\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 68875,
+      "offset": 68695,
       "length": 16,
       "value": "[\"WidgetConfig\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "StringLiteral",
-      "offset": 70589,
+      "offset": 70409,
       "length": 3178,
       "value": "\"fragment MessageInterface on Message {\n  __typename\n  id\n  time\n  author {\n    __typename\n    appId\n    userId\n    metadata {\n      __typename\n      firstName\n      lastName\n      profilePictureUrl\n    }\n  }\n  status\n  payload {\n    __typename\n    ... on Text {\n      value\n    }\n    ... on File {\n      fileId\n      url\n      fileType: type\n      dimensions {\n        __typename\n        width\n        height\n      }\n    }\n    ... on Button {\n      buttonId\n    }\n    ... on Announcement {\n      text\n      visibility\n    }\n    ... on UrlButtonTemplate {\n      message\n      caption\n      url\n    }\n    ... on CallButtonTemplate {\n      message\n      caption\n      phoneNumber\n    }\n    ... on QuickButtonsTemplate {\n      message\n      buttons {\n        __typename\n        caption\n        buttonId\n      }\n    }\n    ... on PersistentButtonsTemplate {\n      message\n      buttons {\n        __typename\n        ... on ActionButtonDefault {\n          caption\n          buttonId\n        }\n        ... on ActionButtonUrl {\n          caption\n          url\n        }\n        ... on ActionButtonCall {\n          caption\n          phoneNumber\n        }\n      }\n    }\n    ... on ImageTemplate {\n      url\n      dimensions {\n        __typename\n        width\n        height\n      }\n      buttons {\n        __typename\n        ... on ActionButtonDefault {\n          caption\n          buttonId\n        }\n        ... on ActionButtonUrl {\n          caption\n          url\n        }\n        ... on ActionButtonCall {\n          caption\n          phoneNumber\n        }\n      }\n    }\n    ... on CarouselTemplate {\n      ratio\n      elements {\n        __typename\n        title\n        subtitle\n        imageUrl\n        buttons {\n          __typename\n          ... on ActionButtonDefault {\n            caption\n            buttonId\n          }\n          ... on ActionButtonUrl {\n            caption\n            url\n          }\n          ... on ActionButtonCall {\n            caption\n            phoneNumber\n          }\n        }\n      }\n    }\n    ... on TypingOn {\n      placeholder\n    }\n    ... on LocationTemplate {\n      message\n    }\n    ... on Location {\n      latitude\n      longitude\n    }\n    ... on VideoTemplate {\n      url\n      buttons {\n        __typename\n        ... on ActionButtonDefault {\n          caption\n          buttonId\n        }\n        ... on ActionButtonUrl {\n          caption\n          url\n        }\n        ... on ActionButtonCall {\n          caption\n          phoneNumber\n        }\n      }\n    }\n    ... on AudioTemplate {\n      url\n    }\n  }\n}\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 73810,
+      "offset": 73630,
       "length": 11,
       "value": "[\"Message\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 76066,
+      "offset": 75886,
       "length": 8,
       "value": "[\"User\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 77906,
+      "offset": 77726,
       "length": 16,
       "value": "[\"UserMetadata\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 79989,
+      "offset": 79809,
       "length": 278,
       "value": "[\"Text\", \"File\", \"Button\", \"Referral\", \"Location\", \"UrlButtonTemplate\", \"CallButtonTemplate\", \"LocationTemplate\", \"QuickButtonsTemplate\", \"PersistentButtonsTemplate\", \"CarouselTemplate\", \"ImageTemplate\", \"VideoTemplate\", \"AudioTemplate\", \"Announcement\", \"TypingOn\", \"TypingOff\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 86233,
+      "offset": 86053,
       "length": 8,
       "value": "[\"Text\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 87794,
+      "offset": 87614,
       "length": 8,
       "value": "[\"File\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 90311,
+      "offset": 90131,
       "length": 14,
       "value": "[\"Dimensions\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 92409,
+      "offset": 92229,
       "length": 10,
       "value": "[\"Button\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 94035,
+      "offset": 93855,
       "length": 16,
       "value": "[\"Announcement\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 96135,
+      "offset": 95955,
       "length": 21,
       "value": "[\"UrlButtonTemplate\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 98538,
+      "offset": 98358,
       "length": 22,
       "value": "[\"CallButtonTemplate\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 101009,
+      "offset": 100829,
       "length": 24,
       "value": "[\"QuickButtonsTemplate\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 102861,
+      "offset": 102681,
       "length": 15,
       "value": "[\"QuickButton\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 105108,
+      "offset": 104928,
       "length": 29,
       "value": "[\"PersistentButtonsTemplate\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 106970,
+      "offset": 106790,
       "length": 62,
       "value": "[\"ActionButtonDefault\", \"ActionButtonUrl\", \"ActionButtonCall\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 109418,
+      "offset": 109238,
       "length": 23,
       "value": "[\"ActionButtonDefault\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 111873,
+      "offset": 111693,
       "length": 19,
       "value": "[\"ActionButtonUrl\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 114290,
+      "offset": 114110,
       "length": 20,
       "value": "[\"ActionButtonCall\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 116678,
+      "offset": 116498,
       "length": 17,
       "value": "[\"ImageTemplate\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 119026,
+      "offset": 118846,
       "length": 14,
       "value": "[\"Dimensions\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 120763,
+      "offset": 120583,
       "length": 62,
       "value": "[\"ActionButtonDefault\", \"ActionButtonUrl\", \"ActionButtonCall\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 123211,
+      "offset": 123031,
       "length": 23,
       "value": "[\"ActionButtonDefault\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 125666,
+      "offset": 125486,
       "length": 19,
       "value": "[\"ActionButtonUrl\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 128083,
+      "offset": 127903,
       "length": 20,
       "value": "[\"ActionButtonCall\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 130486,
+      "offset": 130306,
       "length": 20,
       "value": "[\"CarouselTemplate\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 132327,
+      "offset": 132147,
       "length": 27,
       "value": "[\"CarouselTemplateElement\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 135171,
+      "offset": 134991,
       "length": 62,
       "value": "[\"ActionButtonDefault\", \"ActionButtonUrl\", \"ActionButtonCall\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 137791,
+      "offset": 137611,
       "length": 23,
       "value": "[\"ActionButtonDefault\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 140450,
+      "offset": 140270,
       "length": 19,
       "value": "[\"ActionButtonUrl\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 143071,
+      "offset": 142891,
       "length": 20,
       "value": "[\"ActionButtonCall\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 145608,
+      "offset": 145428,
       "length": 12,
       "value": "[\"TypingOn\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 147271,
+      "offset": 147091,
       "length": 20,
       "value": "[\"LocationTemplate\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 148890,
+      "offset": 148710,
       "length": 12,
       "value": "[\"Location\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 150919,
+      "offset": 150739,
       "length": 17,
       "value": "[\"VideoTemplate\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 152729,
+      "offset": 152549,
       "length": 62,
       "value": "[\"ActionButtonDefault\", \"ActionButtonUrl\", \"ActionButtonCall\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 155177,
+      "offset": 154997,
       "length": 23,
       "value": "[\"ActionButtonDefault\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 157632,
+      "offset": 157452,
       "length": 19,
       "value": "[\"ActionButtonUrl\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 160049,
+      "offset": 159869,
       "length": 20,
       "value": "[\"ActionButtonCall\"]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
       "kind": "Array",
-      "offset": 162437,
+      "offset": 162257,
       "length": 17,
       "value": "[\"AudioTemplate\"]"
     },
@@ -11894,14 +11894,14 @@
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 868,
+      "offset": 880,
       "length": 19,
       "value": "\"TypingOnAnimation\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1021,
+      "offset": 1039,
       "length": 5,
       "value": "false"
     },
@@ -12272,14 +12272,14 @@
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Store.swift",
       "kind": "StringLiteral",
-      "offset": 2101,
+      "offset": 2265,
       "length": 37,
       "value": "\"ai.zowie.store.\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Store.swift",
       "kind": "StringLiteral",
-      "offset": 2137,
+      "offset": 2301,
       "length": 2,
       "value": "\"\""
     },
