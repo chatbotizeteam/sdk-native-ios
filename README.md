@@ -144,3 +144,14 @@ Zowie.shared.set(strings: strings)
 ### Colors
 
 Feel free to set up color branding however you like with help of `Zowie.shared.set(colors: colors)`
+
+### URL handling
+
+By default, Zowie SDK opens URLs using an external web browser. You can provide custom handling
+
+```swift
+Zowie.shared.set(urlHandler: { url, source in
+    // Return false if you want to handle URL by yourself
+    return false
+})
+```
