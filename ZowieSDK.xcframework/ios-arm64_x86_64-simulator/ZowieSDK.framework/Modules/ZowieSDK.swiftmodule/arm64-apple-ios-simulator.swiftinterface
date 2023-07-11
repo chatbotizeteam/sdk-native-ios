@@ -169,6 +169,19 @@ extension ZowieSDK.ZowieStrings {
     get
   }
 }
+public enum ZowieURLActionSource {
+  case persistentButtonsTemplate
+  case urlButtonTemplate
+  case carouselTemplate
+  case imageTemplate
+  case videoTemplate
+  case inlineLink
+  public static func == (a: ZowieSDK.ZowieURLActionSource, b: ZowieSDK.ZowieURLActionSource) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum ZowieColor {
   case solid(UIKit.UIColor)
   case gradient(start: UIKit.UIColor, end: UIKit.UIColor)
@@ -190,6 +203,7 @@ extension ZowieSDK.Zowie {
   final public func set(contextId: Swift.String, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
   final public func set(fcmToken: Swift.String, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
   final public func disableNotifications(completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
+  final public func set(urlHandler: ((Foundation.URL, ZowieSDK.ZowieURLActionSource) -> Swift.Bool)?)
   @available(*, deprecated, message: "Setting user status from outside of ZowieSdk is no longer needed an should be removed from client apps. Current version of ZowieSdk checks, and sets user status internally.")
   final public func setStatus(isActive: Swift.Bool, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
   final public func clearAnonymousSession(forInstanceId instanceId: Swift.String)
@@ -198,3 +212,5 @@ extension ZowieSDK.ZowieError : Swift.Equatable {}
 extension ZowieSDK.ZowieError : Swift.Hashable {}
 extension ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode : Swift.Equatable {}
 extension ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode : Swift.Hashable {}
+extension ZowieSDK.ZowieURLActionSource : Swift.Equatable {}
+extension ZowieSDK.ZowieURLActionSource : Swift.Hashable {}

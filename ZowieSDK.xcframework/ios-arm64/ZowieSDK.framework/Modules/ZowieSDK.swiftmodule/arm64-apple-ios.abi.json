@@ -6274,6 +6274,362 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZowieURLActionSource",
+        "printedName": "ZowieURLActionSource",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "persistentButtonsTemplate",
+            "printedName": "persistentButtonsTemplate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZowieSDK.ZowieURLActionSource.Type) -> ZowieSDK.ZowieURLActionSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZowieURLActionSource",
+                    "printedName": "ZowieSDK.ZowieURLActionSource",
+                    "usr": "s:8ZowieSDK0A15URLActionSourceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZowieSDK.ZowieURLActionSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZowieURLActionSource",
+                        "printedName": "ZowieSDK.ZowieURLActionSource",
+                        "usr": "s:8ZowieSDK0A15URLActionSourceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8ZowieSDK0A15URLActionSourceO25persistentButtonsTemplateyA2CmF",
+            "mangledName": "$s8ZowieSDK0A15URLActionSourceO25persistentButtonsTemplateyA2CmF",
+            "moduleName": "ZowieSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "urlButtonTemplate",
+            "printedName": "urlButtonTemplate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZowieSDK.ZowieURLActionSource.Type) -> ZowieSDK.ZowieURLActionSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZowieURLActionSource",
+                    "printedName": "ZowieSDK.ZowieURLActionSource",
+                    "usr": "s:8ZowieSDK0A15URLActionSourceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZowieSDK.ZowieURLActionSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZowieURLActionSource",
+                        "printedName": "ZowieSDK.ZowieURLActionSource",
+                        "usr": "s:8ZowieSDK0A15URLActionSourceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8ZowieSDK0A15URLActionSourceO17urlButtonTemplateyA2CmF",
+            "mangledName": "$s8ZowieSDK0A15URLActionSourceO17urlButtonTemplateyA2CmF",
+            "moduleName": "ZowieSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "carouselTemplate",
+            "printedName": "carouselTemplate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZowieSDK.ZowieURLActionSource.Type) -> ZowieSDK.ZowieURLActionSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZowieURLActionSource",
+                    "printedName": "ZowieSDK.ZowieURLActionSource",
+                    "usr": "s:8ZowieSDK0A15URLActionSourceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZowieSDK.ZowieURLActionSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZowieURLActionSource",
+                        "printedName": "ZowieSDK.ZowieURLActionSource",
+                        "usr": "s:8ZowieSDK0A15URLActionSourceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8ZowieSDK0A15URLActionSourceO16carouselTemplateyA2CmF",
+            "mangledName": "$s8ZowieSDK0A15URLActionSourceO16carouselTemplateyA2CmF",
+            "moduleName": "ZowieSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "imageTemplate",
+            "printedName": "imageTemplate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZowieSDK.ZowieURLActionSource.Type) -> ZowieSDK.ZowieURLActionSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZowieURLActionSource",
+                    "printedName": "ZowieSDK.ZowieURLActionSource",
+                    "usr": "s:8ZowieSDK0A15URLActionSourceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZowieSDK.ZowieURLActionSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZowieURLActionSource",
+                        "printedName": "ZowieSDK.ZowieURLActionSource",
+                        "usr": "s:8ZowieSDK0A15URLActionSourceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8ZowieSDK0A15URLActionSourceO13imageTemplateyA2CmF",
+            "mangledName": "$s8ZowieSDK0A15URLActionSourceO13imageTemplateyA2CmF",
+            "moduleName": "ZowieSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "videoTemplate",
+            "printedName": "videoTemplate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZowieSDK.ZowieURLActionSource.Type) -> ZowieSDK.ZowieURLActionSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZowieURLActionSource",
+                    "printedName": "ZowieSDK.ZowieURLActionSource",
+                    "usr": "s:8ZowieSDK0A15URLActionSourceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZowieSDK.ZowieURLActionSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZowieURLActionSource",
+                        "printedName": "ZowieSDK.ZowieURLActionSource",
+                        "usr": "s:8ZowieSDK0A15URLActionSourceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8ZowieSDK0A15URLActionSourceO13videoTemplateyA2CmF",
+            "mangledName": "$s8ZowieSDK0A15URLActionSourceO13videoTemplateyA2CmF",
+            "moduleName": "ZowieSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "inlineLink",
+            "printedName": "inlineLink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZowieSDK.ZowieURLActionSource.Type) -> ZowieSDK.ZowieURLActionSource",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZowieURLActionSource",
+                    "printedName": "ZowieSDK.ZowieURLActionSource",
+                    "usr": "s:8ZowieSDK0A15URLActionSourceO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZowieSDK.ZowieURLActionSource.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZowieURLActionSource",
+                        "printedName": "ZowieSDK.ZowieURLActionSource",
+                        "usr": "s:8ZowieSDK0A15URLActionSourceO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8ZowieSDK0A15URLActionSourceO10inlineLinkyA2CmF",
+            "mangledName": "$s8ZowieSDK0A15URLActionSourceO10inlineLinkyA2CmF",
+            "moduleName": "ZowieSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZowieURLActionSource",
+                "printedName": "ZowieSDK.ZowieURLActionSource",
+                "usr": "s:8ZowieSDK0A15URLActionSourceO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZowieURLActionSource",
+                "printedName": "ZowieSDK.ZowieURLActionSource",
+                "usr": "s:8ZowieSDK0A15URLActionSourceO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ZowieSDK0A15URLActionSourceO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8ZowieSDK0A15URLActionSourceO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZowieSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ZowieSDK0A15URLActionSourceO9hashValueSivp",
+            "mangledName": "$s8ZowieSDK0A15URLActionSourceO9hashValueSivp",
+            "moduleName": "ZowieSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ZowieSDK0A15URLActionSourceO9hashValueSivg",
+                "mangledName": "$s8ZowieSDK0A15URLActionSourceO9hashValueSivg",
+                "moduleName": "ZowieSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ZowieSDK0A15URLActionSourceO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8ZowieSDK0A15URLActionSourceO4hash4intoys6HasherVz_tF",
+            "moduleName": "ZowieSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8ZowieSDK0A15URLActionSourceO",
+        "mangledName": "$s8ZowieSDK0A15URLActionSourceO",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -7451,6 +7807,68 @@
             "declKind": "Func",
             "usr": "s:8ZowieSDK0A0C20disableNotifications10completionyys6ResultOyytAA0A5ErrorOGcSg_tF",
             "mangledName": "$s8ZowieSDK0A0C20disableNotifications10completionyys6ResultOyytAA0A5ErrorOGcSg_tF",
+            "moduleName": "ZowieSDK",
+            "declAttributes": [
+              "Final",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(urlHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Foundation.URL, ZowieSDK.ZowieURLActionSource) -> Swift.Bool)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URL, ZowieSDK.ZowieURLActionSource) -> Swift.Bool",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(Foundation.URL, ZowieSDK.ZowieURLActionSource)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URL",
+                            "printedName": "Foundation.URL",
+                            "usr": "s:10Foundation3URLV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZowieURLActionSource",
+                            "printedName": "ZowieSDK.ZowieURLActionSource",
+                            "usr": "s:8ZowieSDK0A15URLActionSourceO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ZowieSDK0A0C3set10urlHandlerySb10Foundation3URLV_AA0A15URLActionSourceOtcSg_tF",
+            "mangledName": "$s8ZowieSDK0A0C3set10urlHandlerySb10Foundation3URLV_AA0A15URLActionSourceOtcSg_tF",
             "moduleName": "ZowieSDK",
             "declAttributes": [
               "Final",
@@ -11453,7 +11871,7 @@
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/Models\/ActionMessage.swift",
       "kind": "BooleanLiteral",
-      "offset": 239,
+      "offset": 268,
       "length": 5,
       "value": "false"
     },
@@ -11656,70 +12074,70 @@
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1670,
+      "offset": 1684,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1844,
+      "offset": 1858,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1905,
+      "offset": 1919,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4628,
+      "offset": 4642,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4910,
+      "offset": 4924,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4953,
+      "offset": 4967,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 4310,
+      "offset": 4324,
       "length": 12,
       "value": "\"ZowieSDK.ImagePreview\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7087,
+      "offset": 7132,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 7148,
+      "offset": 7193,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 6691,
+      "offset": 6705,
       "length": 22,
       "value": "\"ZowieSDK.MediaActionButtonsView\""
     },
@@ -12020,112 +12438,112 @@
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 605,
+      "offset": 624,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 619,
+      "offset": 638,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 635,
+      "offset": 654,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 652,
+      "offset": 671,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1204,
+      "offset": 1250,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1265,
+      "offset": 1311,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3629,
+      "offset": 3710,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3665,
+      "offset": 3746,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 3701,
+      "offset": 3782,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3792,
+      "offset": 3873,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 3982,
+      "offset": 4063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 4043,
+      "offset": 4124,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 3238,
+      "offset": 3308,
       "length": 17,
       "value": "\"ZowieSDK.ActionContentView\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 6132,
+      "offset": 6251,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 6172,
+      "offset": 6291,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 5870,
+      "offset": 5989,
       "length": 16,
       "value": "\"ZowieSDK.ActionButtonView\""
     },
@@ -12160,126 +12578,126 @@
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1284,
+      "offset": 1298,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1458,
+      "offset": 1472,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1519,
+      "offset": 1533,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4622,
+      "offset": 4636,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4818,
+      "offset": 4832,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5116,
+      "offset": 5130,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5156,
+      "offset": 5170,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5212,
+      "offset": 5226,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5227,
+      "offset": 5241,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 5286,
+      "offset": 5300,
       "length": 2,
       "value": "48"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5301,
+      "offset": 5315,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 5425,
+      "offset": 5439,
       "length": 11,
       "value": "\"play_icon\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5577,
+      "offset": 5591,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5805,
+      "offset": 5819,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5848,
+      "offset": 5862,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 4111,
+      "offset": 4125,
       "length": 12,
       "value": "\"ZowieSDK.VideoPreview\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Store.swift",
       "kind": "StringLiteral",
-      "offset": 2265,
+      "offset": 2400,
       "length": 37,
       "value": "\"ai.zowie.store.\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Store.swift",
       "kind": "StringLiteral",
-      "offset": 2301,
+      "offset": 2436,
       "length": 2,
       "value": "\"\""
     },
