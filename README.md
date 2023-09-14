@@ -22,8 +22,9 @@ To be able to use Zowie SDK first of all you have to provide the configuration:
 
 ```swift
 let configuration = ZowieConfiguration(
-    instanceId: "INSTANCEID",
-    authType: .anonymous
+    instanceId: "INSTANCE_ID",
+    authType: .anonymous,
+    chatHost: "CHAT_HOST"
 )
 
 Zowie.shared.set(configuration: configuration)

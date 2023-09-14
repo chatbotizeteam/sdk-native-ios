@@ -16,7 +16,7 @@ let package = Package(
         .package(
             name: "Kingfisher",
             url: "https://github.com/onevcat/Kingfisher.git",
-            .upToNextMajor(from: "7.0.0")
+            .upToNextMajor(from: "7.8.0")
         ),
         .package(
             name: "Apollo",
