@@ -22434,42 +22434,42 @@
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4642,
+      "offset": 4654,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4924,
+      "offset": 4936,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 4967,
+      "offset": 4979,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5146,
+      "offset": 5158,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5230,
+      "offset": 5242,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 5329,
+      "offset": 5341,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
@@ -22483,77 +22483,77 @@
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7132,
+      "offset": 7144,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 7193,
+      "offset": 7205,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 7415,
+      "offset": 7427,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 7508,
+      "offset": 7520,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 7733,
+      "offset": 7745,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 7842,
+      "offset": 7854,
       "length": 3,
       "value": "-12"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 7886,
+      "offset": 7898,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 7933,
+      "offset": 7945,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 8073,
+      "offset": 8085,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 8168,
+      "offset": 8180,
       "length": 3,
       "value": "-12"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 6705,
+      "offset": 6717,
       "length": 22,
       "value": "\"ZowieSDK.MediaActionButtonsView\""
     },
