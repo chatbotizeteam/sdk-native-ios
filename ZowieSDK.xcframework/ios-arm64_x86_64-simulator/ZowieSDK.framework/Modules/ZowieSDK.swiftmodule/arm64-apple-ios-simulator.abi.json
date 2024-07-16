@@ -261,6 +261,13 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -13011,16 +13018,65 @@
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 2014,
+      "offset": 2166,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3113,
       "length": 26,
       "value": "\"Cannot authenticate user\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3656,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
       "kind": "Array",
-      "offset": 3232,
+      "offset": 3857,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
+      "kind": "StringLiteral",
+      "offset": 3910,
+      "length": 15,
+      "value": "\"token_service\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
+      "kind": "Array",
+      "offset": 4645,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5521,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5758,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8748,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/FileUploader.swift",
@@ -23987,14 +24043,14 @@
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Store.swift",
       "kind": "StringLiteral",
-      "offset": 2400,
+      "offset": 2467,
       "length": 37,
       "value": "\"ai.zowie.store.\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Store.swift",
       "kind": "StringLiteral",
-      "offset": 2436,
+      "offset": 2503,
       "length": 2,
       "value": "\"\""
     },
