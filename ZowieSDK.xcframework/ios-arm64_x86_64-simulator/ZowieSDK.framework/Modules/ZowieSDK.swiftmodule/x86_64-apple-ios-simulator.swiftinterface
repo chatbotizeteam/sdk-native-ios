@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ZowieSDK
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ZowieSDK
 import AVKit
 import DeveloperToolsSupport
 import Foundation
@@ -17,6 +16,7 @@ import os.log
 import os
 public enum ZowieError : Swift.Error {
   case unknown
+  case cancelled
   case outOfOrder
   public static func == (a: ZowieSDK.ZowieError, b: ZowieSDK.ZowieError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
@@ -209,7 +209,13 @@ extension ZowieSDK.Zowie {
   final public func set(urlHandler: ((Foundation.URL, ZowieSDK.ZowieURLActionSource) -> Swift.Bool)?)
   @available(*, deprecated, message: "Setting user status from outside of ZowieSdk is no longer needed an should be removed from client apps. Current version of ZowieSdk checks, and sets user status internally.")
   final public func setStatus(isActive: Swift.Bool, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
+  final public func set(referral: Swift.String, completion: @escaping (ZowieSDK.ZowieReferralStatus) -> Swift.Void)
   final public func clearAnonymousSession(forInstanceId instanceId: Swift.String)
+}
+public enum ZowieReferralStatus {
+  case failure(ZowieSDK.ZowieError)
+  case waiting
+  case success
 }
 extension ZowieSDK.ZowieError : Swift.Equatable {}
 extension ZowieSDK.ZowieError : Swift.Hashable {}
