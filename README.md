@@ -71,6 +71,22 @@ let metadata = ZowieMetadata(
 Zowie.shared.set(metadata: metadata)
 ```
 
+### Setting a referral value
+```swift
+/// Sets a referral value for the conversation.
+///
+/// - Parameters:
+///   - referral: A `String` representing the referral information to be set.
+///   - completion: A closure that is called upon completion of the operation. The closure provides a `ZowieReferralStatus`
+///                 which indicates the outcome of setting the referral:
+///       - `.failure(ZowieError)`: The operation failed, with the associated `ZowieError` providing details about the error.
+///       - `.waiting`: The referral has been accepted and will be sent during the next chat initialization.
+///       - `.success`: The operation completed successfully and the referral was set immediately.
+Zowie.shared.set(referral: "VALUE") { status in
+    // status handling
+}
+```
+
 ### FCM notifications
 
 To receive FCM notifications you have to provide `deviceToken`
