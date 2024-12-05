@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "ZowieSDK",
+    "printedName": "ZowieSDK",
     "children": [
       {
         "kind": "Import",
@@ -268,6 +268,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -374,6 +388,7 @@
             "mangledName": "$s8ZowieSDK0A18ChatViewControllerC6colors7stringsAcA0A6ColorsV_AA0A7StringsVtcfc",
             "moduleName": "ZowieSDK",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -400,6 +415,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -432,6 +448,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -464,6 +481,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -520,6 +538,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -563,6 +582,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -594,6 +614,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -644,6 +665,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -689,6 +711,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -721,6 +744,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -759,6 +783,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -797,6 +822,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -834,6 +860,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -877,6 +904,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -915,6 +943,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -953,6 +982,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -991,6 +1021,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1037,6 +1068,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1068,6 +1100,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1099,6 +1132,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1111,6 +1145,7 @@
         "mangledName": "$s8ZowieSDK0A18ChatViewControllerC",
         "moduleName": "ZowieSDK",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "AccessControl",
@@ -1124,6 +1159,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1674,7 +1723,23 @@
             "declAttributes": [
               "AccessControl"
             ],
-            "isFromExtension": true
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -1683,6 +1748,22 @@
         "moduleName": "ZowieSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1965,6 +2046,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -2035,6 +2130,22 @@
         "moduleName": "ZowieSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5010,6 +5121,22 @@
         "moduleName": "ZowieSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5625,6 +5752,22 @@
         "moduleName": "ZowieSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6302,6 +6445,22 @@
         "moduleName": "ZowieSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6646,6 +6805,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6673,6 +6846,16 @@
         "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "ZowieSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "Import",
@@ -6731,24 +6914,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Apollo",
-        "printedName": "Apollo",
-        "declKind": "Import",
-        "moduleName": "ZowieSDK",
-        "declAttributes": [
-          "ImplementationOnly",
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZowieSDK"
       },
       {
         "kind": "Import",
@@ -7009,6 +7174,22 @@
         "moduleName": "ZowieSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -7057,48 +7238,819 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZowieSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ZowieSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZowieSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "ZowieSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "ZowieSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "Lottie",
-        "printedName": "Lottie",
+        "name": "Apollo",
+        "printedName": "Apollo",
         "declKind": "Import",
         "moduleName": "ZowieSDK",
         "declAttributes": [
-          "ImplementationOnly"
+          "ImplementationOnly",
+          "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Apollo",
+        "printedName": "Apollo",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "ImplementationOnly",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK"
       },
       {
         "kind": "Import",
@@ -8052,7 +9004,23 @@
           "AccessControl",
           "Final"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -8190,6 +9158,22 @@
         "moduleName": "ZowieSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -8307,13 +9291,6 @@
       "offset": 1799,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
-      "kind": "StringLiteral",
-      "offset": 137,
-      "length": 8,
-      "value": "\"ZowieSDK.ChatView\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
@@ -8485,13 +9462,6 @@
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
-      "kind": "StringLiteral",
-      "offset": 9740,
-      "length": 13,
-      "value": "\"ZowieSDK.TextInputView\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
       "offset": 16394,
       "length": 2,
@@ -8562,13 +9532,6 @@
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
-      "kind": "StringLiteral",
-      "offset": 16215,
-      "length": 14,
-      "value": "\"ZowieSDK.BrandLabelView\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
       "offset": 19302,
       "length": 5,
@@ -8629,34 +9592,6 @@
       "offset": 20470,
       "length": 2,
       "value": "10"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
-      "kind": "StringLiteral",
-      "offset": 19107,
-      "length": 16,
-      "value": "\"ZowieSDK.NotificationView\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Utils\/UIFont+Custom.swift",
-      "kind": "StringLiteral",
-      "offset": 1294,
-      "length": 14,
-      "value": "\"Inter-Medium\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Utils\/UIFont+Custom.swift",
-      "kind": "StringLiteral",
-      "offset": 1328,
-      "length": 15,
-      "value": "\"Inter-Regular\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Utils\/UIFont+Custom.swift",
-      "kind": "StringLiteral",
-      "offset": 1364,
-      "length": 16,
-      "value": "\"Inter-SemiBold\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Utils\/UIFont+Custom.swift",
@@ -8729,13 +9664,6 @@
       "value": "12"
     },
     {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/StatusTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 1633,
-      "length": 10,
-      "value": "\"ZowieSDK.StatusView\""
-    },
-    {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ConversationStateService.swift",
       "kind": "BooleanLiteral",
       "offset": 458,
@@ -8769,13 +9697,6 @@
       "offset": 771,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ZowieChatViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 139,
-      "length": 23,
-      "value": "\"ZowieSDK.ZowieChatViewController\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Constants.swift",
@@ -9114,13 +10035,6 @@
       "value": "14"
     },
     {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/FileTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 8074,
-      "length": 11,
-      "value": "\"ZowieSDK.FilePreview\""
-    },
-    {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TextTableViewCell.swift",
       "kind": "IntegerLiteral",
       "offset": 695,
@@ -9206,13 +10120,6 @@
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TextTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 4682,
-      "length": 15,
-      "value": "\"ZowieSDK.TextContentView\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TextTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 7203,
       "length": 5,
@@ -9231,13 +10138,6 @@
       "offset": 7443,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TextTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 6938,
-      "length": 10,
-      "value": "\"ZowieSDK.StateLabel\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Utils\/CornerRadiusView.swift",
@@ -11319,13 +12219,6 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Headers\/TimestampView.swift",
-      "kind": "StringLiteral",
-      "offset": 216,
-      "length": 14,
-      "value": "\"ZowieSDK.TimestampLabel\""
-    },
-    {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "Array",
       "offset": 867,
@@ -11347,809 +12240,53 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
-      "kind": "StringLiteral",
-      "offset": 460,
-      "length": 14,
-      "value": "\"ZowieSDK.ChatDataSource\""
-    },
-    {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3656,
+      "offset": 3700,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
       "kind": "Array",
-      "offset": 3857,
+      "offset": 3901,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 3910,
+      "offset": 3954,
       "length": 15,
       "value": "\"token_service\""
     },
     {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/FileUploader.swift",
       "kind": "StringLiteral",
-      "offset": 11059,
-      "length": 406,
-      "value": "\"mutation signIn($appId: String!, $instanceId: String!, $authorId: String!, $authType: AuthType!, $authToken: String, $password: String) {\n  signin(instanceId: $instanceId, appId: $appId, authorId: $authorId, authType: $authType, authToken: $authToken, password: $password) {\n    __typename\n    result {\n      __typename\n      token\n    }\n    errors\n  }\n}\""
+      "offset": 986,
+      "length": 30,
+      "value": "\"Cannot create upload request\""
     },
     {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 11499,
-      "length": 8,
-      "value": "\"signIn\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 12276,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 13371,
-      "length": 16,
-      "value": "[\"SignInResult\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 15136,
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/FileUploader.swift",
+      "kind": "FloatLiteral",
+      "offset": 1160,
       "length": 9,
-      "value": "[\"Token\"]"
+      "value": "1000000.0"
     },
     {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/FileUploader.swift",
       "kind": "StringLiteral",
-      "offset": 16540,
-      "length": 160,
-      "value": "\"mutation signUp($instanceId: String!) {\n  signup(instanceId: $instanceId) {\n    __typename\n    userId\n    password\n  }\n}\""
+      "offset": 1231,
+      "length": 18,
+      "value": "\"File size to big\""
     },
     {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/FileUploader.swift",
       "kind": "StringLiteral",
-      "offset": 16734,
-      "length": 8,
-      "value": "\"signUp\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 17013,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 17972,
-      "length": 21,
-      "value": "[\"AuthenticatedUser\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 20292,
-      "length": 617,
-      "value": "\"mutation metadata($conversationId: String!, $firstName: String, $lastName: String, $name: String, $imageFileId: String, $locale: String, $timeZone: String, $phoneNumber: String, $email: String, $customParams: [CustomParamInput!]) {\n  metadata(\n    conversationId: $conversationId\n    firstName: $firstName\n    lastName: $lastName\n    name: $name\n    imageFileId: $imageFileId\n    locale: $locale\n    timeZone: $timeZone\n    phoneNumber: $phoneNumber\n    email: $email\n    customParams: $customParams\n  ) {\n    __typename\n    errors\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 20947,
-      "length": 10,
-      "value": "\"metadata\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 22252,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 23604,
-      "length": 22,
-      "value": "[\"UserMetadataResult\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 25048,
-      "length": 157,
-      "value": "\"mutation context($conversationId: String!, $contextId: String!) {\n  context(conversationId: $conversationId, contextId: $contextId)\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 25239,
-      "length": 9,
-      "value": "\"context\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 25647,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 26607,
-      "length": 201,
-      "value": "\"mutation sendText($conversationId: String!, $text: String!) {\n  sendText(conversationId: $conversationId, text: $text) {\n    __typename\n    ...MessageInterface\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 26842,
-      "length": 10,
-      "value": "\"sendText\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 27337,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 28296,
-      "length": 11,
-      "value": "[\"Message\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 29962,
-      "length": 189,
-      "value": "\"mutation updateMessagePreview($conversationId: String!, $previewText: String!) {\n  updateMessagePreview(conversationId: $conversationId, previewText: $previewText)\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 30185,
-      "length": 22,
-      "value": "\"updateMessagePreview\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 30618,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 31677,
-      "length": 227,
-      "value": "\"mutation sendReferral($conversationId: String!, $referralId: String!) {\n  sendReferral(conversationId: $conversationId, referralId: $referralId) {\n    __typename\n    ...MessageInterface\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 31938,
-      "length": 14,
-      "value": "\"sendReferral\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 32473,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 33492,
-      "length": 11,
-      "value": "[\"Message\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 35148,
-      "length": 217,
-      "value": "\"mutation sendButton($conversationId: String!, $buttonId: String!) {\n  sendButton(conversationId: $conversationId, buttonId: $buttonId) {\n    __typename\n    ...MessageInterface\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 35399,
-      "length": 12,
-      "value": "\"sendButton\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 35920,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 36911,
-      "length": 11,
-      "value": "[\"Message\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 38565,
-      "length": 207,
-      "value": "\"mutation sendFile($conversationId: String!, $fileId: String!) {\n  sendFile(conversationId: $conversationId, fileId: $fileId) {\n    __typename\n    ...MessageInterface\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 38806,
-      "length": 10,
-      "value": "\"sendFile\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 39313,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 40276,
-      "length": 11,
-      "value": "[\"Message\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 41952,
-      "length": 244,
-      "value": "\"mutation enableAppleViaFcmNotifications($conversationId: String!, $deviceId: String!) {\n  enableAppleViaFcmNotifications(conversationId: $conversationId, deviceId: $deviceId) {\n    __typename\n    errors\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 42230,
-      "length": 32,
-      "value": "\"enableAppleViaFcmNotifications\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 42655,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 43881,
-      "length": 22,
-      "value": "[\"NotificationResult\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 45266,
-      "length": 183,
-      "value": "\"mutation disableNotifications($conversationId: String!) {\n  disableNotifications(conversationId: $conversationId) {\n    __typename\n    errors\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 45483,
-      "length": 22,
-      "value": "\"disableNotifications\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 45800,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 46865,
-      "length": 22,
-      "value": "[\"NotificationResult\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 48236,
-      "length": 205,
-      "value": "\"mutation active($conversationId: String!, $tabActivity: Boolean) {\n  active(conversationId: $conversationId, tabActivity: $tabActivity) {\n    __typename\n    errors\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 48475,
-      "length": 8,
-      "value": "\"active\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 48898,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 49847,
-      "length": 22,
-      "value": "[\"NotificationResult\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 51220,
-      "length": 159,
-      "value": "\"mutation inactive($conversationId: String!) {\n  inactive(conversationId: $conversationId) {\n    __typename\n    errors\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 51413,
-      "length": 10,
-      "value": "\"inactive\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 51718,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 52644,
-      "length": 22,
-      "value": "[\"NotificationResult\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 54018,
-      "length": 144,
-      "value": "\"mutation delivered($time: Long!, $conversationId: String!) {\n  delivered(time: $time, conversationId: $conversationId)\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 54196,
-      "length": 11,
-      "value": "\"delivered\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 54570,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 55530,
-      "length": 134,
-      "value": "\"mutation read($time: Long!, $conversationId: String!) {\n  read(time: $time, conversationId: $conversationId)\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 55698,
-      "length": 6,
-      "value": "\"read\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 56067,
-      "length": 12,
-      "value": "[\"Mutation\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 57006,
-      "length": 180,
-      "value": "\"subscription NewMessage($conversationId: String!) {\n  newMessage(conversationId: $conversationId) {\n    __typename\n    ...MessageInterface\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 57220,
-      "length": 12,
-      "value": "\"NewMessage\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 57643,
-      "length": 16,
-      "value": "[\"Subscription\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 58601,
-      "length": 11,
-      "value": "[\"Message\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 60249,
-      "length": 374,
-      "value": "\"query Messages($conversationId: String!, $offset: Long!, $entriesPerPage: Int!) {\n  messages(conversationId: $conversationId, offset: $offset, entriesPerPage: $entriesPerPage) {\n    __typename\n    next\n    edges {\n      __typename\n      node {\n        __typename\n        ...MessageInterface\n      }\n    }\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 60657,
-      "length": 10,
-      "value": "\"Messages\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 61286,
-      "length": 9,
-      "value": "[\"Query\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 62291,
-      "length": 14,
-      "value": "[\"Pagination\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 64069,
-      "length": 8,
-      "value": "[\"Edge\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 65440,
-      "length": 11,
-      "value": "[\"Message\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 67444,
-      "length": 124,
-      "value": "\"query WidgetConfig {\n  widgetConfig {\n    __typename\n    status\n    whitelabel\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 67602,
-      "length": 14,
-      "value": "\"WidgetConfig\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 67722,
-      "length": 9,
-      "value": "[\"Query\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 68695,
-      "length": 16,
-      "value": "[\"WidgetConfig\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "StringLiteral",
-      "offset": 70409,
-      "length": 3178,
-      "value": "\"fragment MessageInterface on Message {\n  __typename\n  id\n  time\n  author {\n    __typename\n    appId\n    userId\n    metadata {\n      __typename\n      firstName\n      lastName\n      profilePictureUrl\n    }\n  }\n  status\n  payload {\n    __typename\n    ... on Text {\n      value\n    }\n    ... on File {\n      fileId\n      url\n      fileType: type\n      dimensions {\n        __typename\n        width\n        height\n      }\n    }\n    ... on Button {\n      buttonId\n    }\n    ... on Announcement {\n      text\n      visibility\n    }\n    ... on UrlButtonTemplate {\n      message\n      caption\n      url\n    }\n    ... on CallButtonTemplate {\n      message\n      caption\n      phoneNumber\n    }\n    ... on QuickButtonsTemplate {\n      message\n      buttons {\n        __typename\n        caption\n        buttonId\n      }\n    }\n    ... on PersistentButtonsTemplate {\n      message\n      buttons {\n        __typename\n        ... on ActionButtonDefault {\n          caption\n          buttonId\n        }\n        ... on ActionButtonUrl {\n          caption\n          url\n        }\n        ... on ActionButtonCall {\n          caption\n          phoneNumber\n        }\n      }\n    }\n    ... on ImageTemplate {\n      url\n      dimensions {\n        __typename\n        width\n        height\n      }\n      buttons {\n        __typename\n        ... on ActionButtonDefault {\n          caption\n          buttonId\n        }\n        ... on ActionButtonUrl {\n          caption\n          url\n        }\n        ... on ActionButtonCall {\n          caption\n          phoneNumber\n        }\n      }\n    }\n    ... on CarouselTemplate {\n      ratio\n      elements {\n        __typename\n        title\n        subtitle\n        imageUrl\n        buttons {\n          __typename\n          ... on ActionButtonDefault {\n            caption\n            buttonId\n          }\n          ... on ActionButtonUrl {\n            caption\n            url\n          }\n          ... on ActionButtonCall {\n            caption\n            phoneNumber\n          }\n        }\n      }\n    }\n    ... on TypingOn {\n      placeholder\n    }\n    ... on LocationTemplate {\n      message\n    }\n    ... on Location {\n      latitude\n      longitude\n    }\n    ... on VideoTemplate {\n      url\n      buttons {\n        __typename\n        ... on ActionButtonDefault {\n          caption\n          buttonId\n        }\n        ... on ActionButtonUrl {\n          caption\n          url\n        }\n        ... on ActionButtonCall {\n          caption\n          phoneNumber\n        }\n      }\n    }\n    ... on AudioTemplate {\n      url\n    }\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 73630,
-      "length": 11,
-      "value": "[\"Message\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 75886,
-      "length": 8,
-      "value": "[\"User\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 77726,
-      "length": 16,
-      "value": "[\"UserMetadata\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 79809,
-      "length": 278,
-      "value": "[\"Text\", \"File\", \"Button\", \"Referral\", \"Location\", \"UrlButtonTemplate\", \"CallButtonTemplate\", \"LocationTemplate\", \"QuickButtonsTemplate\", \"PersistentButtonsTemplate\", \"CarouselTemplate\", \"ImageTemplate\", \"VideoTemplate\", \"AudioTemplate\", \"Announcement\", \"TypingOn\", \"TypingOff\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 86053,
-      "length": 8,
-      "value": "[\"Text\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 87614,
-      "length": 8,
-      "value": "[\"File\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 90131,
-      "length": 14,
-      "value": "[\"Dimensions\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 92229,
-      "length": 10,
-      "value": "[\"Button\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 93855,
-      "length": 16,
-      "value": "[\"Announcement\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 95955,
-      "length": 21,
-      "value": "[\"UrlButtonTemplate\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 98358,
-      "length": 22,
-      "value": "[\"CallButtonTemplate\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 100829,
-      "length": 24,
-      "value": "[\"QuickButtonsTemplate\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 102681,
-      "length": 15,
-      "value": "[\"QuickButton\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 104928,
-      "length": 29,
-      "value": "[\"PersistentButtonsTemplate\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 106790,
-      "length": 62,
-      "value": "[\"ActionButtonDefault\", \"ActionButtonUrl\", \"ActionButtonCall\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 109238,
-      "length": 23,
-      "value": "[\"ActionButtonDefault\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 111693,
-      "length": 19,
-      "value": "[\"ActionButtonUrl\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 114110,
-      "length": 20,
-      "value": "[\"ActionButtonCall\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 116498,
-      "length": 17,
-      "value": "[\"ImageTemplate\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 118846,
-      "length": 14,
-      "value": "[\"Dimensions\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 120583,
-      "length": 62,
-      "value": "[\"ActionButtonDefault\", \"ActionButtonUrl\", \"ActionButtonCall\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 123031,
-      "length": 23,
-      "value": "[\"ActionButtonDefault\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 125486,
-      "length": 19,
-      "value": "[\"ActionButtonUrl\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 127903,
-      "length": 20,
-      "value": "[\"ActionButtonCall\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 130306,
-      "length": 20,
-      "value": "[\"CarouselTemplate\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 132147,
-      "length": 27,
-      "value": "[\"CarouselTemplateElement\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 134991,
-      "length": 62,
-      "value": "[\"ActionButtonDefault\", \"ActionButtonUrl\", \"ActionButtonCall\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 137611,
-      "length": 23,
-      "value": "[\"ActionButtonDefault\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 140270,
-      "length": 19,
-      "value": "[\"ActionButtonUrl\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 142891,
-      "length": 20,
-      "value": "[\"ActionButtonCall\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 145428,
-      "length": 12,
-      "value": "[\"TypingOn\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 147091,
-      "length": 20,
-      "value": "[\"LocationTemplate\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 148710,
-      "length": 12,
-      "value": "[\"Location\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 150739,
-      "length": 17,
-      "value": "[\"VideoTemplate\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 152549,
-      "length": 62,
-      "value": "[\"ActionButtonDefault\", \"ActionButtonUrl\", \"ActionButtonCall\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 154997,
-      "length": 23,
-      "value": "[\"ActionButtonDefault\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 157452,
-      "length": 19,
-      "value": "[\"ActionButtonUrl\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 159869,
-      "length": 20,
-      "value": "[\"ActionButtonCall\"]"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GeneratedGraphQLAPI.swift",
-      "kind": "Array",
-      "offset": 162257,
-      "length": 17,
-      "value": "[\"AudioTemplate\"]"
+      "offset": 1668,
+      "length": 30,
+      "value": "\"Cannot parse upload response\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/Models\/QuickButtonsMessage.swift",
@@ -12164,13 +12301,6 @@
       "offset": 268,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/NetworkInterceptorProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 48,
-      "length": 26,
-      "value": "\"ZowieSDK.NetworkInterceptorProvider\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/CarouselTableViewCell.swift",
@@ -12306,13 +12436,6 @@
       "value": "15"
     },
     {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/CarouselTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 3889,
-      "length": 16,
-      "value": "\"ZowieSDK.CarouselItemView\""
-    },
-    {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GrapQLService.swift",
       "kind": "BooleanLiteral",
       "offset": 315,
@@ -12405,13 +12528,6 @@
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 4324,
-      "length": 12,
-      "value": "\"ZowieSDK.ImagePreview\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 7144,
       "length": 5,
@@ -12425,11 +12541,1040 @@
       "value": "8"
     },
     {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ImageTableViewCell.swift",
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/PersistentButtonsTemplate.graphql.swift",
       "kind": "StringLiteral",
-      "offset": 6717,
+      "offset": 208,
+      "length": 27,
+      "value": "\"PersistentButtonsTemplate\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/PersistentButtonsTemplate.graphql.swift",
+      "kind": "Array",
+      "offset": 264,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/ImageTemplate.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 15,
+      "value": "\"ImageTemplate\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/ImageTemplate.graphql.swift",
+      "kind": "Array",
+      "offset": 240,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/AudioTemplate.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 15,
+      "value": "\"AudioTemplate\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/AudioTemplate.graphql.swift",
+      "kind": "Array",
+      "offset": 240,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/UserMetadataError.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 13,
+      "value": "\"InvalidData\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Location.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 10,
+      "value": "\"Location\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Location.graphql.swift",
+      "kind": "Array",
+      "offset": 230,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/Status.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 164,
+      "length": 6,
+      "value": "\"Read\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/Status.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 11,
+      "value": "\"Delivered\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/Status.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 6,
+      "value": "\"Sent\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/UserMetadata.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 14,
+      "value": "\"UserMetadata\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/UserMetadata.graphql.swift",
+      "kind": "Array",
+      "offset": 238,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Text.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 6,
+      "value": "\"Text\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Text.graphql.swift",
+      "kind": "Array",
+      "offset": 222,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/User.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 6,
+      "value": "\"User\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/User.graphql.swift",
+      "kind": "Array",
+      "offset": 222,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/VideoTemplate.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 15,
+      "value": "\"VideoTemplate\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/VideoTemplate.graphql.swift",
+      "kind": "Array",
+      "offset": 240,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/ActionButtonCall.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 199,
+      "length": 18,
+      "value": "\"ActionButtonCall\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/ActionButtonCall.graphql.swift",
+      "kind": "Array",
+      "offset": 246,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/SignInError.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 183,
+      "length": 20,
+      "value": "\"InvalidCredentials\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Token.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 7,
+      "value": "\"Token\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Token.graphql.swift",
+      "kind": "Array",
+      "offset": 224,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/UpdateMessagePreviewMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
       "length": 22,
-      "value": "\"ZowieSDK.MediaActionButtonsView\""
+      "value": "\"updateMessagePreview\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/UpdateMessagePreviewMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
+      "length": 167,
+      "value": "\"mutation updateMessagePreview($conversationId: String!, $previewText: String!) { updateMessagePreview(conversationId: $conversationId, previewText: $previewText) }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/Ratio.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 12,
+      "value": "\"Horizontal\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/Ratio.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 10,
+      "value": "\"Vertical\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/Ratio.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 8,
+      "value": "\"Square\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/MetadataMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 10,
+      "value": "\"metadata\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/MetadataMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 487,
+      "value": "\"mutation metadata($conversationId: String!, $firstName: String, $lastName: String, $name: String, $imageFileId: String, $locale: String, $timeZone: String, $phoneNumber: String, $email: String, $customParams: [CustomParamInput!]) { metadata( conversationId: $conversationId firstName: $firstName lastName: $lastName name: $name imageFileId: $imageFileId locale: $locale timeZone: $timeZone phoneNumber: $phoneNumber email: $email customParams: $customParams ) { __typename errors } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/SignUpMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 8,
+      "value": "\"signUp\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/SignUpMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 108,
+      "value": "\"mutation signUp($instanceId: String!) { signup(instanceId: $instanceId) { __typename userId password } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/DeliveredMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 11,
+      "value": "\"delivered\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/DeliveredMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 122,
+      "value": "\"mutation delivered($time: Long!, $conversationId: String!) { delivered(time: $time, conversationId: $conversationId) }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Subscription.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 14,
+      "value": "\"Subscription\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Subscription.graphql.swift",
+      "kind": "Array",
+      "offset": 238,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/ContextMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 199,
+      "length": 9,
+      "value": "\"context\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/ContextMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 305,
+      "length": 135,
+      "value": "\"mutation context($conversationId: String!, $contextId: String!) { context(conversationId: $conversationId, contextId: $contextId) }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/TypingOff.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 11,
+      "value": "\"TypingOff\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/TypingOff.graphql.swift",
+      "kind": "Array",
+      "offset": 232,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/SendReferralMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 204,
+      "length": 14,
+      "value": "\"sendReferral\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/SendReferralMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 315,
+      "length": 183,
+      "value": "\"mutation sendReferral($conversationId: String!, $referralId: String!) { sendReferral(conversationId: $conversationId, referralId: $referralId) { __typename ...MessageInterface } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Subscriptions\/NewMessageSubscription.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 210,
+      "length": 12,
+      "value": "\"NewMessage\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Subscriptions\/NewMessageSubscription.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 319,
+      "length": 136,
+      "value": "\"subscription NewMessage($conversationId: String!) { newMessage(conversationId: $conversationId) { __typename ...MessageInterface } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 6,
+      "value": "\"JPEG\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 5,
+      "value": "\"PNG\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 5,
+      "value": "\"GIF\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 224,
+      "length": 5,
+      "value": "\"MP4\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 5,
+      "value": "\"PDF\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 262,
+      "length": 5,
+      "value": "\"MP3\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 281,
+      "length": 5,
+      "value": "\"AAC\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 300,
+      "length": 5,
+      "value": "\"DOC\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 320,
+      "length": 6,
+      "value": "\"DOCX\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 340,
+      "length": 5,
+      "value": "\"TXT\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 359,
+      "length": 5,
+      "value": "\"ZIP\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 378,
+      "length": 5,
+      "value": "\"RAR\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 398,
+      "length": 6,
+      "value": "\"ZIP7\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 419,
+      "length": 6,
+      "value": "\"HTML\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 439,
+      "length": 5,
+      "value": "\"SPX\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 5,
+      "value": "\"MOV\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 477,
+      "length": 5,
+      "value": "\"AVI\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 5,
+      "value": "\"XLS\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 6,
+      "value": "\"XLSX\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/FileType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 536,
+      "length": 5,
+      "value": "\"CSV\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/NotificationResult.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 20,
+      "value": "\"NotificationResult\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/NotificationResult.graphql.swift",
+      "kind": "Array",
+      "offset": 250,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Pagination.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 12,
+      "value": "\"Pagination\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Pagination.graphql.swift",
+      "kind": "Array",
+      "offset": 234,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/WidgetConfig.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 14,
+      "value": "\"WidgetConfig\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/WidgetConfig.graphql.swift",
+      "kind": "Array",
+      "offset": 238,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/UrlButtonTemplate.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 19,
+      "value": "\"UrlButtonTemplate\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/UrlButtonTemplate.graphql.swift",
+      "kind": "Array",
+      "offset": 248,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Queries\/WidgetConfigQuery.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 14,
+      "value": "\"WidgetConfig\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Queries\/WidgetConfigQuery.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 72,
+      "value": "\"query WidgetConfig { widgetConfig { __typename status whitelabel } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/InactiveMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 10,
+      "value": "\"inactive\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/InactiveMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 115,
+      "value": "\"mutation inactive($conversationId: String!) { inactive(conversationId: $conversationId) { __typename errors } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/WidgetStatus.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 172,
+      "length": 8,
+      "value": "\"Active\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/WidgetStatus.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 12,
+      "value": "\"OutOfOrder\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/SignInResult.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 14,
+      "value": "\"SignInResult\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/SignInResult.graphql.swift",
+      "kind": "Array",
+      "offset": 238,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/ActionButtonDefault.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 21,
+      "value": "\"ActionButtonDefault\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/ActionButtonDefault.graphql.swift",
+      "kind": "Array",
+      "offset": 252,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/NotificationError.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 19,
+      "value": "\"InvalidParameters\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/DisableNotificationsMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 212,
+      "length": 22,
+      "value": "\"disableNotifications\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/DisableNotificationsMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 331,
+      "length": 139,
+      "value": "\"mutation disableNotifications($conversationId: String!) { disableNotifications(conversationId: $conversationId) { __typename errors } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Unions\/ActionButton.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 14,
+      "value": "\"ActionButton\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/EnableAppleViaFcmNotificationsMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 32,
+      "value": "\"enableAppleViaFcmNotifications\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/EnableAppleViaFcmNotificationsMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 201,
+      "value": "\"mutation enableAppleViaFcmNotifications($conversationId: String!, $deviceId: String!) { enableAppleViaFcmNotifications( conversationId: $conversationId deviceId: $deviceId ) { __typename errors } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Edge.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 6,
+      "value": "\"Edge\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Edge.graphql.swift",
+      "kind": "Array",
+      "offset": 222,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/AuthType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 5,
+      "value": "\"Raw\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/AuthType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 5,
+      "value": "\"Jwt\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/AuthType.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 211,
+      "length": 13,
+      "value": "\"Credentials\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Referral.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 10,
+      "value": "\"Referral\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Referral.graphql.swift",
+      "kind": "Array",
+      "offset": 230,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Announcement.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 14,
+      "value": "\"Announcement\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Announcement.graphql.swift",
+      "kind": "Array",
+      "offset": 238,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/ActiveMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 8,
+      "value": "\"active\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/ActiveMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 161,
+      "value": "\"mutation active($conversationId: String!, $tabActivity: Boolean) { active(conversationId: $conversationId, tabActivity: $tabActivity) { __typename errors } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/SendTextMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 10,
+      "value": "\"sendText\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/SendTextMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 157,
+      "value": "\"mutation sendText($conversationId: String!, $text: String!) { sendText(conversationId: $conversationId, text: $text) { __typename ...MessageInterface } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Unions\/Payload.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 177,
+      "length": 9,
+      "value": "\"Payload\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/AnnouncementVisibility.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 186,
+      "length": 12,
+      "value": "\"Persistent\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Enums\/AnnouncementVisibility.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 218,
+      "length": 11,
+      "value": "\"Temporary\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/File.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 6,
+      "value": "\"File\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/File.graphql.swift",
+      "kind": "Array",
+      "offset": 222,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Button.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 8,
+      "value": "\"Button\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Button.graphql.swift",
+      "kind": "Array",
+      "offset": 226,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/QuickButtonsTemplate.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 203,
+      "length": 22,
+      "value": "\"QuickButtonsTemplate\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/QuickButtonsTemplate.graphql.swift",
+      "kind": "Array",
+      "offset": 254,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Mutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 10,
+      "value": "\"Mutation\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Mutation.graphql.swift",
+      "kind": "Array",
+      "offset": 230,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Queries\/MessagesQuery.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 10,
+      "value": "\"Messages\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Queries\/MessagesQuery.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 301,
+      "length": 260,
+      "value": "\"query Messages($conversationId: String!, $offset: Long!, $entriesPerPage: Int!) { messages( conversationId: $conversationId offset: $offset entriesPerPage: $entriesPerPage ) { __typename next edges { __typename node { __typename ...MessageInterface } } } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/SendFileMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 10,
+      "value": "\"sendFile\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/SendFileMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 163,
+      "value": "\"mutation sendFile($conversationId: String!, $fileId: String!) { sendFile(conversationId: $conversationId, fileId: $fileId) { __typename ...MessageInterface } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/CarouselTemplate.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 199,
+      "length": 18,
+      "value": "\"CarouselTemplate\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/CarouselTemplate.graphql.swift",
+      "kind": "Array",
+      "offset": 246,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/ActionButtonUrl.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 17,
+      "value": "\"ActionButtonUrl\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/ActionButtonUrl.graphql.swift",
+      "kind": "Array",
+      "offset": 244,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/LocationTemplate.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 199,
+      "length": 18,
+      "value": "\"LocationTemplate\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/LocationTemplate.graphql.swift",
+      "kind": "Array",
+      "offset": 246,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/SignInMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 198,
+      "length": 8,
+      "value": "\"signIn\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/SignInMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
+      "length": 323,
+      "value": "\"mutation signIn($appId: String!, $instanceId: String!, $authorId: String!, $authType: AuthType!, $authToken: String, $password: String) { signin( instanceId: $instanceId appId: $appId authorId: $authorId authType: $authType authToken: $authToken password: $password ) { __typename result { __typename token } errors } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/SendButtonMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 12,
+      "value": "\"sendButton\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/SendButtonMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 311,
+      "length": 173,
+      "value": "\"mutation sendButton($conversationId: String!, $buttonId: String!) { sendButton(conversationId: $conversationId, buttonId: $buttonId) { __typename ...MessageInterface } }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/CallButtonTemplate.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 20,
+      "value": "\"CallButtonTemplate\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/CallButtonTemplate.graphql.swift",
+      "kind": "Array",
+      "offset": 250,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/QuickButton.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 13,
+      "value": "\"QuickButton\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/QuickButton.graphql.swift",
+      "kind": "Array",
+      "offset": 236,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Dimensions.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 193,
+      "length": 12,
+      "value": "\"Dimensions\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Dimensions.graphql.swift",
+      "kind": "Array",
+      "offset": 234,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Query.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 188,
+      "length": 7,
+      "value": "\"Query\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Query.graphql.swift",
+      "kind": "Array",
+      "offset": 224,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/CarouselTemplateElement.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 25,
+      "value": "\"CarouselTemplateElement\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/CarouselTemplateElement.graphql.swift",
+      "kind": "Array",
+      "offset": 260,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Message.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 190,
+      "length": 9,
+      "value": "\"Message\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/Message.graphql.swift",
+      "kind": "Array",
+      "offset": 228,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/UserMetadataResult.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 201,
+      "length": 20,
+      "value": "\"UserMetadataResult\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/UserMetadataResult.graphql.swift",
+      "kind": "Array",
+      "offset": 250,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/ReadMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 6,
+      "value": "\"read\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Operations\/Mutations\/ReadMutation.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 299,
+      "length": 112,
+      "value": "\"mutation read($time: Long!, $conversationId: String!) { read(time: $time, conversationId: $conversationId) }\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/AuthenticatedUser.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 19,
+      "value": "\"AuthenticatedUser\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/AuthenticatedUser.graphql.swift",
+      "kind": "Array",
+      "offset": 248,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/TypingOn.graphql.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 10,
+      "value": "\"TypingOn\""
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/TypingOn.graphql.swift",
+      "kind": "Array",
+      "offset": 230,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/GraphQLMessageParser.swift",
@@ -12558,58 +13703,86 @@
       "value": "8"
     },
     {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/QuickButtonsTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 5099,
-      "length": 16,
-      "value": "\"ZowieSDK.QuickButtonsView\""
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/Models\/FileMessage.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1717,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 451,
+      "offset": 405,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 465,
+      "offset": 419,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 481,
+      "offset": 435,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 498,
+      "offset": 452,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 676,
+      "offset": 630,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 880,
-      "length": 19,
-      "value": "\"TypingOnAnimation\""
+      "kind": "BooleanLiteral",
+      "offset": 886,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 2584,
+      "length": 3,
+      "value": "6.0"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 2626,
+      "length": 3,
+      "value": "3.0"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
+      "kind": "Array",
+      "offset": 2663,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
+      "kind": "FloatLiteral",
+      "offset": 2716,
+      "length": 3,
+      "value": "0.3"
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/TypingOnTableViewCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1039,
+      "offset": 2860,
       "length": 5,
       "value": "false"
     },
@@ -12811,13 +13984,6 @@
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 3308,
-      "length": 17,
-      "value": "\"ZowieSDK.ActionContentView\""
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
       "kind": "BooleanLiteral",
       "offset": 6251,
       "length": 5,
@@ -12829,13 +13995,6 @@
       "offset": 6291,
       "length": 2,
       "value": "14"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/ActionButtonsTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 5989,
-      "length": 16,
-      "value": "\"ZowieSDK.ActionButtonView\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
@@ -12971,13 +14130,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Cells\/VideoTableViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 4125,
-      "length": 12,
-      "value": "\"ZowieSDK.VideoPreview\""
-    },
-    {
       "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Store.swift",
       "kind": "StringLiteral",
       "offset": 2467,
@@ -12997,13 +14149,6 @@
       "offset": 246,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/szymonwojcik\/Desktop\/dev\/ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/FullScreenImageViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 26,
-      "length": 29,
-      "value": "\"ZowieSDK.FullScreenImageViewController\""
     },
     {
       "filePath": "\/Users\/szymonwojcik\/Library\/Developer\/Xcode\/DerivedData\/ZowieSDK-fkigyzgjnmokmpfjocmmwsdwlyln\/Build\/Intermediates.noindex\/ArchiveIntermediates\/ZowieSDK\/IntermediateBuildFilesPath\/ZowieSDK.build\/Release-iphoneos\/ZowieSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",

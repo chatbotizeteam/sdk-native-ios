@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		+FA/yJ6GOiRhUlC0een4SRAOpys=
+		tdGhDGnjWhl9h4Zdi4nZ/wNImiY=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Evt5RBcBlLYPgAqTfS/pp+vuutM=
+		CSFPQl3IVFKagA6PhXTDtW4i41Y=
 		</data>
 		<key>Inter-Medium.otf</key>
 		<data>
@@ -26,47 +26,43 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		nw5cvUktMxcEAEuE7BB4HD3SHH8=
+		b7vmzqDM8tJ64g5t0AOW//p1vSA=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		YvR6mHyZPXxS5F5jSDe3zFhzSyo=
+		Lrp4gdQlCUbu+ZBWaWIwfzU3tTE=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		E93ER4349HwRBCK/s6GCwzc37tQ=
+		S3vWUhyciwgW9/tiCS3uAijoXPE=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YvR6mHyZPXxS5F5jSDe3zFhzSyo=
+		Lrp4gdQlCUbu+ZBWaWIwfzU3tTE=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dK/ahESPxDL794aja8IhO2COHuM=
+		78lY1pb5b7Hw71ywGX7UkApJwHc=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		nw5cvUktMxcEAEuE7BB4HD3SHH8=
+		b7vmzqDM8tJ64g5t0AOW//p1vSA=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		0ijvmWkLyiIS6bQGawknIurEErU=
+		KTWwadftC0+l9Tmq2n0fTFhV4Xc=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		glIm1bAqEA7d5ubZfZx2gwbPxik=
+		ZdRVOoNfC9TU2Qvy3q0CrC0yZ98=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		0ijvmWkLyiIS6bQGawknIurEErU=
+		KTWwadftC0+l9Tmq2n0fTFhV4Xc=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		yAq7Cl0qz0T1mKNAlyoUfH5sgLQ=
-		</data>
-		<key>TypingOnAnimation.json</key>
-		<data>
-		j+elGVC6Af6lnLQKfkQtyNJhoiE=
+		h2xKi8M5VopJecWtyyQ9V4uOuyc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -75,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JXl+Uq9Cbuc/+6Fhgb+sBHMa36g6xig2ML/YJXkMltU=
+			FPJZjvviV7N/WquPGRao3jR10LLaRqtmTJKskRpJRQg=
 			</data>
 		</dict>
 		<key>Inter-Medium.otf</key>
@@ -103,77 +99,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O/Wroa0idzHFaBMNe1GmaSuFPI8ywpN1LpRqsjy2zOM=
+			C5IztAwoA777Y0N/tYgLHAqtVs1azQHxVNjLz3SGkZA=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eh24gfRbmfDgyZGpuAW3AaZTzsTPw3WV5H18pQnIeJE=
+			XwYTcBRGHekhOXQgxV0eAupxy1GkzlNYIE8qbc/sQDo=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QisI9DGVK73LfxTRZb+xVuAYCDW/KAfCo1a9Y0aTfkk=
+			5ZpEEMI7NQcUrk+XETyVtFGr/qdXo8SGFkYcKWt59o4=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eh24gfRbmfDgyZGpuAW3AaZTzsTPw3WV5H18pQnIeJE=
+			XwYTcBRGHekhOXQgxV0eAupxy1GkzlNYIE8qbc/sQDo=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f94rhma/MKPEN2Nu9UTTm0vuAS6svynB0aPpitn9Rcw=
+			2y9RJdJcXjro+wXMYcwpFmuHuea/8CuOcSWOSUB58TY=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O/Wroa0idzHFaBMNe1GmaSuFPI8ywpN1LpRqsjy2zOM=
+			C5IztAwoA777Y0N/tYgLHAqtVs1azQHxVNjLz3SGkZA=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3xDfMRgoacT0AfPrYxeGkeP3yIjf4diudg66xPq5Ufg=
+			f0E9zU7n2VXr0koDQkxVz/JvO18pHdYQbDFp8jqn+Lc=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YVIIezpy3UkegU2u0B/dwlQ6pVEVl6CqNDHw501TMbE=
+			gfjgCVNa4+N4gZIahcw4/5hTRvFvntHfi5RgmCWTxs0=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3xDfMRgoacT0AfPrYxeGkeP3yIjf4diudg66xPq5Ufg=
+			f0E9zU7n2VXr0koDQkxVz/JvO18pHdYQbDFp8jqn+Lc=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q1PElC8KL7VVZUYf2enRFRFRV8WHK4JeC1FaWSSVuSA=
-			</data>
-		</dict>
-		<key>TypingOnAnimation.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pyot2SKs7aycP/Ofu4wvcyYRplcGWY6W3PLKsd98hGw=
+			+DFJvcGYVJ0CihG9/DSmghVQaBBKWVnw4TKVMTVxRL8=
 			</data>
 		</dict>
 	</dict>

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "ZowieSDK"
-  spec.version      = "0.0.21"
+  spec.version      = "0.0.22"
   spec.summary      = "Zowie chat SDK."
 
   spec.homepage     = "https://docs.getzowie.com"
@@ -29,10 +29,9 @@ Pod::Spec.new do |spec|
 
   spec.pod_target_xcconfig = { 'BUILD_LIBRARY_FOR_DISTRIBUTION' => 'YES' }
 
-  spec.dependency "Apollo", "~> 0.49.1"
-  spec.dependency "Apollo/WebSocket", "~> 0.49.1"
+  spec.dependency "Apollo", "~> 1.0"
+  spec.dependency "Apollo/WebSocket", "~> 1.0"
   spec.dependency "Kingfisher", "~> 7.0"
-  spec.dependency "lottie-ios", "4.4.1"
 
 end
 
