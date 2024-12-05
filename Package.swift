@@ -21,12 +21,7 @@ let package = Package(
         .package(
             name: "Apollo",
             url: "https://github.com/apollographql/apollo-ios",
-            .exact("0.49.1")
-        ),
-        .package(
-            name: "Lottie",
-            url: "https://github.com/airbnb/lottie-ios",
-            .exact("4.4.1")
+            .upToNextMajor(from: "1.0.0")
         )
     ],
     targets: [
@@ -39,8 +34,8 @@ let package = Package(
             dependencies: [
                 .target(name: "ZowieSDK"),
                 .product(name: "Kingfisher", package: "Kingfisher"),
-                .product(name: "Lottie", package: "Lottie"),
                 .product(name: "Apollo", package: "Apollo"),
+                .product(name: "ApolloAPI", package: "Apollo"),
                 .product(name: "ApolloWebSocket", package: "Apollo"),
             ],
             path: "Sources"
