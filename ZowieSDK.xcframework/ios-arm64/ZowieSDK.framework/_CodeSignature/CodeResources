@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		tdGhDGnjWhl9h4Zdi4nZ/wNImiY=
+		noeYd1IZKKDzf51U4Dm/Ci1De4Q=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iwZbRXPFIIvjmf94iWMOa++4ORo=
+		RI9BgRKThvG1O/0lz2CE8nmyxmc=
 		</data>
 		<key>Inter-Medium.otf</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		YpOPup6XDqnIlR+3Ef37mZuS0+E=
+		Uuyx8+Dv3cu8TVeaoV4hycLAAg4=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		NAb0JI3qO0MrtWrxw3qzQdwWwD4=
+		iK6zurOWNh1dZYuUD4ovOI70EuM=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		YpOPup6XDqnIlR+3Ef37mZuS0+E=
+		Uuyx8+Dv3cu8TVeaoV4hycLAAg4=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		LH7XXc9qeYIn4EwWPAxvGtdQXSY=
+		/rqZ90GNQ9hoDYNtH01Swn2+T2s=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FPJZjvviV7N/WquPGRao3jR10LLaRqtmTJKskRpJRQg=
+			S9GEZbiuCS0RJjZjSZi3IPgY+27qtwtVL1O1JBYQ2ew=
 			</data>
 		</dict>
 		<key>Inter-Medium.otf</key>
@@ -86,28 +86,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BD51cA07L6B1YkyVzXVh6H1emFtp8A8bhcWSjFiRpRc=
+			SLWoKNXByrlhLcvmWSyk6WdvBkqQQZkQcPOvH6Jn7pc=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			autehAhFmlFQCwA7CcaNPDrCSOtdeW7CYOy5MrWnkO8=
+			d9CXE0ia9YSfjUb0IlWjTI+Vxr5NSJD1h/Yy8aOr1ZM=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BD51cA07L6B1YkyVzXVh6H1emFtp8A8bhcWSjFiRpRc=
+			SLWoKNXByrlhLcvmWSyk6WdvBkqQQZkQcPOvH6Jn7pc=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xUf4xCB0Dj1C4g1cx9+IpO2GPqMrsApad7Ps1zNBOwY=
+			oSKjnl8X8dsQ0VAReUogcuFkOdGqztSo96y3kFdk9pg=
 			</data>
 		</dict>
 	</dict>
