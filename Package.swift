@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "ZowieChatSDK",
-    platforms: [.iOS(.v12)],
+    platforms: [.iOS(.v13)],
     products: [
         .library(
             name: "ZowieChatSDK",
@@ -16,7 +16,7 @@ let package = Package(
         .package(
             name: "Kingfisher",
             url: "https://github.com/onevcat/Kingfisher.git",
-            .upToNextMajor(from: "7.8.0")
+            .upToNextMajor(from: "8.0.0")
         ),
         .package(
             name: "Apollo",
