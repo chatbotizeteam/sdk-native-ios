@@ -14,11 +14,6 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            name: "Kingfisher",
-            url: "https://github.com/onevcat/Kingfisher.git",
-            .upToNextMajor(from: "8.0.0")
-        ),
-        .package(
             name: "Apollo",
             url: "https://github.com/apollographql/apollo-ios",
             .upToNextMajor(from: "1.0.0")
@@ -33,7 +28,6 @@ let package = Package(
             name: "ZowieSDKTargets",
             dependencies: [
                 .target(name: "ZowieSDK"),
-                .product(name: "Kingfisher", package: "Kingfisher"),
                 .product(name: "Apollo", package: "Apollo"),
                 .product(name: "ApolloAPI", package: "Apollo"),
                 .product(name: "ApolloWebSocket", package: "Apollo"),

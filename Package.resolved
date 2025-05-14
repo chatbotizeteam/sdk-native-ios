@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Apollo",
+        "repositoryURL": "https://github.com/apollographql/apollo-ios",
+        "state": {
+          "branch": null,
+          "revision": "6ecc75281dab2fa231cb0d5fed3a3713826fecae",
+          "version": "1.21.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
