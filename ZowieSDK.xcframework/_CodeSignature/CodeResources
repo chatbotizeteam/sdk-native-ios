@@ -10,7 +10,7 @@
 		</data>
 		<key>ios-arm64/ZowieSDK.framework/Info.plist</key>
 		<data>
-		RI9BgRKThvG1O/0lz2CE8nmyxmc=
+		xb7X1ozpHyKYBFBpuwmRX355inE=
 		</data>
 		<key>ios-arm64/ZowieSDK.framework/Inter-Medium.otf</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>ios-arm64/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Ts6XBC9C5hqCuM3xr60XhaWUDXg=
+		IUv+AWQM8QjFDoMhnisfBnHGK1E=
 		</data>
 		<key>ios-arm64/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ZvWBMUe9g/8mls+9UbF9dO2WOWQ=
+		ECuhWMaBzqA6lXwsPm/kK6xXpI4=
 		</data>
 		<key>ios-arm64/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>ios-arm64/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ZvWBMUe9g/8mls+9UbF9dO2WOWQ=
+		ECuhWMaBzqA6lXwsPm/kK6xXpI4=
 		</data>
 		<key>ios-arm64/ZowieSDK.framework/TypingOnAnimation.json</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>ios-arm64/ZowieSDK.framework/ZowieSDK</key>
 		<data>
-		tAC9SkdnIdqKOk9Ib7CHoudobB8=
+		HLmpTwrO4euuhn//tko+3k5JV38=
 		</data>
 		<key>ios-arm64/ZowieSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		wwkZEZuuIdECFy23A+p8dfpfPCw=
+		7t4QMZOGrU38sHhl9lqNq8xnyFY=
 		</data>
 		<key>ios-arm64/dSYMs/ZowieSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/ZowieSDK.framework.dSYM/Contents/Resources/DWARF/ZowieSDK</key>
 		<data>
-		kOSUGVtckC3OChYfGnghWELT2yE=
+		jvBLQnQdOUuLmjRh3wGS76F94m8=
 		</data>
 		<key>ios-arm64/dSYMs/ZowieSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/ZowieSDK.yml</key>
 		<data>
-		fZtSafyq8/Lx04ceHTFyIpCH02o=
+		Q/yMpEyfSUnCTShSnsQYrU6o7Cs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Assets.car</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Info.plist</key>
 		<data>
-		1mT6w74Lj+/DQ46i87kSUyJF7K8=
+		uhA9GW6+j89NoV5KCHfXgkkfgQM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Inter-Medium.otf</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+Nmqx6qeo6e2zQK8XzXuBNjQCEE=
+		KtJWS99wbQTx+zEkl0bEDByexMI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bpq/opsGk4nzuYjJ+i1Knh8aTWM=
+		WRv6Sdz17tEsM4STASsxHDe/ro0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -98,15 +98,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bpq/opsGk4nzuYjJ+i1Knh8aTWM=
+		WRv6Sdz17tEsM4STASsxHDe/ro0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+Nmqx6qeo6e2zQK8XzXuBNjQCEE=
+		KtJWS99wbQTx+zEkl0bEDByexMI=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vE3VLAsesrZtcHdtZyKBOKVIPjo=
+		yftxeXhph04CLzks5anvPVPkfbA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vE3VLAsesrZtcHdtZyKBOKVIPjo=
+		yftxeXhph04CLzks5anvPVPkfbA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/TypingOnAnimation.json</key>
 		<data>
@@ -122,11 +122,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/ZowieSDK</key>
 		<data>
-		IKvxpRhuFxHr6q8RyCb27FBTsHI=
+		aXaC6R4JzUOVsZ2MSoahBmsZ0vY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		yijSdLWvDACtGrBkRQRY7N+KPKQ=
+		Hf9Zrc3DCKOWSHaBak1iotOng2g=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/ZowieSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
@@ -134,15 +134,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/ZowieSDK.framework.dSYM/Contents/Resources/DWARF/ZowieSDK</key>
 		<data>
-		MGI+wF1K7ntrfiGe0bGsHxMSxys=
+		uW0+MA4KD5uTmeHvNw4QBNoPIJ8=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/ZowieSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/ZowieSDK.yml</key>
 		<data>
-		RFKKtxQaHJtGP0sLpGGpFLUeIbc=
+		XrIJaZfG9ZyD8iRRW2PatPsRygU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/ZowieSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/ZowieSDK.yml</key>
 		<data>
-		oM/B1xf6t0CxNb7qNlhXds3D7VY=
+		Ig4HWx8Mcb6gzEg2+4yuJeu2t+A=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -162,11 +162,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RI9BgRKThvG1O/0lz2CE8nmyxmc=
+			xb7X1ozpHyKYBFBpuwmRX355inE=
 			</data>
 			<key>hash2</key>
 			<data>
-			WeQ/IjSkXa07m+Vxrhbse9zPdsZxsC+MC2/T4LRrtKU=
+			QnHZAfdmatmWQOJ+ZQpe9hRone1ZJsl90HfAVC1p7eY=
 			</data>
 		</dict>
 		<key>ios-arm64/ZowieSDK.framework/Inter-Medium.otf</key>
@@ -206,22 +206,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Ts6XBC9C5hqCuM3xr60XhaWUDXg=
+			IUv+AWQM8QjFDoMhnisfBnHGK1E=
 			</data>
 			<key>hash2</key>
 			<data>
-			X0AesQulgUkITZqJ6r2qC55GCGkRra8cpZvAiPir2GE=
+			BG2S2EmA3mjAFS49rfnd0hBkj2qTHaLhAELj/vciLJI=
 			</data>
 		</dict>
 		<key>ios-arm64/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZvWBMUe9g/8mls+9UbF9dO2WOWQ=
+			ECuhWMaBzqA6lXwsPm/kK6xXpI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			NxUir0KYVBx5+W0o/bqJA4lgcX7pkamVT+8DfK4hvOw=
+			9DfTSb7V/xpoByHADtViGwV2oC2+mtaiRQhD2Q6/Y0c=
 			</data>
 		</dict>
 		<key>ios-arm64/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -239,11 +239,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZvWBMUe9g/8mls+9UbF9dO2WOWQ=
+			ECuhWMaBzqA6lXwsPm/kK6xXpI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			NxUir0KYVBx5+W0o/bqJA4lgcX7pkamVT+8DfK4hvOw=
+			9DfTSb7V/xpoByHADtViGwV2oC2+mtaiRQhD2Q6/Y0c=
 			</data>
 		</dict>
 		<key>ios-arm64/ZowieSDK.framework/TypingOnAnimation.json</key>
@@ -261,22 +261,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tAC9SkdnIdqKOk9Ib7CHoudobB8=
+			HLmpTwrO4euuhn//tko+3k5JV38=
 			</data>
 			<key>hash2</key>
 			<data>
-			sendkp54KYx0fqZ+7gyOrTCtpKFKBoixrw2h5TrDHjI=
+			FGVeRFU2A4H1vyinPzgWxRywT7beupjHdAvfxU8aSyc=
 			</data>
 		</dict>
 		<key>ios-arm64/ZowieSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wwkZEZuuIdECFy23A+p8dfpfPCw=
+			7t4QMZOGrU38sHhl9lqNq8xnyFY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ji0MXkjFEf91HquXFg4jFx4eewsJcWCAZX8BItrFyNA=
+			peoFwNOmwCzlAZkz4d6qHkt/QxWhcb0V6irG27I/FGM=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/ZowieSDK.framework.dSYM/Contents/Info.plist</key>
@@ -294,22 +294,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kOSUGVtckC3OChYfGnghWELT2yE=
+			jvBLQnQdOUuLmjRh3wGS76F94m8=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ncs5xQALHvShG1BhQeNJj86rm+ZUKv+IWU8Kdmq2oAc=
+			ejid5iSNq3s6m/Wj9IkpMfuKOq9siEQck9Yhdr5wmTo=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/ZowieSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/ZowieSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fZtSafyq8/Lx04ceHTFyIpCH02o=
+			Q/yMpEyfSUnCTShSnsQYrU6o7Cs=
 			</data>
 			<key>hash2</key>
 			<data>
-			uUQt7YnJ9jLOOl3YtEjQuo5OU4GV4Vq5tVoMjRSeL38=
+			clw1wt5I5E/84TdB5Fmkbb349c9nX7+pwKeUWVacgpQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Assets.car</key>
@@ -327,11 +327,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1mT6w74Lj+/DQ46i87kSUyJF7K8=
+			uhA9GW6+j89NoV5KCHfXgkkfgQM=
 			</data>
 			<key>hash2</key>
 			<data>
-			czAbcLPPS6H0NpFEv2QcNg1DNuSzcr1kV81ArLtLgfg=
+			//R6XhHV1RoX3R9q1viSaeL27hfwsvuYRsb91/XqomU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Inter-Medium.otf</key>
@@ -371,22 +371,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+Nmqx6qeo6e2zQK8XzXuBNjQCEE=
+			KtJWS99wbQTx+zEkl0bEDByexMI=
 			</data>
 			<key>hash2</key>
 			<data>
-			XqGFPs8mMUT4vAmW+GPZ/qtwEiBNJryocehE2qNAYlo=
+			KRLtiqJYISTpNz3SZGM1DoL25cl26EVsaJSioDqJ0J4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bpq/opsGk4nzuYjJ+i1Knh8aTWM=
+			WRv6Sdz17tEsM4STASsxHDe/ro0=
 			</data>
 			<key>hash2</key>
 			<data>
-			vOYuLNZn//Q1laltl+KHDTVwnEtMXa7wOBgysYEbiVg=
+			b1vhT/ZMjtU/PU624/svnoZeYgP6DqJR+xQ+rxoqgfw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -404,33 +404,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bpq/opsGk4nzuYjJ+i1Knh8aTWM=
+			WRv6Sdz17tEsM4STASsxHDe/ro0=
 			</data>
 			<key>hash2</key>
 			<data>
-			vOYuLNZn//Q1laltl+KHDTVwnEtMXa7wOBgysYEbiVg=
+			b1vhT/ZMjtU/PU624/svnoZeYgP6DqJR+xQ+rxoqgfw=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+Nmqx6qeo6e2zQK8XzXuBNjQCEE=
+			KtJWS99wbQTx+zEkl0bEDByexMI=
 			</data>
 			<key>hash2</key>
 			<data>
-			XqGFPs8mMUT4vAmW+GPZ/qtwEiBNJryocehE2qNAYlo=
+			KRLtiqJYISTpNz3SZGM1DoL25cl26EVsaJSioDqJ0J4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vE3VLAsesrZtcHdtZyKBOKVIPjo=
+			yftxeXhph04CLzks5anvPVPkfbA=
 			</data>
 			<key>hash2</key>
 			<data>
-			khnXT73xGsMLschrbWt7Z14znLp97GwGCQoDkXYArNA=
+			PZwkTmMdKCzZub0OF8Jsq4AATPkD7RIzaw3PzQmF4Jk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -448,11 +448,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			vE3VLAsesrZtcHdtZyKBOKVIPjo=
+			yftxeXhph04CLzks5anvPVPkfbA=
 			</data>
 			<key>hash2</key>
 			<data>
-			khnXT73xGsMLschrbWt7Z14znLp97GwGCQoDkXYArNA=
+			PZwkTmMdKCzZub0OF8Jsq4AATPkD7RIzaw3PzQmF4Jk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/TypingOnAnimation.json</key>
@@ -470,22 +470,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IKvxpRhuFxHr6q8RyCb27FBTsHI=
+			aXaC6R4JzUOVsZ2MSoahBmsZ0vY=
 			</data>
 			<key>hash2</key>
 			<data>
-			EW/OQLGWJ918Gkudm6VOLOxLFDL/aIQD1zmEy3zHaDY=
+			BuNmaH7aYcnHQp+uOF20PD7yNaT29Ea61JHC93sJll4=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ZowieSDK.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yijSdLWvDACtGrBkRQRY7N+KPKQ=
+			Hf9Zrc3DCKOWSHaBak1iotOng2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			sfQarsu2l4hWFwthubpBVdia7AktsuXLKjlNxe35Acc=
+			QsjtDPSITBEqSnsxN3FPEPCOgMTL/RNnG9VNkbEhw9s=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/ZowieSDK.framework.dSYM/Contents/Info.plist</key>
@@ -503,33 +503,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MGI+wF1K7ntrfiGe0bGsHxMSxys=
+			uW0+MA4KD5uTmeHvNw4QBNoPIJ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			nM4xABHYLFg7IathFkb+8E2GFKtiSwpNxBxy3VBvXEE=
+			rBcENfod8l3mAQErZmWzp2farpheaReHBvZuqz8cwqU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/ZowieSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/ZowieSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RFKKtxQaHJtGP0sLpGGpFLUeIbc=
+			XrIJaZfG9ZyD8iRRW2PatPsRygU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Xy3xlYugi0oMUtltxZLoEP3TMIqxFvQU6fOVF54nh30=
+			sGrBVJjRpUJ4OKhfJdTvRSdDEsptldUb4uButI2sKpk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/ZowieSDK.framework.dSYM/Contents/Resources/Relocations/x86_64/ZowieSDK.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oM/B1xf6t0CxNb7qNlhXds3D7VY=
+			Ig4HWx8Mcb6gzEg2+4yuJeu2t+A=
 			</data>
 			<key>hash2</key>
 			<data>
-			G9SamKL0S6lY0ZzGwUyREYiHxEjiA7cxG2OFgqKuzmw=
+			4VJ+GjxPiATFK6ofP7HXA8JAK9Jevp0zpi3c+ETPRdY=
 			</data>
 		</dict>
 	</dict>

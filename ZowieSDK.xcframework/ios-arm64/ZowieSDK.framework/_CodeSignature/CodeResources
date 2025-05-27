@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RI9BgRKThvG1O/0lz2CE8nmyxmc=
+		xb7X1ozpHyKYBFBpuwmRX355inE=
 		</data>
 		<key>Inter-Medium.otf</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		Ts6XBC9C5hqCuM3xr60XhaWUDXg=
+		IUv+AWQM8QjFDoMhnisfBnHGK1E=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		ZvWBMUe9g/8mls+9UbF9dO2WOWQ=
+		ECuhWMaBzqA6lXwsPm/kK6xXpI4=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ZvWBMUe9g/8mls+9UbF9dO2WOWQ=
+		ECuhWMaBzqA6lXwsPm/kK6xXpI4=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ySTIBx/CsF/UpXAVmz98zpqZufI=
+		/AwY6JGqlqyHrqh0/DUVG6VwZAA=
 		</data>
 		<key>TypingOnAnimation.json</key>
 		<data>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X0AesQulgUkITZqJ6r2qC55GCGkRra8cpZvAiPir2GE=
+			BG2S2EmA3mjAFS49rfnd0hBkj2qTHaLhAELj/vciLJI=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NxUir0KYVBx5+W0o/bqJA4lgcX7pkamVT+8DfK4hvOw=
+			9DfTSb7V/xpoByHADtViGwV2oC2+mtaiRQhD2Q6/Y0c=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -104,14 +104,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NxUir0KYVBx5+W0o/bqJA4lgcX7pkamVT+8DfK4hvOw=
+			9DfTSb7V/xpoByHADtViGwV2oC2+mtaiRQhD2Q6/Y0c=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9voPZ21WGbT7U7SY08uwTmazryCtKkCUlC2qreL1k10=
+			BxpGACm7lyBw02hvWRk9B7faV8xMP8s9XJf/JVpKqng=
 			</data>
 		</dict>
 		<key>TypingOnAnimation.json</key>

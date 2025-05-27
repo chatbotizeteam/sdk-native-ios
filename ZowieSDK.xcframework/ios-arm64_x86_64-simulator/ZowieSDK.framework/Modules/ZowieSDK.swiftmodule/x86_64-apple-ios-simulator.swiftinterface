@@ -60,7 +60,9 @@ public struct ZowieConfiguration {
   public let referralId: Swift.String?
   public let authType: ZowieSDK.ZowieConfiguration.AuthType
   public let chatHost: Swift.String
-  public init(instanceId: Swift.String, authType: ZowieSDK.ZowieConfiguration.AuthType, referralId: Swift.String? = nil, chatHost: Swift.String)
+  public let startOnOpen: Swift.Bool
+  public let sessionTimeout: (timeout: Swift.Int, onTimeout: () -> Swift.Void)?
+  public init(instanceId: Swift.String, authType: ZowieSDK.ZowieConfiguration.AuthType, referralId: Swift.String? = nil, chatHost: Swift.String, startOnOpen: Swift.Bool = true, sessionTimeout: (timeout: Swift.Int, onTimeout: () -> Swift.Void)? = nil)
 }
 extension ZowieSDK.ZowieConfiguration {
   public enum AuthType {
