@@ -9,30 +9,13 @@ let package = Package(
     products: [
         .library(
             name: "ZowieChatSDK",
-            targets: ["ZowieSDKTargets"]
+            targets: ["ZowieSDK"]
         ),
-    ],
-    dependencies: [
-        .package(
-            name: "Apollo",
-            url: "https://github.com/apollographql/apollo-ios",
-            .upToNextMajor(from: "1.0.0")
-        )
     ],
     targets: [
         .binaryTarget(
             name: "ZowieSDK",
             path: "ZowieSDK.xcframework"
-        ),
-        .target(
-            name: "ZowieSDKTargets",
-            dependencies: [
-                .target(name: "ZowieSDK"),
-                .product(name: "Apollo", package: "Apollo"),
-                .product(name: "ApolloAPI", package: "Apollo"),
-                .product(name: "ApolloWebSocket", package: "Apollo"),
-            ],
-            path: "Sources"
         )
     ]
 )
