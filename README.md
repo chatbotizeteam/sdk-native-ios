@@ -36,7 +36,11 @@ To be able to use Zowie SDK first of all you have to provide the configuration:
 let configuration = ZowieConfiguration(
     instanceId: "INSTANCE_ID",
     authType: .anonymous,
-    chatHost: "CHAT_HOST"
+    chatHost: "CHAT_HOST",
+    startOnOpen: true,
+    sessionTimeout: (timeout: 300, onTimeout: {
+            dismiss()
+        })
 )
 
 Zowie.shared.set(configuration: configuration)
