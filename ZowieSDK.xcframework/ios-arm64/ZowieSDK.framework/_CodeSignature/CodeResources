@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RI9BgRKThvG1O/0lz2CE8nmyxmc=
+		xb7X1ozpHyKYBFBpuwmRX355inE=
 		</data>
 		<key>Inter-Medium.otf</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		1Ofk1N6toDs/23k2eohFeruUSH4=
+		eNH1PdC1I6O7n5GxGKlvVQMZ/jo=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Uuyx8+Dv3cu8TVeaoV4hycLAAg4=
+		ECuhWMaBzqA6lXwsPm/kK6xXpI4=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Uuyx8+Dv3cu8TVeaoV4hycLAAg4=
+		ECuhWMaBzqA6lXwsPm/kK6xXpI4=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		/rqZ90GNQ9hoDYNtH01Swn2+T2s=
+		dpAMDh5ZKrE/u64YIyi1HFpouPQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -79,14 +79,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TB8OjViIx/cD3KRDdHwUMunHn87khLOFIB2vRX9qI9o=
+			NwESQb/LRpFSXdlxxb87mCovMCbaAMHBUta9MmiCkhc=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SLWoKNXByrlhLcvmWSyk6WdvBkqQQZkQcPOvH6Jn7pc=
+			9DfTSb7V/xpoByHADtViGwV2oC2+mtaiRQhD2Q6/Y0c=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -100,14 +100,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SLWoKNXByrlhLcvmWSyk6WdvBkqQQZkQcPOvH6Jn7pc=
+			9DfTSb7V/xpoByHADtViGwV2oC2+mtaiRQhD2Q6/Y0c=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oSKjnl8X8dsQ0VAReUogcuFkOdGqztSo96y3kFdk9pg=
+			6xKzlSGv0nXmleUyLDnOhKubo/DJ9PMYBqQPInrOHtQ=
 			</data>
 		</dict>
 	</dict>
