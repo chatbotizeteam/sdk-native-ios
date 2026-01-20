@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ZowieSDK
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ZowieSDK
+// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVKit
 import DeveloperToolsSupport
 import Foundation
@@ -51,7 +52,9 @@ extension ZowieSDK.ZowieChatViewController : UIKit.UITableViewDelegate, UIKit.UI
   @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, estimatedHeightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc final public func scrollViewWillBeginDragging(_ scrollView: UIKit.UIScrollView)
   @_Concurrency.MainActor @preconcurrency @objc final public func scrollViewDidEndScrollingAnimation(_ scrollView: UIKit.UIScrollView)
 }
@@ -62,7 +65,9 @@ public struct ZowieConfiguration {
   public let chatHost: Swift.String
   public let startOnOpen: Swift.Bool
   public let sessionTimeout: (timeout: Swift.Int, onTimeout: () -> Swift.Void)?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(instanceId: Swift.String, authType: ZowieSDK.ZowieConfiguration.AuthType, referralId: Swift.String? = nil, chatHost: Swift.String, startOnOpen: Swift.Bool = true, sessionTimeout: (timeout: Swift.Int, onTimeout: () -> Swift.Void)? = nil)
+  #endif
 }
 extension ZowieSDK.ZowieConfiguration {
   public enum AuthType {
@@ -71,7 +76,9 @@ extension ZowieSDK.ZowieConfiguration {
   }
 }
 public struct ZowieLayoutConfiguration {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(showConsultantAvatar: Swift.Bool? = nil, consultantNameMode: ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode? = nil, fileUploadButtonVisible: Swift.Bool? = nil, allowFileExtensions: [ZowieSDK.FileUploadType]? = nil)
+  #endif
 }
 extension ZowieSDK.ZowieLayoutConfiguration {
   public enum ConsultantNameMode {
@@ -135,7 +142,9 @@ public struct ZowieColors {
   public let typingAnimationTint: UIKit.UIColor
   public let messageDateTimeTint: UIKit.UIColor
   public let sectionDateTimeTint: UIKit.UIColor
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(background: UIKit.UIColor? = nil, text: UIKit.UIColor? = nil, textSecondary: UIKit.UIColor? = nil, textPlaceholder: UIKit.UIColor? = nil, textButtonTint: UIKit.UIColor? = nil, sendTextButtonTint: ZowieSDK.ZowieColor? = nil, separator: UIKit.UIColor? = nil, incomingMessageBackground: ZowieSDK.ZowieColor? = nil, incomingMessageTint: UIKit.UIColor? = nil, sentMessageBackground: ZowieSDK.ZowieColor? = nil, sentMessageTint: UIKit.UIColor? = nil, incomingLinks: UIKit.UIColor? = nil, sentLinks: UIKit.UIColor? = nil, deliveredLabelTint: UIKit.UIColor? = nil, readLabelTint: UIKit.UIColor? = nil, errorLabelTint: UIKit.UIColor? = nil, activityIndicatorTint: UIKit.UIColor? = nil, sentMessageActivityIndicator: UIKit.UIColor? = nil, incomingMessageActivityIndicator: UIKit.UIColor? = nil, videoActivityIndicator: UIKit.UIColor? = nil, quickButtonBackground: UIKit.UIColor? = nil, quickButtonSelectedBackground: UIKit.UIColor? = nil, quickButtonTint: UIKit.UIColor? = nil, quickButtonBorder: UIKit.UIColor? = nil, quickButtonSelectedBorder: UIKit.UIColor? = nil, actionButtonBackground: UIKit.UIColor? = nil, actionButtonSelectedBackground: UIKit.UIColor? = nil, actionButtonTint: UIKit.UIColor? = nil, actionButtonShadow: UIKit.UIColor? = nil, fileIconTint: ZowieSDK.ZowieColor? = nil, downloadFileIcon: UIKit.UIColor? = nil, fileSuccessIconTint: UIKit.UIColor? = nil, videoPlaceholder: UIKit.UIColor? = nil, videoButtonBackground: UIKit.UIColor? = nil, videoButtonIconTint: UIKit.UIColor? = nil, logoSelectedBackground: UIKit.UIColor? = nil, logoSelectedBorder: UIKit.UIColor? = nil, notificationFailureTint: UIKit.UIColor? = nil, notificationSuccessTint: UIKit.UIColor? = nil, notificationFailureBackground: UIKit.UIColor? = nil, notificationSuccessBackground: UIKit.UIColor? = nil, typingAnimationTint: UIKit.UIColor? = nil, messageAuthorNameLabelTint: UIKit.UIColor? = nil, announcementBackground: UIKit.UIColor? = nil, announcementBorder: UIKit.UIColor? = nil, announcementText: UIKit.UIColor? = nil, announcementIconTint: UIKit.UIColor? = nil, messageDateTimeTint: UIKit.UIColor? = nil, sectionDateTimeTint: UIKit.UIColor? = nil)
+  #endif
 }
 public struct ZowieStrings {
   public let messagePlaceholder: Swift.String
@@ -147,7 +156,9 @@ public struct ZowieStrings {
   public let disconnectMessage: Swift.String
   public let reconnectMessage: Swift.String
   public let historyErrorMessage: Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(messagePlaceholder: Swift.String? = nil, sendFailureErrorMessage: Swift.String? = nil, tryAgain: Swift.String? = nil, delivered: Swift.String? = nil, read: Swift.String? = nil, attachment: Swift.String? = nil, disconnectMessage: Swift.String? = nil, reconnectMessage: Swift.String? = nil, historyErrorMessage: Swift.String? = nil)
+  #endif
 }
 public struct ZowieMetadata {
   public let firstName: Swift.String?
@@ -158,7 +169,9 @@ public struct ZowieMetadata {
   public let phoneNumber: Swift.String?
   public let email: Swift.String?
   public let extraParams: [Swift.String : Swift.String]?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(firstName: Swift.String? = nil, lastName: Swift.String? = nil, name: Swift.String? = nil, locale: Swift.String? = nil, timeZone: Swift.String? = nil, phoneNumber: Swift.String? = nil, email: Swift.String? = nil, extraParams: [Swift.String : Swift.String]? = nil)
+  #endif
 }
 extension ZowieSDK.ZowieLayoutConfiguration {
   public static var `default`: ZowieSDK.ZowieLayoutConfiguration {
@@ -213,7 +226,9 @@ public enum FileUploadType : Swift.String, Swift.CaseIterable {
   case xls
   case xlsx
   case csv
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [ZowieSDK.FileUploadType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [ZowieSDK.FileUploadType] {
@@ -236,13 +251,25 @@ extension ZowieSDK.Zowie {
   final public func set(layoutConfiguration: ZowieSDK.ZowieLayoutConfiguration)
   final public func set(colors: ZowieSDK.ZowieColors)
   final public func set(strings: ZowieSDK.ZowieStrings)
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func set(metadata: ZowieSDK.ZowieMetadata, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func set(contextId: Swift.String, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func set(fcmToken: Swift.String, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func disableNotifications(completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func set(urlHandler: ((Foundation.URL, ZowieSDK.ZowieURLActionSource) -> Swift.Bool)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Setting user status from outside of ZowieSdk is no longer needed an should be removed from client apps. Current version of ZowieSdk checks, and sets user status internally.")
   final public func setStatus(isActive: Swift.Bool, completion: ((Swift.Result<Swift.Void, ZowieSDK.ZowieError>) -> Swift.Void)? = nil)
+  #endif
   final public func set(referral: Swift.String, completion: @escaping (ZowieSDK.ZowieReferralStatus) -> Swift.Void)
   final public func clearAnonymousSession(forInstanceId instanceId: Swift.String)
 }

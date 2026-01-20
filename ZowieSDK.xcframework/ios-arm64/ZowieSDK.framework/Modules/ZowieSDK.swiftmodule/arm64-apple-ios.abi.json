@@ -307,6 +307,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -1242,6 +1249,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -7768,6 +7782,13 @@
           "ImplementationOnly",
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZowieSDK"
       },
       {
         "kind": "Import",
@@ -14407,6 +14428,13 @@
       "offset": 253,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/SessionTimeoutManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 180,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/PersistentButtonsTemplate.graphql.swift",
