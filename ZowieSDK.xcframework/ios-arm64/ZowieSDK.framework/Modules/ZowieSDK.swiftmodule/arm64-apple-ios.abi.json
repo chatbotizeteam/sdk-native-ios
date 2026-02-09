@@ -10582,343 +10582,343 @@
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 814,
+      "offset": 802,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1069,
+      "offset": 1054,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1167,
+      "offset": 1152,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1387,
+      "offset": 1363,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1448,
+      "offset": 1424,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1799,
+      "offset": 1919,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10040,
+      "offset": 9156,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10103,
+      "offset": 9219,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10286,
+      "offset": 9389,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10573,
+      "offset": 9667,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10611,
+      "offset": 9705,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10688,
+      "offset": 9782,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 10937,
+      "offset": 10018,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 10977,
+      "offset": 10058,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11286,
+      "offset": 10367,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "StringLiteral",
-      "offset": 11808,
+      "offset": 10885,
       "length": 17,
       "value": "\"attachment_icon\""
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12213,
+      "offset": 11290,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12223,
+      "offset": 11300,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12235,
+      "offset": 11312,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12246,
+      "offset": 11323,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "StringLiteral",
-      "offset": 12410,
+      "offset": 11474,
       "length": 13,
       "value": "\"photos_icon\""
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12811,
+      "offset": 11875,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12821,
+      "offset": 11885,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12833,
+      "offset": 11897,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12844,
+      "offset": 11908,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "StringLiteral",
-      "offset": 12970,
+      "offset": 12021,
       "length": 11,
       "value": "\"send_icon\""
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13437,
+      "offset": 12488,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13447,
+      "offset": 12498,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13459,
+      "offset": 12510,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13470,
+      "offset": 12521,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16640,
+      "offset": 15622,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 16681,
+      "offset": 15663,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 16788,
+      "offset": 15770,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 16856,
+      "offset": 15838,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "StringLiteral",
-      "offset": 16906,
+      "offset": 15880,
       "length": 12,
       "value": "\"logo_label\""
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 17069,
+      "offset": 16043,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 17253,
+      "offset": 16219,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 17351,
+      "offset": 16317,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 17440,
+      "offset": 16406,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 17534,
+      "offset": 16500,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 19548,
+      "offset": 18454,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 19645,
+      "offset": 18551,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 19794,
+      "offset": 18687,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 19847,
+      "offset": 18740,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "StringLiteral",
-      "offset": 20367,
+      "offset": 19238,
       "length": 13,
       "value": "\"cancel_icon\""
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 20683,
+      "offset": 19554,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 20693,
+      "offset": 19564,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 20705,
+      "offset": 19576,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 20716,
+      "offset": 19587,
       "length": 2,
       "value": "10"
     },
@@ -13604,37 +13604,23 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
-      "kind": "FloatLiteral",
-      "offset": 6710,
-      "length": 6,
-      "value": "1000.0"
-    },
-    {
-      "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6727,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
       "kind": "BooleanLiteral",
-      "offset": 3756,
+      "offset": 3820,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
       "kind": "Array",
-      "offset": 3957,
+      "offset": 4021,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/Interceptors\/TokenAddingInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 4010,
+      "offset": 4074,
       "length": 15,
       "value": "\"token_service\""
     },
@@ -14432,7 +14418,14 @@
     {
       "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/SessionTimeoutManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 180,
+      "offset": 214,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/dawidjaskulski\/Desktop\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/SessionTimeoutManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 252,
       "length": 5,
       "value": "false"
     },
