@@ -76,8 +76,9 @@ extension ZowieSDK.ZowieConfiguration {
   }
 }
 public struct ZowieLayoutConfiguration {
+  public let viewType: ZowieSDK.ZowieLayoutConfiguration.ZowieViewType
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(showConsultantAvatar: Swift.Bool? = nil, consultantNameMode: ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode? = nil, fileUploadButtonVisible: Swift.Bool? = nil, allowFileExtensions: [ZowieSDK.FileUploadType]? = nil)
+  public init(showConsultantAvatar: Swift.Bool? = nil, consultantNameMode: ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode? = nil, fileUploadButtonVisible: Swift.Bool? = nil, allowFileExtensions: [ZowieSDK.FileUploadType]? = nil, viewType: ZowieSDK.ZowieLayoutConfiguration.ZowieViewType? = nil)
   #endif
 }
 extension ZowieSDK.ZowieLayoutConfiguration {
@@ -86,6 +87,15 @@ extension ZowieSDK.ZowieLayoutConfiguration {
     case firstName
     case fullName
     public static func == (a: ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode, b: ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum ZowieViewType {
+    case fullscreen
+    case widget
+    public static func == (a: ZowieSDK.ZowieLayoutConfiguration.ZowieViewType, b: ZowieSDK.ZowieLayoutConfiguration.ZowieViewType) -> Swift.Bool
     public func hash(into hasher: inout Swift.Hasher)
     public var hashValue: Swift.Int {
       get
@@ -282,6 +292,8 @@ extension ZowieSDK.ZowieError : Swift.Equatable {}
 extension ZowieSDK.ZowieError : Swift.Hashable {}
 extension ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode : Swift.Equatable {}
 extension ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode : Swift.Hashable {}
+extension ZowieSDK.ZowieLayoutConfiguration.ZowieViewType : Swift.Equatable {}
+extension ZowieSDK.ZowieLayoutConfiguration.ZowieViewType : Swift.Hashable {}
 extension ZowieSDK.ZowieURLActionSource : Swift.Equatable {}
 extension ZowieSDK.ZowieURLActionSource : Swift.Hashable {}
 extension ZowieSDK.FileUploadType : Swift.Equatable {}
