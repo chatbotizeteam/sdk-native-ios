@@ -2,6 +2,8 @@
 
 [![Swift 5.3 Supported](https://img.shields.io/badge/Swift-5.3-green.svg)](https://github.com/apple/swift) [![Swift 5.3 Supported](https://img.shields.io/badge/iOS-12+-orange.svg)](https://apple.com)
 
+> CocoaPods are not supported anymore. If you are looking for the SPM version, please proceed here: https://github.com/chatbotizeteam/sdk-native-ios/tree/spm
+
 ## Installation
 
 ### Cocoapods
