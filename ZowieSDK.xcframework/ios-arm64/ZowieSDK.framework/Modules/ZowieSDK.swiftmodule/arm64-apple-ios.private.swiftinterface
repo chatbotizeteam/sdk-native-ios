@@ -21,11 +21,15 @@ public enum ZowieError : Swift.Error {
   case unknown
   case cancelled
   case outOfOrder
-  public static func == (a: ZowieSDK.ZowieError, b: ZowieSDK.ZowieError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+  case authenticationFailed(message: Swift.String? = nil)
+  case networkError(message: Swift.String? = nil)
+}
+extension ZowieSDK.ZowieError : Foundation.LocalizedError {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var errorDescription: Swift.String? {
     get
   }
+  #endif
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class ZowieChatViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public init(colors: ZowieSDK.ZowieColors = .default, strings: ZowieSDK.ZowieStrings = .default, layoutConfiguration: ZowieSDK.ZowieLayoutConfiguration = .default)
@@ -290,8 +294,6 @@ public enum ZowieReferralStatus {
   case waiting
   case success
 }
-extension ZowieSDK.ZowieError : Swift.Equatable {}
-extension ZowieSDK.ZowieError : Swift.Hashable {}
 extension ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode : Swift.Equatable {}
 extension ZowieSDK.ZowieLayoutConfiguration.ConsultantNameMode : Swift.Hashable {}
 extension ZowieSDK.ZowieLayoutConfiguration.ZowieViewType : Swift.Equatable {}
