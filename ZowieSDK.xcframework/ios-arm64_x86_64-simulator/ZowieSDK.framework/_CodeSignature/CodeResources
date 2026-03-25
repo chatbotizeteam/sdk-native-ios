@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		P7c4flFJITxx0CSSPHXgZSS1IU8=
+		rFaOIlIaKbz5LhP7BHzcr+vA3gk=
 		</data>
 		<key>Inter-Medium.otf</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		wn7kwYep7QC7rdM68gWckdtOm3A=
+		doaLPDpSFJpungLn9kD7ugduQTE=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sSrwLOhNBR99aevE8PVWuc6vLLA=
+		BAjIu4Hu+xH0CMwobGMNHhnRVt8=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		wn7kwYep7QC7rdM68gWckdtOm3A=
+		doaLPDpSFJpungLn9kD7ugduQTE=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		n7oxDExj3kuaIhTXXkJ9rWeqKkQ=
+		AsRwKWVXNBkneJOrGjP1Udcz77A=
 		</data>
 		<key>TypingOnAnimation.json</key>
 		<data>
@@ -103,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qRki973AbJSEpMMUwTMUifnxbemBkoH/S2z9ow3k8g=
+			QcRhiTH4OktDtX9zv3y2o8eXm/NgrFPxci5lwyMEn7o=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -131,14 +131,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+muepF/SCaQDnCvqm9R45BDtIZ7O9ckw+DM7YkZS3Io=
+			B61mrHYVInoPCRNkx1wp/0gAx/nPYZO8xPJXtM6z7n4=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qRki973AbJSEpMMUwTMUifnxbemBkoH/S2z9ow3k8g=
+			QcRhiTH4OktDtX9zv3y2o8eXm/NgrFPxci5lwyMEn7o=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -166,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			b2Au+b3DeOuYcg/Uuf7MaAMEEGIReEn58BemT1FOFgU=
+			heUDFg68Cyttor5zoR4kcgaLGlz8joB+ozso6r6RYdw=
 			</data>
 		</dict>
 		<key>TypingOnAnimation.json</key>
