@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		O0l/crD2LRp5KwZs+fDPHoYcsoU=
+		aRcWsQQv5ejcmsClLqkoz2xokRQ=
 		</data>
 		<key>Inter-Medium.otf</key>
 		<data>
@@ -26,27 +26,27 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		3+JyFRVe/RNwqAIL7H2g5+eS6s0=
+		32jDSEboP+lm4itKHYz649B21pM=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		t84o3B7lRk4PYgH1B/6J/WevGtI=
+		3L9NcOEMU7s+N9h35bCBbul4bKU=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		6isgiaWl5HBxaapa1dy/hjRumAc=
+		8J407o0rqKlQ9t04NEkD0VJGk5o=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		t84o3B7lRk4PYgH1B/6J/WevGtI=
+		3L9NcOEMU7s+N9h35bCBbul4bKU=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		nU7BIIOAfBs7CBOpXJbyGU/H2I0=
+		sYBVQBLy5pbJkRlKgSofoFEvKyg=
 		</data>
-		<key>TypingOnAnimation.json</key>
+		<key>index.html</key>
 		<data>
-		j+elGVC6Af6lnLQKfkQtyNJhoiE=
+		CvAqj6Xh/Wk6hXLqWvF9jeY9N58=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -83,42 +83,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0QtDudShmCwB7S1RTYN0kE6rL7WLyjVWdTqU/Kueq/M=
+			0W1WLmDcSXlEWrjHXhIw/zUQ0TWmuFugg8dqS5q8V2k=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			186Eval2+VjUtmymkKZD8DuXu8wHlUyMD83MKqGR+cM=
+			s6OD5a3+gp+04flyMUiKRMOeRzB/dRhfddX6Li4VDKY=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tnRRXOjL4Z9w5pBQjBfSjKPHOAdEa/dMqPw6X6PPwCY=
+			6ACojQg7alduM49kaDgrGMJBaQ/rVwvmX6Zd6vC17+Q=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			186Eval2+VjUtmymkKZD8DuXu8wHlUyMD83MKqGR+cM=
+			s6OD5a3+gp+04flyMUiKRMOeRzB/dRhfddX6Li4VDKY=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HyFUZ6LoVc8ZVLuwp3I3KFhM8A0c0WA7HYXeUJTHraY=
+			c2hS/Xz8ISfbAULJIVyLQLDY2yTsBFc2rHrYU3nAO5U=
 			</data>
 		</dict>
-		<key>TypingOnAnimation.json</key>
+		<key>index.html</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pyot2SKs7aycP/Ofu4wvcyYRplcGWY6W3PLKsd98hGw=
+			4c3MkYIEK+OPKVXWo29r1535RKMaKZ8H/hxfR6otAzs=
 			</data>
 		</dict>
 	</dict>
