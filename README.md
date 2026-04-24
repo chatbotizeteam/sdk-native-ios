@@ -179,3 +179,29 @@ Zowie.shared.set(urlHandler: { url, source in
     return false
 })
 ```
+
+### Decision Engine events
+
+You can listen for Decision Engine events triggered from the configured scenario with `Zowie.shared.on(eventName, handler)`.
+
+For more information about Decision Engine, see the [Decision Engine API documentation](https://github.com/chatbotizeteam/decission-engine-api#ui).
+
+- `eventName` must match decision engine event name exactly.
+- `params` is delivered as `Any?` (type depends on what was sent from the Decision Engine scenario):
+  - JSON object → `[String: Any]`
+  - JSON array → `[Any]`
+  - plain value / invalid JSON → `String`
+  - missing value → `nil`
+
+```swift
+Zowie.shared.on("meetingDetails") { [weak self] params in
+    // handle event payload
+    self?.handleMeetingDetails(params)
+}
+```
+
+To remove a handler for a given event, use `off`:
+
+```swift
+Zowie.shared.off("meetingDetails")
+```
