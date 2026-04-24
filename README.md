@@ -177,3 +177,27 @@ Zowie.shared.set(urlHandler: { url, source in
     return false
 })
 ```
+
+### GenAI events
+
+You can listen for GenAI events triggered from the configured scenario with `Zowie.shared.on(eventName, handler)`.
+
+- `eventName` must match genai event name exactly.
+- `params` is delivered as `Any?` (type depends on what was sent from the GenAI scenario):
+  - JSON object → `[String: Any]`
+  - JSON array → `[Any]`
+  - plain value / invalid JSON → `String`
+  - missing value → `nil`
+
+```swift
+Zowie.shared.on("meetingDetails") { [weak self] params in
+    // handle event payload
+    self?.handleMeetingDetails(params)
+}
+```
+
+To remove a handler for a given event, use `off`:
+
+```swift
+Zowie.shared.off("meetingDetails")
+```
