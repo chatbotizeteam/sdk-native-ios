@@ -178,12 +178,14 @@ Zowie.shared.set(urlHandler: { url, source in
 })
 ```
 
-### GenAI events
+### Decision Engine events
 
-You can listen for GenAI events triggered from the configured scenario with `Zowie.shared.on(eventName, handler)`.
+You can listen for Decision Engine events triggered from the configured scenario with `Zowie.shared.on(eventName, handler)`.
 
-- `eventName` must match genai event name exactly.
-- `params` is delivered as `Any?` (type depends on what was sent from the GenAI scenario):
+For more information about Decision Engine, see the [Decision Engine API documentation](https://github.com/chatbotizeteam/decission-engine-api#ui).
+
+- `eventName` must match decision engine event name exactly.
+- `params` is delivered as `Any?` (type depends on what was sent from the Decision Engine scenario):
   - JSON object → `[String: Any]`
   - JSON array → `[Any]`
   - plain value / invalid JSON → `String`
