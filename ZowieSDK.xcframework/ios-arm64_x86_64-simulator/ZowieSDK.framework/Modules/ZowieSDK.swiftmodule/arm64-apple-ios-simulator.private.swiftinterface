@@ -320,6 +320,7 @@ public enum FileUploadType : Swift.String, Swift.CaseIterable {
   @objc deinit
 }
 extension ZowieSDK.Zowie {
+  @_Concurrency.MainActor final public func set(configuration: ZowieSDK.ZowieConfiguration) async
   final public func set(configuration: ZowieSDK.ZowieConfiguration)
   final public func set(layoutConfiguration: ZowieSDK.ZowieLayoutConfiguration)
   final public func set(colors: ZowieSDK.ZowieColors)

@@ -13140,6 +13140,35 @@
               }
             ],
             "declKind": "Func",
+            "usr": "s:8ZowieSDK0A0C3set13configurationyAA0A13ConfigurationV_tYaF",
+            "mangledName": "$s8ZowieSDK0A0C3set13configurationyAA0A13ConfigurationV_tYaF",
+            "moduleName": "ZowieSDK",
+            "declAttributes": [
+              "Final",
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZowieConfiguration",
+                "printedName": "ZowieSDK.ZowieConfiguration",
+                "usr": "s:8ZowieSDK0A13ConfigurationV"
+              }
+            ],
+            "declKind": "Func",
             "usr": "s:8ZowieSDK0A0C3set13configurationyAA0A13ConfigurationV_tF",
             "mangledName": "$s8ZowieSDK0A0C3set13configurationyAA0A13ConfigurationV_tF",
             "moduleName": "ZowieSDK",

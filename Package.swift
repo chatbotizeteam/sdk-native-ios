@@ -15,7 +15,11 @@ let package = Package(
         .package(
             url: "https://github.com/apollographql/apollo-ios.git",
             .upToNextMajor(from: "1.0.0")
-        )
+        ),
+        .package(
+            url: "https://github.com/livekit/webrtc-xcframework.git",
+            exact: "137.7151.12"
+        ),
     ],
     targets: [
         .binaryTarget(
@@ -28,7 +32,12 @@ let package = Package(
                 .target(name: "ZowieSDK"),
                 .product(name: "Apollo", package: "apollo-ios"),
                 .product(name: "ApolloAPI", package: "apollo-ios"),
-                .product(name: "ApolloWebSocket", package: "apollo-ios")
+                .product(name: "ApolloWebSocket", package: "apollo-ios"),
+                .product(
+                    name: "LiveKitWebRTC",
+                    package: "webrtc-xcframework",
+                    condition: .when(platforms: [.iOS])
+                ),
             ],
             path: "Sources"
         )
