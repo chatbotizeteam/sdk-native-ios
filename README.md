@@ -34,6 +34,14 @@ let configuration = ZowieConfiguration(
 Zowie.shared.set(configuration: configuration)
 ```
 
+> ⚠️ **IMPORTANT**
+> Choose the initialization flow properly. If chat is started immediately after SDK setup, use the `ASYNC` flow to guarantee full SDK initialization.
+
+SDK configuration using `Zowie.shared.set(configuration:)` supports two initialization flows:
+
+- `SYNC`: Call configuration setup in `AppDelegate`/`SceneDelegate` and present chat later during app runtime.
+- `ASYNC`: Use asynchronous configuration setup when chat must be presented immediately after initialization. This is the only flow that guarantees the SDK is fully initialized before chat startup.
+
 \***\*Remember, you won't be able to use ANY of SDK functionalities without a proper configuration setup, so be sure you provide it.\*\***
 
 You can clear anonymous session with `Zowie.shared.clearAnonymousSession(forInstanceId: "INSTANCEID)`. If your integration requires token authentication you can replace `.anonymous` with `.token`.
