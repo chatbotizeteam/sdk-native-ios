@@ -26,43 +26,43 @@
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		s1CMIQHNTWCk08ltLwV0q4i+rC4=
+		1cDVy8gMFqbnsJD/hvcJpCsdVVY=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		L95Uf0MRay01S7AzFxdb2vKSWCY=
+		1blC/NAxyVJRCJVfb7s3JrzyGss=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		0B//D6Enom2ixbRryHRmA6prh/0=
+		MD2ic8XjM+Xh6+lEKnnrfBnrZyQ=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		L95Uf0MRay01S7AzFxdb2vKSWCY=
+		1blC/NAxyVJRCJVfb7s3JrzyGss=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/2ov+t24QxBDe0RZCVwzjbL8Wyo=
+		9RE5lOLTtDFqkDj6SJpyZogmZes=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		s1CMIQHNTWCk08ltLwV0q4i+rC4=
+		1cDVy8gMFqbnsJD/hvcJpCsdVVY=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		r9YXPnJJrE1dMZPTFhArFXOATfk=
+		iIeZILQMd0aF56X4HufaVaDi8pQ=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WzSY5GSrPDZwFwcOKDPfWoUCdGM=
+		3xvRUxP6G1J/AwjuKAnO39llnkc=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		r9YXPnJJrE1dMZPTFhArFXOATfk=
+		iIeZILQMd0aF56X4HufaVaDi8pQ=
 		</data>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KUWXt+bXETHWanD7DWovl9UxNCU=
+		bhTSLiWL2xvM9CjhoR5NUA/PWEY=
 		</data>
 		<key>index.html</key>
 		<data>
@@ -103,70 +103,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7cc2O+5OAATkck2C/tKexuqGJTlY6Ya9LFZypa9fbaQ=
+			x5nlJM9BaKYQPV6aTY7/mhmYAqovIba8VclfIlz6iFg=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C3vbPKFxyfmYxh4xfp6KJJVRzPzpkOWfOXsgN2k+Nm4=
+			yDukDbbtVkzTjnUbZJwnWADdVSvWMWnZlGtus+0VM/I=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V+YiC5yY5Nl4jsgiozd0X2ZxAtWjy8T5qVjG/oO5+0M=
+			YH2WEh2zVtES6XG9zR/I1OyvNjuA32m3PKGL9T+26KM=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C3vbPKFxyfmYxh4xfp6KJJVRzPzpkOWfOXsgN2k+Nm4=
+			yDukDbbtVkzTjnUbZJwnWADdVSvWMWnZlGtus+0VM/I=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FkATfx36kzqslhIfvNmm3AXlCTj/fwljwbccimFEC4o=
+			pXbuFEEvHcSEyjkmjmglUemL636rFYjHpso4RoDWKPY=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7cc2O+5OAATkck2C/tKexuqGJTlY6Ya9LFZypa9fbaQ=
+			x5nlJM9BaKYQPV6aTY7/mhmYAqovIba8VclfIlz6iFg=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lr3lkYsjvuNG18Kd8IE4TsKU7pMEuA/Ctnn134MrF94=
+			gkfJ4P9zEmWId9jJArH9ujqngo7aolvx2Alz2cn7poI=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RKemFvG9KYUrmbkGKcvp+eysMpDQbig5FiToldkyPWc=
+			hT0mznoAuQ3VUCb/M7AmU8BiZ3yaJLb+a5f/OB5R8Rg=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lr3lkYsjvuNG18Kd8IE4TsKU7pMEuA/Ctnn134MrF94=
+			gkfJ4P9zEmWId9jJArH9ujqngo7aolvx2Alz2cn7poI=
 			</data>
 		</dict>
 		<key>Modules/ZowieSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			33XeOOFlR0fdo9ZSPX4Er+K4pf4uOTFlfWW0UEkd+qQ=
+			xeaHVOXEJ7Gf/Ig+KZY5hif5liPFs9PuDW6/ezzKOXk=
 			</data>
 		</dict>
 		<key>index.html</key>

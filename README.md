@@ -26,7 +26,7 @@ let configuration = ZowieConfiguration(
     authType: .anonymous,
     chatHost: "CHAT_HOST",
     startOnOpen: true,
-    sessionTimeout: (timeout: 300, onTimeout: {
+    sessionTimeout: (timeout: 300000, onTimeout: {
             dismiss()
         })
 )
@@ -55,6 +55,18 @@ let chatViewController = ZowieChatViewController()
 navigationController?.pushViewController(chatViewController, animated: true)
 ```
 
+### Voice UI
+
+You can also open the voice agent directly — there is no need to go through the text chat first. Use `ZowieVoiceChatViewController` like any other view controller (push or present):
+
+```swift
+let voiceChatViewController = ZowieVoiceChatViewController()
+navigationController?.pushViewController(voiceChatViewController, animated: true)
+```
+
+> ⚠️ **Microphone permission**
+> Your app's `Info.plist` must contain `NSMicrophoneUsageDescription` (or the equivalent `INFOPLIST_KEY_NSMicrophoneUsageDescription` build setting if your project uses generated Info.plist).
+
 ### Chat initialization error
 
 If you want to handle the chat initialization error, use:
@@ -64,6 +76,37 @@ Zowie.shared.onChatInitializationError = { error in
     // Do something
 }
 ```
+
+### Lifecycle events
+
+The SDK fires a single callback when its view controllers transition on/off screen. Use it for analytics, host-UI coordination, or to drive whatever "chat is active" state your app keeps.
+
+```swift
+Zowie.shared.onScreenEvent = { event in
+    switch event {
+    case .chatDidAppear, .chatWillDisappear: ...
+    case .voiceDidAppear, .voiceWillDisappear: ...
+    }
+}
+```
+
+Set once at app launch. Adding a new screen type later is an enum case, not a new property.
+
+### Starting a fresh session
+
+By default, `set(configuration:)` reuses any cached anonymous identity from a previous launch so the user resumes their conversation. To **start clean every time** (e.g. a kiosk app, or after a user logs out), pass `freshSession: true`:
+
+```swift
+await Zowie.shared.set(
+    configuration: configuration,
+    freshSession: true
+)
+```
+
+- For **anonymous auth**: deletes the keychain entries for `configuration.instanceId`. The next sign-in mints a brand-new user.
+- For **token auth**: the keychain isn't used; this just drops the in-memory cache (services rebuilt, message list cleared).
+
+`freshSession` defaults to `false`, so existing integrations see no change.
 
 ### Setting user metadata
 

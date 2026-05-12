@@ -1518,6 +1518,302 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "ZowieSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZowieScreenEvent",
+        "printedName": "ZowieScreenEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "chatDidAppear",
+            "printedName": "chatDidAppear",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZowieSDK.ZowieScreenEvent.Type) -> ZowieSDK.ZowieScreenEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZowieScreenEvent",
+                    "printedName": "ZowieSDK.ZowieScreenEvent",
+                    "usr": "s:8ZowieSDK0A11ScreenEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZowieSDK.ZowieScreenEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZowieScreenEvent",
+                        "printedName": "ZowieSDK.ZowieScreenEvent",
+                        "usr": "s:8ZowieSDK0A11ScreenEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8ZowieSDK0A11ScreenEventO13chatDidAppearyA2CmF",
+            "mangledName": "$s8ZowieSDK0A11ScreenEventO13chatDidAppearyA2CmF",
+            "moduleName": "ZowieSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "chatWillDisappear",
+            "printedName": "chatWillDisappear",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZowieSDK.ZowieScreenEvent.Type) -> ZowieSDK.ZowieScreenEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZowieScreenEvent",
+                    "printedName": "ZowieSDK.ZowieScreenEvent",
+                    "usr": "s:8ZowieSDK0A11ScreenEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZowieSDK.ZowieScreenEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZowieScreenEvent",
+                        "printedName": "ZowieSDK.ZowieScreenEvent",
+                        "usr": "s:8ZowieSDK0A11ScreenEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8ZowieSDK0A11ScreenEventO17chatWillDisappearyA2CmF",
+            "mangledName": "$s8ZowieSDK0A11ScreenEventO17chatWillDisappearyA2CmF",
+            "moduleName": "ZowieSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "voiceDidAppear",
+            "printedName": "voiceDidAppear",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZowieSDK.ZowieScreenEvent.Type) -> ZowieSDK.ZowieScreenEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZowieScreenEvent",
+                    "printedName": "ZowieSDK.ZowieScreenEvent",
+                    "usr": "s:8ZowieSDK0A11ScreenEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZowieSDK.ZowieScreenEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZowieScreenEvent",
+                        "printedName": "ZowieSDK.ZowieScreenEvent",
+                        "usr": "s:8ZowieSDK0A11ScreenEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8ZowieSDK0A11ScreenEventO14voiceDidAppearyA2CmF",
+            "mangledName": "$s8ZowieSDK0A11ScreenEventO14voiceDidAppearyA2CmF",
+            "moduleName": "ZowieSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "voiceWillDisappear",
+            "printedName": "voiceWillDisappear",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ZowieSDK.ZowieScreenEvent.Type) -> ZowieSDK.ZowieScreenEvent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZowieScreenEvent",
+                    "printedName": "ZowieSDK.ZowieScreenEvent",
+                    "usr": "s:8ZowieSDK0A11ScreenEventO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ZowieSDK.ZowieScreenEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZowieScreenEvent",
+                        "printedName": "ZowieSDK.ZowieScreenEvent",
+                        "usr": "s:8ZowieSDK0A11ScreenEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8ZowieSDK0A11ScreenEventO18voiceWillDisappearyA2CmF",
+            "mangledName": "$s8ZowieSDK0A11ScreenEventO18voiceWillDisappearyA2CmF",
+            "moduleName": "ZowieSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ZowieSDK0A11ScreenEventO9hashValueSivp",
+            "mangledName": "$s8ZowieSDK0A11ScreenEventO9hashValueSivp",
+            "moduleName": "ZowieSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ZowieSDK0A11ScreenEventO9hashValueSivg",
+                "mangledName": "$s8ZowieSDK0A11ScreenEventO9hashValueSivg",
+                "moduleName": "ZowieSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ZowieSDK0A11ScreenEventO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s8ZowieSDK0A11ScreenEventO4hash4intoys6HasherVz_tF",
+            "moduleName": "ZowieSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZowieScreenEvent",
+                "printedName": "ZowieSDK.ZowieScreenEvent",
+                "usr": "s:8ZowieSDK0A11ScreenEventO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ZowieScreenEvent",
+                "printedName": "ZowieSDK.ZowieScreenEvent",
+                "usr": "s:8ZowieSDK0A11ScreenEventO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8ZowieSDK0A11ScreenEventO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8ZowieSDK0A11ScreenEventO2eeoiySbAC_ACtFZ",
+            "moduleName": "ZowieSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8ZowieSDK0A11ScreenEventO",
+        "mangledName": "$s8ZowieSDK0A11ScreenEventO",
+        "moduleName": "ZowieSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "ZowieSDK",
         "declAttributes": [
           "RawDocComment"
@@ -13123,9 +13419,166 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "onScreenEvent",
+            "printedName": "onScreenEvent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((ZowieSDK.ZowieScreenEvent) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(ZowieSDK.ZowieScreenEvent) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZowieScreenEvent",
+                        "printedName": "ZowieSDK.ZowieScreenEvent",
+                        "usr": "s:8ZowieSDK0A11ScreenEventO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8ZowieSDK0A0C13onScreenEventyAA0adE0OcSgvp",
+            "mangledName": "$s8ZowieSDK0A0C13onScreenEventyAA0adE0OcSgvp",
+            "moduleName": "ZowieSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((ZowieSDK.ZowieScreenEvent) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZowieSDK.ZowieScreenEvent) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZowieScreenEvent",
+                            "printedName": "ZowieSDK.ZowieScreenEvent",
+                            "usr": "s:8ZowieSDK0A11ScreenEventO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ZowieSDK0A0C13onScreenEventyAA0adE0OcSgvg",
+                "mangledName": "$s8ZowieSDK0A0C13onScreenEventyAA0adE0OcSgvg",
+                "moduleName": "ZowieSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((ZowieSDK.ZowieScreenEvent) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(ZowieSDK.ZowieScreenEvent) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ZowieScreenEvent",
+                            "printedName": "ZowieSDK.ZowieScreenEvent",
+                            "usr": "s:8ZowieSDK0A11ScreenEventO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ZowieSDK0A0C13onScreenEventyAA0adE0OcSgvs",
+                "mangledName": "$s8ZowieSDK0A0C13onScreenEventyAA0adE0OcSgvs",
+                "moduleName": "ZowieSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8ZowieSDK0A0C13onScreenEventyAA0adE0OcSgvM",
+                "mangledName": "$s8ZowieSDK0A0C13onScreenEventyAA0adE0OcSgvM",
+                "moduleName": "ZowieSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "set",
-            "printedName": "set(configuration:)",
+            "printedName": "set(configuration:freshSession:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -13137,11 +13590,18 @@
                 "name": "ZowieConfiguration",
                 "printedName": "ZowieSDK.ZowieConfiguration",
                 "usr": "s:8ZowieSDK0A13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8ZowieSDK0A0C3set13configurationyAA0A13ConfigurationV_tYaF",
-            "mangledName": "$s8ZowieSDK0A0C3set13configurationyAA0A13ConfigurationV_tYaF",
+            "usr": "s:8ZowieSDK0A0C3set13configuration12freshSessionyAA0A13ConfigurationV_SbtYaF",
+            "mangledName": "$s8ZowieSDK0A0C3set13configuration12freshSessionyAA0A13ConfigurationV_SbtYaF",
             "moduleName": "ZowieSDK",
             "declAttributes": [
               "Final",
@@ -13154,7 +13614,7 @@
           {
             "kind": "Function",
             "name": "set",
-            "printedName": "set(configuration:)",
+            "printedName": "set(configuration:freshSession:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -13166,11 +13626,18 @@
                 "name": "ZowieConfiguration",
                 "printedName": "ZowieSDK.ZowieConfiguration",
                 "usr": "s:8ZowieSDK0A13ConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Func",
-            "usr": "s:8ZowieSDK0A0C3set13configurationyAA0A13ConfigurationV_tF",
-            "mangledName": "$s8ZowieSDK0A0C3set13configurationyAA0A13ConfigurationV_tF",
+            "usr": "s:8ZowieSDK0A0C3set13configuration12freshSessionyAA0A13ConfigurationV_SbtF",
+            "mangledName": "$s8ZowieSDK0A0C3set13configuration12freshSessionyAA0A13ConfigurationV_SbtF",
             "moduleName": "ZowieSDK",
             "declAttributes": [
               "Final",
@@ -14151,336 +14618,336 @@
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11144,
+      "offset": 11170,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11207,
+      "offset": 11233,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11377,
+      "offset": 11403,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11655,
+      "offset": 11681,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 11693,
+      "offset": 11719,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 11770,
+      "offset": 11796,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12239,
+      "offset": 12572,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12279,
+      "offset": 12612,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 12588,
+      "offset": 12921,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "StringLiteral",
-      "offset": 13110,
+      "offset": 13443,
       "length": 17,
       "value": "\"attachment_icon\""
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13515,
+      "offset": 13848,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13525,
+      "offset": 13858,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13537,
+      "offset": 13870,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 13548,
+      "offset": 13881,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "StringLiteral",
-      "offset": 13699,
+      "offset": 14032,
       "length": 13,
       "value": "\"photos_icon\""
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14100,
+      "offset": 14433,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14110,
+      "offset": 14443,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14122,
+      "offset": 14455,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14133,
+      "offset": 14466,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "StringLiteral",
-      "offset": 14287,
+      "offset": 14620,
       "length": 5,
       "value": "\"mic\""
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14643,
+      "offset": 14976,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14653,
+      "offset": 14986,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14665,
+      "offset": 14998,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 14676,
+      "offset": 15009,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "StringLiteral",
-      "offset": 14802,
+      "offset": 15135,
       "length": 11,
       "value": "\"send_icon\""
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 15269,
+      "offset": 15602,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 15279,
+      "offset": 15612,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 15291,
+      "offset": 15624,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 15302,
+      "offset": 15635,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18453,
+      "offset": 18786,
       "length": 2,
       "value": "13"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 18494,
+      "offset": 18827,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 18601,
+      "offset": 18934,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 18669,
+      "offset": 19002,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "StringLiteral",
-      "offset": 18711,
+      "offset": 19044,
       "length": 12,
       "value": "\"logo_label\""
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 18874,
+      "offset": 19207,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 19050,
+      "offset": 19383,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 19148,
+      "offset": 19481,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 19237,
+      "offset": 19570,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 19331,
+      "offset": 19664,
       "length": 3,
       "value": "-10"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "BooleanLiteral",
-      "offset": 21285,
+      "offset": 21618,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 21382,
+      "offset": 21715,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 21518,
+      "offset": 21851,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 21571,
+      "offset": 21904,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "StringLiteral",
-      "offset": 22069,
+      "offset": 22402,
       "length": 13,
       "value": "\"cancel_icon\""
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 22385,
+      "offset": 22718,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 22395,
+      "offset": 22728,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 22407,
+      "offset": 22740,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ChatView.swift",
       "kind": "IntegerLiteral",
-      "offset": 22418,
+      "offset": 22751,
       "length": 2,
       "value": "10"
     },
@@ -14578,7 +15045,7 @@
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ConversationStateService.swift",
       "kind": "BooleanLiteral",
-      "offset": 458,
+      "offset": 1222,
       "length": 5,
       "value": "false"
     },
@@ -14641,7 +15108,7 @@
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ZowieChatViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23989,
+      "offset": 24086,
       "length": 4,
       "value": "true"
     },
@@ -14893,35 +15360,35 @@
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ZowieVoiceChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 24400,
+      "offset": 24853,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ZowieVoiceChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 24452,
+      "offset": 24905,
       "length": 4,
       "value": "0.04"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ZowieVoiceChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 24502,
+      "offset": 24955,
       "length": 3,
       "value": "1.1"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/ZowieVoiceChatViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 24548,
+      "offset": 25001,
       "length": 4,
       "value": "1.65"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/UI\/Utils\/Log.swift",
       "kind": "StringLiteral",
-      "offset": 535,
+      "offset": 891,
       "length": 11,
       "value": "\"zowie.sdk\""
     },
@@ -17615,92 +18082,106 @@
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1387,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "Array",
-      "offset": 1198,
+      "offset": 3177,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 1231,
+      "offset": 3210,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 1282,
+      "offset": 3261,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 1493,
+      "offset": 3472,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 1532,
+      "offset": 3511,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 1581,
+      "offset": 3560,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 1624,
+      "offset": 3964,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4007,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 2096,
+      "offset": 4479,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 2101,
+      "offset": 4484,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 2106,
+      "offset": 4489,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "IntegerLiteral",
-      "offset": 2111,
+      "offset": 4494,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "FloatLiteral",
-      "offset": 8274,
+      "offset": 11732,
       "length": 6,
       "value": "1000.0"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Data\/ChatDataSource.swift",
       "kind": "BooleanLiteral",
-      "offset": 8291,
+      "offset": 11749,
       "length": 5,
       "value": "false"
     },
@@ -19331,35 +19812,35 @@
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/VoiceSessionService.swift",
       "kind": "FloatLiteral",
-      "offset": 12032,
+      "offset": 13437,
       "length": 4,
       "value": "0.01"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/VoiceSessionService.swift",
       "kind": "FloatLiteral",
-      "offset": 12077,
+      "offset": 13482,
       "length": 3,
       "value": "3.2"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/VoiceSessionService.swift",
       "kind": "FloatLiteral",
-      "offset": 12132,
+      "offset": 13537,
       "length": 4,
       "value": "0.22"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/VoiceSessionService.swift",
       "kind": "FloatLiteral",
-      "offset": 12195,
+      "offset": 13600,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/VoiceSessionService.swift",
       "kind": "FloatLiteral",
-      "offset": 12201,
+      "offset": 13606,
       "length": 4,
       "value": "45.0"
     },
@@ -19733,6 +20214,20 @@
       "offset": 6291,
       "length": 2,
       "value": "14"
+    },
+    {
+      "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Zowie.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6433,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/Zowie.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10730,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/karolkorzen\/Documents\/2026\/crustlab\/zowie-mobile-sdks-ios-sdk-v2\/ZowieSDK\/Sources\/Zowie\/API\/GraphQL\/ZowieGraphQLAPI\/Schema\/Objects\/VisualAidEvent.swift",
