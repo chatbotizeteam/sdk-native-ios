@@ -13,29 +13,32 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/apollographql/apollo-ios.git",
-            .upToNextMajor(from: "1.0.0")
-        ),
-        .package(
             url: "https://github.com/livekit/webrtc-xcframework.git",
             exact: "137.7151.12"
+        ),
+        .package(
+            url: "https://github.com/livekit/livekit-uniffi-xcframework.git",
+            exact: "0.0.5"
         ),
     ],
     targets: [
         .binaryTarget(
             name: "ZowieSDK",
-            path: "ZowieSDK.xcframework"
+            url: "https://github.com/chatbotizeteam/sdk-native-ios/releases/download/1.0.0/ZowieSDK.xcframework.zip",
+            checksum: "a938439d1ea87f5df91823bdc5c399ae206bb61d97402a0a7f70aeecfc6d1c28"
         ),
         .target(
             name: "ZowieSDKTargets",
             dependencies: [
                 .target(name: "ZowieSDK"),
-                .product(name: "Apollo", package: "apollo-ios"),
-                .product(name: "ApolloAPI", package: "apollo-ios"),
-                .product(name: "ApolloWebSocket", package: "apollo-ios"),
                 .product(
                     name: "LiveKitWebRTC",
                     package: "webrtc-xcframework",
+                    condition: .when(platforms: [.iOS])
+                ),
+                .product(
+                    name: "LiveKitUniFFI",
+                    package: "livekit-uniffi-xcframework",
                     condition: .when(platforms: [.iOS])
                 ),
             ],
