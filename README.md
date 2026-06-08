@@ -92,6 +92,44 @@ Zowie.shared.onScreenEvent = { event in
 
 Set once at app launch. Adding a new screen type later is an enum case, not a new property.
 
+### Custom Attributes
+
+Use `ZowieAttributes` to configure metadata, context and appearance.
+
+```swift
+let attributes = ZowieAttributes(
+    metadata: ZowieMetadata(
+        firstName: "first",
+        lastName: "last",
+        name: "name",
+        locale: "locale",
+        timeZone: "timeZone",
+        phoneNumber: "123456789",
+        email: "email@email.com",
+        extraParams: ["custom": "value"]
+    ),
+    context: "contextId",
+    inputPlaceholder: "Write to reply...",
+    primaryColor: "#222529",
+    fontColor: .white,
+    ctaColor: "#14B8A6",
+    userMessageBackgroundColor: "#222529",
+    userMessageFontColor: .white
+)
+
+Zowie.shared.set(customAttributes: attributes) { result in
+    // Completion handler is optional
+}
+```
+
+The following APIs are still available for backward compatibility, but are deprecated in favor of `ZowieAttributes`:
+
+- `Zowie.shared.set(metadata:)`
+- `Zowie.shared.set(contextId:)`
+- `Zowie.shared.set(layoutConfiguration:)`
+- `Zowie.shared.set(colors:)`
+- `Zowie.shared.set(strings:)`
+
 ### Starting a fresh session
 
 By default, `set(configuration:)` reuses any cached anonymous identity from a previous launch so the user resumes their conversation. To **start clean every time** (e.g. a kiosk app, or after a user logs out), pass `freshSession: true`:
@@ -107,24 +145,6 @@ await Zowie.shared.set(
 - For **token auth**: the keychain isn't used; this just drops the in-memory cache (services rebuilt, message list cleared).
 
 `freshSession` defaults to `false`, so existing integrations see no change.
-
-### Setting user metadata
-
-You can set needed user metadata. All those fields are optional.
-
-```swift
-let metadata = ZowieMetadata(
-    firstName: "first",
-    lastName: "last",
-    name: "name",
-    locale: "locale",
-    timeZone: "timeZone",
-    phoneNumber: "123456789",
-    email: "email@email.com",
-    extraParams: ["custom": "value"]
-)
-Zowie.shared.set(metadata: metadata)
-```
 
 ### Setting a referral value
 ```swift
@@ -174,14 +194,14 @@ Zowie.shared.set(contextId: "contextId") { result in
 
 ## Customization
 
-### Layout
+### Layout `deprecated in favor of ZowieAttributes`
 
 ```swift
 let config = ZowieLayoutConfiguration(showConsultantAvatar: false, consultantNameMode: .firstName)
 Zowie.shared.set(layoutConfiguration: config)
 ```
 
-### Localization
+### Localization `deprecated in favor of ZowieAttributes`
 
 The only supported language in this SDK is `english`. If you need more localization please provide it as below:
 
@@ -201,17 +221,61 @@ let strings = ZowieStrings(
 Zowie.shared.set(strings: strings)
 ```
 
-### Colors
+### Colors `deprecated in favor of ZowieAttributes`
 
 Feel free to set up color branding however you like with help of `Zowie.shared.set(colors: colors)`
 
-### URL handling
+### URL Handling
 
-By default, Zowie SDK opens URLs using an external web browser. You can provide custom handling
+By default, Zowie SDK opens URLs using an external web browser. You can provide custom handling:
 
 ```swift
 Zowie.shared.set(urlHandler: { url, source in
     // Return false if you want to handle URL by yourself
     return false
 })
+```
+
+### AI Session Notice
+
+If AI session notice is enabled in widget configuration, SDK shows a default notice and bottom sheet.
+
+You can override the "More" action:
+
+```swift
+Zowie.shared.onAISessionNoticeMoreTapped = { header, message in
+    // Present your own explanation screen
+}
+```
+
+When no custom handler is provided, SDK shows its default bottom sheet.
+
+### Markdown Content
+
+SDK renders Markdown in supported message content, including links, emphasis and selected block elements. URL taps still go through the configured URL handler.
+
+### Decision Engine Events
+
+You can listen for Decision Engine events triggered from the configured scenario with `Zowie.shared.on(eventName, handler)`.
+
+For more information about Decision Engine, see the [Decision Engine API documentation](https://github.com/chatbotizeteam/decission-engine-api#ui).
+
+- `eventName` must match decision engine event name exactly.
+- `params` is delivered as `Any?` and depends on what was sent from the Decision Engine scenario:
+  - JSON object: `[String: Any]`
+  - JSON array: `[Any]`
+  - plain value or invalid JSON: `String`
+  - missing value: `nil`
+
+```swift
+Zowie.shared.on("meetingDetails") { [weak self] params in
+    // handle event payload
+    self?.handleMeetingDetails(params)
+}
+```
+
+To remove a handler for a given event, use `off`:
+
+```swift
+Zowie.shared.off("meetingDetails")
 ```

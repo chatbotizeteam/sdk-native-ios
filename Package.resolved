@@ -1,25 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "Apollo",
-        "repositoryURL": "https://github.com/apollographql/apollo-ios",
-        "state": {
-          "branch": null,
-          "revision": "6ecc75281dab2fa231cb0d5fed3a3713826fecae",
-          "version": "1.21.0"
-        }
-      },
-      {
-        "package": "webrtc-xcframework",
-        "repositoryURL": "https://github.com/livekit/webrtc-xcframework.git",
-        "state": {
-          "branch": null,
-          "revision": "0aa6a5ea4031d492d0493e3e4d4fbe08b5a0df78",
-          "version": "137.7151.12"
-        }
+  "pins" : [
+    {
+      "identity" : "livekit-uniffi-xcframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/livekit/livekit-uniffi-xcframework.git",
+      "state" : {
+        "revision" : "61229f4032131311b997ddb1bc1cb8f5afbe30c8",
+        "version" : "0.0.5"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "webrtc-xcframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/livekit/webrtc-xcframework.git",
+      "state" : {
+        "revision" : "0aa6a5ea4031d492d0493e3e4d4fbe08b5a0df78",
+        "version" : "137.7151.12"
+      }
+    }
+  ],
+  "version" : 2
 }
