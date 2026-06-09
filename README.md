@@ -200,30 +200,19 @@ Zowie.shared.set(contextId: "contextId") { result in
 let config = ZowieLayoutConfiguration(showConsultantAvatar: false, consultantNameMode: .firstName)
 Zowie.shared.set(layoutConfiguration: config)
 ```
-
 ### Localization `deprecated in favor of ZowieAttributes`
 
-The only supported language in this SDK is `english`. If you need more localization please provide it as below:
+The only supported language in this SDK is `english`.
 
 ```swift
-let strings = ZowieStrings(
-    messagePlaceholder: "string",
-    sendFailureErrorMessage: "string",
-    tryAgain: "string",
-    delivered: "string",
-    read: "string",
-    attachment: "string",
-    disconnectMessage: "string",
-    reconnectMessage: "string",
-    historyErrorMessage: "string"
-)
-
 Zowie.shared.set(strings: strings)
 ```
 
 ### Colors `deprecated in favor of ZowieAttributes`
 
-Feel free to set up color branding however you like with help of `Zowie.shared.set(colors: colors)`
+```swift
+Zowie.shared.set(colors: colors)
+```
 
 ### URL Handling
 
