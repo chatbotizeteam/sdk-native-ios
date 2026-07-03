@@ -16,16 +16,12 @@ let package = Package(
             url: "https://github.com/livekit/webrtc-xcframework.git",
             exact: "137.7151.12"
         ),
-        .package(
-            url: "https://github.com/livekit/livekit-uniffi-xcframework.git",
-            exact: "0.0.5"
-        ),
     ],
     targets: [
         .binaryTarget(
             name: "ZowieSDK",
-            url: "https://github.com/chatbotizeteam/sdk-native-ios/releases/download/1.0.1/ZowieSDK.xcframework.zip",
-            checksum: "a938439d1ea87f5df91823bdc5c399ae206bb61d97402a0a7f70aeecfc6d1c28"
+            url: "https://github.com/chatbotizeteam/sdk-native-ios/releases/download/1.0.2/ZowieSDK.xcframework.zip",
+            checksum: "ae340e58f7e9c0adada759fd26f103e26668f42f527ed456515097b35f2d92b0"
         ),
         .target(
             name: "ZowieSDKTargets",
@@ -34,11 +30,6 @@ let package = Package(
                 .product(
                     name: "LiveKitWebRTC",
                     package: "webrtc-xcframework",
-                    condition: .when(platforms: [.iOS])
-                ),
-                .product(
-                    name: "LiveKitUniFFI",
-                    package: "livekit-uniffi-xcframework",
                     condition: .when(platforms: [.iOS])
                 ),
             ],
