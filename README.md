@@ -1,6 +1,6 @@
 # Zowie iOS SDK
 
-[![Swift 5.3 Supported](https://img.shields.io/badge/Swift-5.3-green.svg)](https://github.com/apple/swift) [![Swift 5.3 Supported](https://img.shields.io/badge/iOS-12+-orange.svg)](https://apple.com)
+[![Swift 5.9 Supported](https://img.shields.io/badge/Swift-5.9-green.svg)](https://github.com/apple/swift) [![iOS 15+ Supported](https://img.shields.io/badge/iOS-15+-orange.svg)](https://apple.com)
 
 ## Installation
 
@@ -24,7 +24,7 @@ To be able to use Zowie SDK first of all you have to provide the configuration:
 let configuration = ZowieConfiguration(
     instanceId: "INSTANCE_ID",
     authType: .anonymous,
-    chatHost: "CHAT_HOST",
+    chatHost: "your-brand-tag.chat.getzowie.com/api/v1",
     startOnOpen: true,
     sessionTimeout: (timeout: 300000, onTimeout: {
             dismiss()
@@ -33,6 +33,10 @@ let configuration = ZowieConfiguration(
 
 Zowie.shared.set(configuration: configuration)
 ```
+
+#### `chatHost` format
+
+Set `chatHost` to `<brand-tag>.chat.getzowie.com/api/v1`, for example `your-brand-tag.chat.getzowie.com/api/v1`. Do not include `https://`, a trailing `/`, or an endpoint path; the SDK adds them as needed. A trailing `/core` (the format used by earlier iOS releases) is still accepted and stripped automatically, so existing integrations keep working.
 
 > ⚠️ **IMPORTANT**
 > Choose the initialization flow properly. If chat is started immediately after SDK setup, use the `ASYNC` flow to guarantee full SDK initialization.
@@ -44,7 +48,7 @@ SDK configuration using `Zowie.shared.set(configuration:)` supports two initiali
 
 \***\*Remember, you won't be able to use ANY of SDK functionalities without a proper configuration setup, so be sure you provide it.\*\***
 
-You can clear anonymous session with `Zowie.shared.clearAnonymousSession(forInstanceId: "INSTANCEID)`. If your integration requires token authentication you can replace `.anonymous` with `.token`.
+You can clear anonymous session with `Zowie.shared.clearAnonymousSession(forInstanceId: "INSTANCE_ID")`. If your integration requires token authentication you can replace `.anonymous` with `.token`.
 
 ### Chat UI
 
