@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "ZowieSDK",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "ZowieSDK",
@@ -20,8 +20,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ZowieSDK",
-            url: "https://github.com/chatbotizeteam/sdk-native-ios/releases/download/1.0.3/ZowieSDK.xcframework.zip",
-            checksum: "5027e051df062293ab2ad3ea4c5f8bb28083c876180e0008d49ee8fcfec26a07"
+            url: "https://github.com/chatbotizeteam/sdk-native-ios/releases/download/1.0.4/ZowieSDK.xcframework.zip",
+            checksum: "9bebcada9f38c856aeb2e00d43bd130dfc9f7c1d0bba18c36235d60513d46afc"
         ),
         .target(
             name: "ZowieSDKTargets",
