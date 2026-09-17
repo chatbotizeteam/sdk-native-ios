@@ -24,12 +24,10 @@ let package = Package(
         .package(url: "https://github.com/livekit/client-sdk-swift.git", exact: "2.12.1"),
     ],
     targets: [
-        // ⛔️ Bump to 1.0.7 before merging — 1.0.6's binary still has LiveKit inside, so pairing
-        // it with the dependency above reintroduces the duplicate symbols for everyone.
         .binaryTarget(
             name: "ZowieSDK",
-            url: "https://github.com/chatbotizeteam/sdk-native-ios/releases/download/1.0.6/ZowieSDK.xcframework.zip",
-            checksum: "a6db79292dcb3190c0d35d8e711e1c2adaf2c66142752361ee38d8097899f3c8"
+            url: "https://github.com/chatbotizeteam/sdk-native-ios/releases/download/1.0.7/ZowieSDK.xcframework.zip",
+            checksum: "a086626fea7b0ee94ac546f2611565291859ff61bc1f9923aacad94acafc4204"
         ),
         .target(
             name: "ZowieSDKTargets",
