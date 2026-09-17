@@ -19,17 +19,21 @@ let package = Package(
         // references none of those directly, so they are deliberately not pinned here: an
         // `exact` pin on WebRTC would make LiveKit 2.13+ unresolvable.
         //
-        // The range is wider than this binary can strictly guarantee. ZowieSDK.xcframework was
-        // compiled against 2.12.1 and reaches LiveKit's classes through vtable slot numbers
-        // fixed at that build — `Room.connect` is slot 31 in 2.12.1 and 33 in 2.17.0,
-        // `Participant.isMicrophoneEnabled` 26 vs 27. Slots carry no symbol, so a newer LiveKit
-        // still links and then runs whatever now sits in the slot: voice chat can misbehave or
-        // crash at runtime away from 2.12.1. Text chat is unaffected.
+        // Pinned exactly, and it has to stay that way until the follow-up below lands.
+        // ZowieSDK.xcframework is compiled against 2.12.1 and reaches LiveKit's classes through
+        // vtable slots fixed at that build. Slots carry no symbol, so another version still
+        // links and only diverges once running. Measured, not theorised: with 2.17.0 the same
+        // binary and app crash on entering voice chat (EXC_BAD_ACCESS, a jump to an address in
+        // no loaded image), while on 2.12.1 a voice conversation connects and runs normally.
         //
-        // Accepted knowingly: `exact` would instead break dependency resolution outright for
-        // every app on a different LiveKit. The real fix — shipping the LiveKit-facing file as
-        // source so it compiles against the app's own version — is a planned follow-up.
-        .package(url: "https://github.com/livekit/client-sdk-swift.git", from: "2.12.1"),
+        // A range would be worse than this pin, not better: apps that do not carry LiveKit today
+        // — which is all of them, since it lived inside the binary — have no pin to preserve, so
+        // SPM hands them the newest release and voice chat dies on first use. A mismatched pin
+        // instead fails loudly at dependency resolution.
+        //
+        // The fix that removes the constraint is shipping the LiveKit-facing file as source, so
+        // it compiles against whatever version the app resolves; planned as a follow-up.
+        .package(url: "https://github.com/livekit/client-sdk-swift.git", exact: "2.12.1"),
     ],
     targets: [
         // ⛔️ MUST be bumped to the 1.0.7 release before this branch is merged. 1.0.6's binary
