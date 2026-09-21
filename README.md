@@ -218,6 +218,41 @@ Zowie.shared.set(strings: strings)
 Zowie.shared.set(colors: colors)
 ```
 
+### Navigation bar
+
+By default the chat screen takes over the navigation bar of the `UINavigationController` it is
+pushed onto: it replaces the bar button items with its own logo, title and close button, and
+restyles the bar. Set `useCustomNavigationBar: true` in `ZowieConfiguration` to keep the bar
+exactly as your app configured it:
+
+```swift
+let configuration = ZowieConfiguration(
+    instanceId: "INSTANCE_ID",
+    authType: .anonymous,
+    chatHost: "CHAT_HOST",
+    useCustomNavigationBar: true
+)
+```
+
+This matters if you set your bar in `UINavigationControllerDelegate.willShow`, because that runs
+before the chat screen appears and its items were being cleared afterwards.
+
+Set it in the configuration that is already in effect when the chat screen is presented. The
+non-async `set(configuration:)` finishes its work on a `Task`, so configuring and pushing the
+chat in the same handler can leave the screen reading the previous configuration — `await` the
+async overload in that case.
+
+**With `true` the SDK also stops adding its close button**, so your app has to provide its own
+way off the screen — the navigation controller's back button, or an item of your own.
+
+Omitting `useCustomNavigationBar` keeps the current behaviour (`false`).
+
+### Appearance and dark mode
+
+The chat UI always renders light, whatever the system appearance is. Colours configured in the
+Zowie panel are therefore taken from the **light** palette even when the device is in dark mode;
+a region's dark palette is used only when it is the only one configured.
+
 ### URL Handling
 
 By default, Zowie SDK opens URLs using an external web browser. You can provide custom handling:
