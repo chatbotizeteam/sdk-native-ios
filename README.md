@@ -126,6 +126,10 @@ Zowie.shared.set(customAttributes: attributes) { result in
 }
 ```
 
+`fontColor` sets the colour of text on outgoing message bubbles, and the icons on the send and
+voice buttons follow it — they sit on the same background, so they stay legible against it.
+`userMessageFontColor` overrides both.
+
 The following APIs are still available for backward compatibility, but are deprecated in favor of `ZowieAttributes`:
 
 - `Zowie.shared.set(metadata:)`
@@ -252,6 +256,29 @@ Omitting `useCustomNavigationBar` keeps the current behaviour (`false`).
 The chat UI always renders light, whatever the system appearance is. Colours configured in the
 Zowie panel are therefore taken from the **light** palette even when the device is in dark mode;
 a region's dark palette is used only when it is the only one configured.
+
+### Replacing the AI session notice icon
+
+The AI session notice — both in the chat and on the voice screen — uses the SDK's own icon. Pass
+your own to `ZowieConfiguration` to replace it in both places:
+
+```swift
+let configuration = ZowieConfiguration(
+    instanceId: "INSTANCE_ID",
+    authType: .anonymous,
+    chatHost: "CHAT_HOST",
+    aiSessionNoticeIcon: UIImage(named: "my-ai-icon")
+)
+```
+
+**Only the shape is used.** The icon is re-rendered as a template and tinted with
+`ZowieColors.aiSessionNoticeIconTint`, so it matches the rest of the notice and keeps working
+when the palette changes. Colours baked into the image are ignored, including on an image you
+built with `withRenderingMode(.alwaysOriginal)`.
+
+Supply a single-colour silhouette — a filled glyph with transparency around it. It is laid out
+at 18×18 points, so a vector asset or an @2x/@3x PNG of that size works best. Omitting the
+parameter keeps the SDK's icon.
 
 ### URL Handling
 
