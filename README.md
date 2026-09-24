@@ -289,6 +289,51 @@ Colours passed to `set(colors:)` are used as given in both appearances. To vary 
 let background = UIColor { $0.userInterfaceStyle == .dark ? .black : .white }
 ```
 
+### Custom fonts
+
+The chat uses the system font (SF Pro) by default. To show it in the host app's own fonts:
+
+1. Add the font files (TTF or OTF — web formats such as WOFF are not supported on iOS) to the app
+   target, as for any font used in the app's own UI.
+2. Register them — list the files under `UIAppFonts` (**Fonts provided by application**) in
+   `Info.plist`, or call `CTFontManagerRegisterFontsForURL` for fonts loaded at runtime:
+
+   ```xml
+   <key>UIAppFonts</key>
+   <array>
+       <string>Brand-Regular.otf</string>
+       <string>Brand-Medium.otf</string>
+       <string>Brand-SemiBold.otf</string>
+   </array>
+   ```
+
+3. Look up the fonts' PostScript names, which are not the file names:
+
+   ```swift
+   UIFont.fontNames(forFamilyName: "Brand").forEach { print($0) }
+   ```
+
+4. Pass the names in `ZowieConfiguration`, as early as possible — typically in
+   `application(_:didFinishLaunchingWithOptions:)`:
+
+   ```swift
+   Zowie.shared.set(configuration: ZowieConfiguration(
+       instanceId: "INSTANCE_ID",
+       authType: .anonymous,
+       chatHost: "CHAT_HOST",
+       typography: ZowieTypography(
+           regular: "Brand-Regular",   // body text, buttons, timestamps
+           medium: "Brand-Medium",     // highlights, notification bar
+           semiBold: "Brand-SemiBold"  // titles, bold text in messages
+       )
+   ))
+   ```
+
+Every weight is optional. A weight left out, or a name that does not resolve to a registered font,
+falls back to the system font in the same weight. Only the typeface changes — sizes stay the same,
+and code blocks in messages stay monospaced. The font files stay in the host app; the SDK only
+needs the names.
+
 ### Replacing the AI session notice icon
 
 The AI session notice — both in the chat and on the voice screen — uses the SDK's own icon. Pass

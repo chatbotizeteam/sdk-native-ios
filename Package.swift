@@ -27,8 +27,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ZowieSDK",
-            url: "https://github.com/chatbotizeteam/sdk-native-ios/releases/download/1.0.11/ZowieSDK.xcframework.zip",
-            checksum: "e65b01fb9e433c461990471c562fab79c369de64b42904a08945795de35c00e1"
+            url: "https://github.com/chatbotizeteam/sdk-native-ios/releases/download/1.0.12/ZowieSDK.xcframework.zip",
+            checksum: "24c5157ca7ef8be21ccd222fc5dc0551b983d8bcb81021e22416d09eeb35a486"
         ),
         .target(
             name: "ZowieSDKTargets",
