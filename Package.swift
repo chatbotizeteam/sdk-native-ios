@@ -19,15 +19,16 @@ let package = Package(
         //
         // The exact pin is required: the binary calls LiveKit through vtable slots fixed at our
         // build time, so another version links fine and then crashes — verified, 2.17.0 dies on
-        // entering voice chat. Lifted by the follow-up that ships the LiveKit-facing file as
-        // source, compiled against the app's own version.
-        .package(url: "https://github.com/livekit/client-sdk-swift.git", exact: "2.12.1"),
+        // entering voice chat. It therefore moves only together with a new binary. Lifted by the
+        // follow-up that ships the LiveKit-facing file as source, compiled against the app's own
+        // version.
+        .package(url: "https://github.com/livekit/client-sdk-swift.git", exact: "2.13.0"),
     ],
     targets: [
         .binaryTarget(
             name: "ZowieSDK",
-            url: "https://github.com/chatbotizeteam/sdk-native-ios/releases/download/1.0.10/ZowieSDK.xcframework.zip",
-            checksum: "41de6b0e46a1770331ae9794f6b0cc573a5bf9bf29e2a364df75045af1ed9354"
+            url: "https://github.com/chatbotizeteam/sdk-native-ios/releases/download/1.0.11/ZowieSDK.xcframework.zip",
+            checksum: "e65b01fb9e433c461990471c562fab79c369de64b42904a08945795de35c00e1"
         ),
         .target(
             name: "ZowieSDKTargets",

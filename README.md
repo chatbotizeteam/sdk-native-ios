@@ -253,9 +253,41 @@ Omitting `useCustomNavigationBar` keeps the current behaviour (`false`).
 
 ### Appearance and dark mode
 
-The chat UI always renders light, whatever the system appearance is. Colours configured in the
-Zowie panel are therefore taken from the **light** palette even when the device is in dark mode;
-a region's dark palette is used only when it is the only one configured.
+The chat renders light or dark according to the **colour mode** configured for the region in the
+Zowie panel:
+
+| Colour mode in Zowie | Chat renders |
+|---|---|
+| `LIGHT` | always light |
+| `DARK` | always dark |
+| `SYSTEM_DEFAULT` | follows the device |
+| not set | follows the device |
+
+Colours configured in the panel are applied per appearance: the light palette in light mode, the
+dark palette in dark mode. A region that fills only one of them uses it for both.
+
+The appearance is forced on the SDK's own screens only — the host app's UI is never restyled.
+
+To pin the chat to one appearance regardless of the panel, set `colorScheme`:
+
+```swift
+let configuration = ZowieConfiguration(
+    instanceId: "INSTANCE_ID",
+    authType: .anonymous,
+    chatHost: "CHAT_HOST",
+    colorScheme: .light
+)
+```
+
+`.light`, `.dark` and `.system` (follow the device) are available. Omitting `colorScheme` follows
+the panel.
+
+Colours passed to `set(colors:)` are used as given in both appearances. To vary one, pass a dynamic
+`UIColor`:
+
+```swift
+let background = UIColor { $0.userInterfaceStyle == .dark ? .black : .white }
+```
 
 ### Replacing the AI session notice icon
 
