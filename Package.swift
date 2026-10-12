@@ -22,13 +22,13 @@ let package = Package(
         // entering voice chat. It therefore moves only together with a new binary. Lifted by the
         // follow-up that ships the LiveKit-facing file as source, compiled against the app's own
         // version.
-        .package(url: "https://github.com/livekit/client-sdk-swift.git", exact: "2.13.0"),
+        .package(url: "https://github.com/livekit/client-sdk-swift.git", exact: "2.16.0"),
     ],
     targets: [
         .binaryTarget(
             name: "ZowieSDK",
-            url: "https://github.com/chatbotizeteam/sdk-native-ios/releases/download/1.0.12/ZowieSDK.xcframework.zip",
-            checksum: "24c5157ca7ef8be21ccd222fc5dc0551b983d8bcb81021e22416d09eeb35a486"
+            url: "https://github.com/chatbotizeteam/sdk-native-ios/releases/download/1.0.13/ZowieSDK.xcframework.zip",
+            checksum: "e648d5dd6195691dac6e74661a2277fb5d07220513cbdb4ef5fef8e2bd8e7cfe"
         ),
         .target(
             name: "ZowieSDKTargets",
