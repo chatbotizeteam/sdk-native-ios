@@ -71,6 +71,16 @@ navigationController?.pushViewController(voiceChatViewController, animated: true
 > ⚠️ **Microphone permission**
 > Your app's `Info.plist` must contain `NSMicrophoneUsageDescription` (or the equivalent `INFOPLIST_KEY_NSMicrophoneUsageDescription` build setting if your project uses generated Info.plist).
 
+#### Screen auto-lock
+
+While the voice or chat screen is visible, the SDK turns off screen auto-lock
+(`UIApplication.shared.isIdleTimerDisabled = true`). When the screen closes, the SDK turns
+auto-lock back on. No setup is needed.
+
+During a voice call, the SDK sets the value again every few seconds. If your app sets
+`isIdleTimerDisabled` to `false` while a call is in progress, the SDK switches auto-lock off again
+within a few seconds.
+
 ### Chat initialization error
 
 If you want to handle the chat initialization error, use:
@@ -251,6 +261,25 @@ way off the screen — the navigation controller's back button, or an item of yo
 
 Omitting `useCustomNavigationBar` keeps the current behaviour (`false`).
 
+### Hiding the "End chat" option
+
+The chat settings sheet is opened from the options button in the chat's navigation bar. Set
+`allowEndChat: false` in `ZowieConfiguration` to hide the **End chat** option:
+
+```swift
+let configuration = ZowieConfiguration(
+    instanceId: "INSTANCE_ID",
+    authType: .anonymous,
+    chatHost: "CHAT_HOST",
+    allowEndChat: false
+)
+```
+
+**End chat** is the only entry the sheet offers, so with `allowEndChat: false` the sheet has nothing
+left to show and the options button disappears from the navigation bar entirely.
+
+Omitting `allowEndChat` keeps the current behaviour (`true`).
+
 ### Appearance and dark mode
 
 The chat renders light or dark according to the **colour mode** configured for the region in the
@@ -393,11 +422,9 @@ You can listen for Decision Engine events triggered from the configured scenario
 For more information about Decision Engine, see the [Decision Engine API documentation](https://github.com/chatbotizeteam/decission-engine-api#ui).
 
 - `eventName` must match decision engine event name exactly.
-- `params` is delivered as `Any?` and depends on what was sent from the Decision Engine scenario:
-  - JSON object: `[String: Any]`
-  - JSON array: `[Any]`
-  - plain value or invalid JSON: `String`
-  - missing value: `nil`
+- `params` is delivered as `[String: String]`:
+  - only string values are delivered; keys with any other value (numbers, booleans, `null`, nested objects, arrays) are omitted
+  - missing or invalid params: empty dictionary
 
 ```swift
 Zowie.shared.on("meetingDetails") { [weak self] params in
@@ -411,3 +438,9 @@ To remove a handler for a given event, use `off`:
 ```swift
 Zowie.shared.off("meetingDetails")
 ```
+
+## Breaking changes
+
+### 1.0.14
+
+- `Zowie.shared.on(eventName, handler)`: the handler receives `params` as `[String: String]` instead of `Any?`. Only string values are delivered — see [Decision Engine Events](#decision-engine-events).
